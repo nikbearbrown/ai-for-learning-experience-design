@@ -1,0 +1,48 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch12 fig-04 · Invest at 86, Trust at 6 · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 420" role="img" aria-labelledby="ch12-fig04-title ch12-fig04-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch12-fig04-title">Invest at 86, Trust at 6</title>
+  <desc id="ch12-fig04-desc">Zero-anchored horizontal bar chart with two bars on one shared scale: 86 percent of surveyed organizations plan to increase agentic-AI investment, while 6 percent say they deeply trust agentic AI. The white gap between the bars does the work; hairline frames mark 100 percent.</desc>
+  <metadata>
+    <cajal:figure chapter="12" figure="4" slug="invest-86-trust-6" type="zero-anchored-bar-chart" rank="medium-high" class="PQ" concept="HBR 2025 pair: 86 percent investment intent vs 6 percent deep trust; the gap is the missing design layer" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 12.4 · Invest at 86, trust at 6</text>
+
+  <!-- plot region -->
+  <rect x="250" y="80" width="400" height="180" fill="#F5F5F5" stroke="#F5F5F5" stroke-width="0.75"/>
+
+  <!-- 100% reference frames -->
+  <rect x="250" y="96" width="400" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="188" width="400" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- bars (near-monochrome; the disproportion is the event) -->
+  <rect x="250" y="96" width="344" height="44" fill="#2a1a0e"/>
+  <rect x="250" y="188" width="24" height="44" fill="#787878"/>
+
+  <!-- zero baseline -->
+  <line x1="250" y1="80" x2="250" y2="260" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- values (mono) -->
+  <text x="602" y="122" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">86%</text>
+  <text x="282" y="214" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">6%</text>
+
+  <!-- scale -->
+  <line x1="250" y1="260" x2="250" y2="266" stroke="#787878" stroke-width="1"/>
+  <line x1="450" y1="260" x2="450" y2="266" stroke="#787878" stroke-width="1"/>
+  <line x1="650" y1="260" x2="650" y2="266" stroke="#787878" stroke-width="1"/>
+  <text x="250" y="280" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#787878" text-anchor="middle">0</text>
+  <text x="450" y="280" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#787878" text-anchor="middle">50</text>
+  <text x="650" y="280" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#787878" text-anchor="middle">100</text>
+
+  <!-- row labels -->
+  <text x="238" y="112" font-size="12" fill="#2a1a0e" text-anchor="end">plan to increase</text>
+  <text x="238" y="128" font-size="12" fill="#2a1a0e" text-anchor="end">agentic-AI investment</text>
+  <text x="238" y="204" font-size="12" fill="#2a1a0e" text-anchor="end">deeply trust</text>
+  <text x="238" y="220" font-size="12" fill="#2a1a0e" text-anchor="end">agentic AI</text>
+
+  <!-- caption -->
+  <text x="64" y="320" font-size="11" fill="#545454">A practitioner attitude-and-intent survey, not education-specific: 86% of organizations plan to increase</text>
+  <text x="64" y="336" font-size="11" fill="#545454">agentic-AI investment; 6% deeply trust it. The gap is not hypocrisy — it is the absence of the design layer this</text>
+  <text x="64" y="352" font-size="11" fill="#545454">chapter teaches. Adjacent figures (~9% production, ~12% governance-ready) are unpinned and excluded.</text>
+  <text x="64" y="378" font-size="10" fill="#787878" letter-spacing="0.5">HBR ANALYTIC SERVICES (2025)</text>
+</svg>

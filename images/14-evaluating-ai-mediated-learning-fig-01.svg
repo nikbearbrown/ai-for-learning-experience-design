@@ -1,0 +1,59 @@
+<!--
+  AI for Learning Experience Design — Chapter 14, Figure 01
+  The four-endpoint architecture: where each measurement lives
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-01">
+  <title id="fig-title-14-01">The four-endpoint architecture: where each measurement lives — 14-evaluating-ai-mediated-learning</title>
+  <desc>A presence field marks where the AI is available; a dashed withdrawal threshold bounds it. The assisted marker stands inside the field; the primary unassisted marker stands just across the threshold; transfer stands on a novel pentagon pedestal; retention sits at the end of a dotted delay track. Time runs left to right. Satisfaction appears nowhere.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="14-evaluating-ai-mediated-learning" figure-number="01" figure-title="The four-endpoint architecture: where each measurement lives" figure-slug="four-endpoint-architecture" figure-type="measurement-architecture schematic" priority="Critical" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/14-evaluating-ai-mediated-learning-cajal.md"/></metadata>
+  <defs><marker id="arrow-14-01" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The four-endpoint architecture: where each measurement lives</text>
+
+  <!-- AI presence field -->
+  <rect x="64" y="84" width="240" height="280" rx="0" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <polygon points="84,91 91.8,95.5 91.8,104.5 84,109 76.2,104.5 76.2,95.5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.2"/>
+  <text x="100" y="104" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">AI present</text>
+
+  <!-- withdrawal threshold -->
+  <line x1="304" y1="76" x2="304" y2="372" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="304" y="70" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">withdrawal threshold</text>
+
+  <!-- time baseline -->
+  <line x1="64" y1="372" x2="650" y2="372" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-14-01)"/>
+  <text x="650" y="390" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">time</text>
+
+  <!-- assisted marker (inside the field) -->
+  <line x1="184" y1="230" x2="184" y2="372" stroke="#787878" stroke-width="1"/>
+  <polygon points="184,214 192,222 184,230 176,222" fill="#787878"/>
+  <text x="184" y="192" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">assisted</text>
+  <text x="184" y="206" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">(AI present)</text>
+
+  <!-- unassisted PRIMARY marker, first across the threshold (single red category) -->
+  <line x1="344" y1="216" x2="344" y2="372" stroke="#C8102E" stroke-width="2"/>
+  <polygon points="344,196 354,206 344,216 334,206" fill="#C8102E"/>
+  <text x="344" y="172" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">unassisted</text>
+  <text x="344" y="187" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">PRIMARY endpoint</text>
+
+  <!-- dotted delay track at measurement height, gapped at the transfer pedestal -->
+  <line x1="358" y1="206" x2="468" y2="206" stroke="#787878" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="494" y1="206" x2="606" y2="206" stroke="#787878" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- transfer marker on a novel pentagon pedestal -->
+  <line x1="480" y1="184" x2="480" y2="350" stroke="#2a1a0e" stroke-width="1"/>
+  <polygon points="480,168 488,176 480,184 472,176" fill="#2a1a0e"/>
+  <polygon points="480,350 489.5,357 485.9,368 474.1,368 470.5,357" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="480" y="144" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">transfer</text>
+  <text x="480" y="158" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">(novel material)</text>
+  <text x="480" y="390" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">novel terrain</text>
+
+  <!-- retention marker at the end of the delay track -->
+  <line x1="620" y1="214" x2="620" y2="372" stroke="#787878" stroke-width="1"/>
+  <polygon points="620,198 628,206 620,214 612,206" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.2"/>
+  <text x="620" y="174" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">retention</text>
+  <text x="620" y="188" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">(after a delay)</text>
+
+  <text x="32" y="440" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Only the assisted endpoint is read with the AI present; the primary endpoint stands just past the withdrawal threshold.</text>
+  <text x="32" y="458" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Satisfaction appears nowhere in the architecture — the omission is deliberate.</text>
+</svg>

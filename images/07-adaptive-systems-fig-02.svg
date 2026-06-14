@@ -1,0 +1,63 @@
+<!-- AI for Learning Experience Design | Ch.7 Adaptive Systems | Figure 2 | The posterior walk to 0.95 | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch7-fig2-title ch7-fig2-desc">
+  <title id="ch7-fig2-title">The posterior walk to 0.95</title>
+  <desc id="ch7-fig2-desc">A step trace of Bayesian Knowledge Tracing mastery estimates over four evidence events: prior 0.20 rises to 0.55 after a correct answer, to 0.84 after a second correct, drops to 0.51 after an incorrect, and recovers to 0.82 after a fourth correct — still below the solid mastery gate at 0.95, leaving the learner in the over-practice zone.</desc>
+  <metadata>
+    <cajal:figure chapter="07" number="2" file="07-adaptive-systems-fig-02.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="zero-anchored-step-trace" rank="High" concept="BKT posterior updates against the 0.95 mastery threshold; the over-practice zone" source-status="worked-example values from stipulated parameters, not empirical data"/>
+  </metadata>
+  <defs>
+    <marker id="ch7f2-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The posterior walk to 0.95</text>
+  <text x="64" y="60" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">P(mastery)</text>
+
+  <!-- plot region -->
+  <rect x="64" y="72" width="556" height="268" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- zero-anchored axes -->
+  <line x1="64" y1="72" x2="64" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="64" y1="340" x2="620" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="56" y="344" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">0</text>
+  <text x="56" y="277" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">0.25</text>
+  <text x="56" y="210" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">0.50</text>
+  <text x="56" y="143" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">0.75</text>
+  <text x="56" y="76" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">1.00</text>
+
+  <!-- mastery gate at 0.95: solid, full-bleed -->
+  <line x1="64" y1="85" x2="620" y2="85" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="612" y="78" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">mastery gate = 0.95</text>
+
+  <!-- over-practice gap -->
+  <line x1="560" y1="89" x2="560" y2="114" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="550" y="101" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the over-practice gap</text>
+
+  <!-- posterior trace -->
+  <polyline points="120,286 230,193 340,115 450,203 560,120" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+  <circle cx="120" cy="286" r="4.5" fill="#C8102E"/>
+  <circle cx="230" cy="193" r="4.5" fill="#C8102E"/>
+  <circle cx="340" cy="115" r="4.5" fill="#C8102E"/>
+  <circle cx="450" cy="203" r="4.5" fill="#C8102E"/>
+  <circle cx="560" cy="120" r="4.5" fill="#C8102E"/>
+
+  <!-- point values -->
+  <text x="120" y="306" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">0.20</text>
+  <text x="218" y="188" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">0.55</text>
+  <text x="328" y="110" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">0.84</text>
+  <text x="450" y="223" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">0.51</text>
+  <text x="546" y="124" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">0.82</text>
+
+  <!-- evidence events -->
+  <text x="120" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">prior</text>
+  <text x="230" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">correct</text>
+  <text x="340" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">correct</text>
+  <text x="450" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#2a1a0e">incorrect</text>
+  <text x="560" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">correct</text>
+  <text x="620" y="372" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">evidence events &#8594;</text>
+
+  <!-- caption -->
+  <text x="64" y="392" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Worked-example values from stipulated parameters — P(L&#8320;)=0.20, P(T)=0.15, P(G)=0.25, P(S)=0.10 — not empirical data.</text>
+  <text x="64" y="406" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Four answers move the posterior 0.20 &#8594; 0.82; the 0.95 gate stays unreached, so the drill continues.</text>
+</svg>

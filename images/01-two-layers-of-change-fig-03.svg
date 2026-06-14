@@ -1,0 +1,55 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 01-two-layers-of-change · figure 03 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-two-layers-of-change-03">
+  <title id="fig-title-01-two-layers-of-change-03">The Routing Diagnostic: Whose Cognitive Work? — 01-two-layers-of-change</title>
+  <desc>Flowchart. One product feature enters a single decision: whose cognitive work does this AI replace or restructure? The designer's routes to Layer 1 governing questions (output quality, accuracy, skill maintenance); the learner's routes to Layer 2's question — scaffold or crutch? A dashed return arrow repeats the audit for the next feature.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="01-two-layers-of-change" figure-number="03" figure-title="The Routing Diagnostic: Whose Cognitive Work?" figure-slug="routing-diagnostic" figure-type="process-flowchart" priority="important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/01-two-layers-of-change-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Routing Diagnostic: Whose Cognitive Work?</text>
+
+  <!-- Feature node -->
+  <rect x="40" y="190" width="128" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="104" y="213" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">One product</text>
+  <text x="104" y="229" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">feature</text>
+  <text x="104" y="180" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">features have layers, not products</text>
+
+  <!-- Arrow to decision -->
+  <line x1="168" y1="218" x2="210" y2="218" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Decision diamond -->
+  <polygon points="216,218 312,154 408,218 312,282" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="312" y="200" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Whose cognitive</text>
+  <text x="312" y="216" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">work does it replace</text>
+  <text x="312" y="232" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">or restructure?</text>
+
+  <!-- Branches (equal length, equal weight) -->
+  <line x1="408" y1="218" x2="466" y2="146" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="412" y="160" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the designer's</text>
+  <line x1="408" y1="218" x2="466" y2="290" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="412" y="284" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the learner's</text>
+
+  <!-- Layer 1 terminal -->
+  <rect x="472" y="88" width="196" height="110" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="484" y="110" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Layer 1 governing questions</text>
+  <text x="484" y="130" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">· Is the output good?</text>
+  <text x="484" y="146" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">· Is it accurate — verified how?</text>
+  <text x="484" y="162" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">· What skill does the designer</text>
+  <text x="484" y="176" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">&#160;&#160;stop practicing?</text>
+
+  <!-- Layer 2 terminal -->
+  <rect x="472" y="252" width="196" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="484" y="274" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Layer 2 governing question</text>
+  <text x="484" y="298" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">· Scaffold or crutch?</text>
+
+  <!-- Recursion: next feature -->
+  <path d="M570 324 V348 H104 V254" fill="none" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <text x="340" y="342" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">repeat for the next feature</text>
+
+  <!-- Caption -->
+  <text x="32" y="384" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">One decision, two exits, run feature-by-feature; neither branch is preferred.</text>
+  <text x="32" y="400" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">"Both layers" cases are handled by running the diagnostic per feature — never by a third path.</text>
+</svg>

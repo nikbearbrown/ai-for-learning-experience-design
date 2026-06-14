@@ -1,0 +1,63 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 01-two-layers-of-change · figure 01 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-two-layers-of-change-01">
+  <title id="fig-title-01-two-layers-of-change-01">The Three-Condition Result: Assisted Gains, Unassisted Outcomes — 01-two-layers-of-change</title>
+  <desc>Two zero-anchored dot panels. Assisted practice: GPT Base +48%, GPT Tutor +127%, control at baseline. Unassisted exam: GPT Base falls to −17% (hollow dot below the zero line), GPT Tutor sits at zero with an uncertainty whisker, control at baseline. The same deployment helps and harms at once.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="01-two-layers-of-change" figure-number="01" figure-title="The Three-Condition Result: Assisted Gains, Unassisted Outcomes" figure-slug="three-condition-result" figure-type="statistical-quantitative" priority="critical" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/01-two-layers-of-change-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Three-Condition Result: Assisted Gains, Unassisted Outcomes</text>
+  <text x="64" y="50" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">% change vs. control baseline</text>
+
+  <!-- Panels -->
+  <rect x="64" y="56" width="280" height="268" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <rect x="372" y="56" width="280" height="268" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <!-- negative region, unassisted panel only -->
+  <rect x="372" y="253" width="280" height="71" fill="#ECECEC"/>
+
+  <text x="204" y="74" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Assisted practice (AI present)</text>
+  <text x="512" y="74" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Unassisted exam (AI withdrawn)</text>
+
+  <!-- Shared zero line -->
+  <line x1="64" y1="253" x2="344" y2="253" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="372" y1="253" x2="652" y2="253" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="58" y="257" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="end">0</text>
+
+  <!-- Assisted panel dots -->
+  <circle cx="120" cy="253" r="5" fill="#ADADAD"/>
+  <text x="120" y="239" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">0</text>
+  <circle cx="204" cy="196" r="6" fill="#2a1a0e"/>
+  <text x="204" y="182" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">+48%</text>
+  <circle cx="288" cy="103" r="6" fill="#C8102E"/>
+  <text x="288" y="89" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">+127%</text>
+
+  <!-- Unassisted panel dots -->
+  <circle cx="428" cy="253" r="5" fill="#ADADAD"/>
+  <text x="428" y="239" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">0</text>
+  <!-- GPT Base: hollow, below zero -->
+  <circle cx="512" cy="273" r="6" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="512" y="293" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">−17%</text>
+  <!-- GPT Tutor: parity with uncertainty whisker -->
+  <line x1="580" y1="253" x2="612" y2="253" stroke="#C8102E" stroke-width="1"/>
+  <line x1="580" y1="249" x2="580" y2="257" stroke="#C8102E" stroke-width="1"/>
+  <line x1="612" y1="249" x2="612" y2="257" stroke="#C8102E" stroke-width="1"/>
+  <circle cx="596" cy="253" r="6" fill="#C8102E"/>
+  <text x="596" y="235" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">≈0 n.s.</text>
+
+  <!-- Condition labels -->
+  <text x="120" y="314" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Control</text>
+  <text x="204" y="314" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">GPT Base</text>
+  <text x="288" y="314" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">GPT Tutor</text>
+  <text x="428" y="314" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Control</text>
+  <text x="512" y="314" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">GPT Base</text>
+  <text x="596" y="314" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">GPT Tutor</text>
+
+  <!-- Caption -->
+  <text x="32" y="352" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The same deployment raised assisted performance and lowered unassisted learning at once; neither endpoint is a proxy for the other.</text>
+  <text x="32" y="368" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Scope: one school, one country, one subject, one term — decisive on design-dependence, not on effect-size generalization.</text>
+  <text x="32" y="392" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: BASTANI ET AL. 2025 · PNAS · RANDOMIZED CONTROLLED TRIAL</text>
+</svg>

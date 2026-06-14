@@ -1,0 +1,84 @@
+<!--
+  AI for Learning Experience Design — Chapter 15, Figure 01
+  The specification as one argument: spine, arcs, and the two sections nobody requires
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+  Red reserved for the spine (the argument anchor); the report's vermillion on the declined
+  octagon and open-questions ring is translated to ochre #C8860E structural borders.
+-->
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-01">
+  <title id="fig-title-15-01">The specification as one argument: spine, arcs, and the two sections nobody requires — 15-the-full-integration</title>
+  <desc>A red vertical spine anchored by the claim — what the student can do without the AI — carries four arc-clusters of section terminals, most filled (guardrail in place), a few open rings (open question, measurement attached). Set apart at the foot, two ochre branches: the declined-features octagon and the open-questions ring with its measurement dot standing by.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="15-the-full-integration" figure-number="01" figure-title="The specification as one argument: spine, arcs, and the two sections nobody requires" figure-slug="specification-argument-spine" figure-type="radial-spine argument diagram" priority="Critical" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/15-the-full-integration-cajal.md"/></metadata>
+  <defs><marker id="arrowRed-15-01" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#C8102E"/></marker></defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The specification as one argument: spine, arcs, and the two sections nobody requires</text>
+
+  <!-- the claim anchor and spine (single red category: the argument) -->
+  <circle cx="350" cy="84" r="10" fill="#C8102E"/>
+  <text x="368" y="80" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">the claim —</text>
+  <text x="368" y="95" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">what the student can do without the AI</text>
+  <line x1="350" y1="94" x2="350" y2="492" stroke="#C8102E" stroke-width="2" marker-end="url(#arrowRed-15-01)"/>
+
+  <!-- arc-cluster 1 (left): claim & evidence posture — all settled -->
+  <line x1="350" y1="150" x2="282" y2="150" stroke="#787878" stroke-width="1"/>
+  <line x1="282" y1="134" x2="282" y2="166" stroke="#787878" stroke-width="1"/>
+  <line x1="282" y1="134" x2="258" y2="134" stroke="#787878" stroke-width="1"/>
+  <line x1="282" y1="150" x2="258" y2="150" stroke="#787878" stroke-width="1"/>
+  <line x1="282" y1="166" x2="258" y2="166" stroke="#787878" stroke-width="1"/>
+  <circle cx="252" cy="134" r="5.5" fill="#2a1a0e"/>
+  <circle cx="252" cy="150" r="5.5" fill="#2a1a0e"/>
+  <circle cx="252" cy="166" r="5.5" fill="#2a1a0e"/>
+  <text x="240" y="154" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">claim &amp; evidence posture</text>
+
+  <!-- arc-cluster 2 (right): interaction & adaptivity design — one open -->
+  <line x1="350" y1="222" x2="418" y2="222" stroke="#787878" stroke-width="1"/>
+  <line x1="418" y1="206" x2="418" y2="238" stroke="#787878" stroke-width="1"/>
+  <line x1="418" y1="206" x2="442" y2="206" stroke="#787878" stroke-width="1"/>
+  <line x1="418" y1="222" x2="442" y2="222" stroke="#787878" stroke-width="1"/>
+  <line x1="418" y1="238" x2="442" y2="238" stroke="#787878" stroke-width="1"/>
+  <circle cx="448" cy="206" r="5.5" fill="#2a1a0e"/>
+  <circle cx="448" cy="222" r="5.5" fill="#2a1a0e"/>
+  <circle cx="448" cy="238" r="5.5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="460" y="226" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">interaction &amp; adaptivity design</text>
+
+  <!-- arc-cluster 3 (left): boundaries & assessment — one open -->
+  <line x1="350" y1="294" x2="282" y2="294" stroke="#787878" stroke-width="1"/>
+  <line x1="282" y1="278" x2="282" y2="310" stroke="#787878" stroke-width="1"/>
+  <line x1="282" y1="278" x2="258" y2="278" stroke="#787878" stroke-width="1"/>
+  <line x1="282" y1="294" x2="258" y2="294" stroke="#787878" stroke-width="1"/>
+  <line x1="282" y1="310" x2="258" y2="310" stroke="#787878" stroke-width="1"/>
+  <circle cx="252" cy="278" r="5.5" fill="#2a1a0e"/>
+  <circle cx="252" cy="294" r="5.5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="252" cy="310" r="5.5" fill="#2a1a0e"/>
+  <text x="240" y="298" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">boundaries &amp; assessment</text>
+
+  <!-- arc-cluster 4 (right): learner side & evaluation — one open -->
+  <line x1="350" y1="366" x2="418" y2="366" stroke="#787878" stroke-width="1"/>
+  <line x1="418" y1="350" x2="418" y2="382" stroke="#787878" stroke-width="1"/>
+  <line x1="418" y1="350" x2="442" y2="350" stroke="#787878" stroke-width="1"/>
+  <line x1="418" y1="366" x2="442" y2="366" stroke="#787878" stroke-width="1"/>
+  <line x1="418" y1="382" x2="442" y2="382" stroke="#787878" stroke-width="1"/>
+  <circle cx="448" cy="350" r="5.5" fill="#2a1a0e"/>
+  <circle cx="448" cy="366" r="5.5" fill="#2a1a0e"/>
+  <circle cx="448" cy="382" r="5.5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="460" y="370" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">learner side &amp; evaluation</text>
+
+  <!-- the two sections nobody requires (ochre structural treatment) -->
+  <line x1="350" y1="430" x2="300" y2="430" stroke="#C8860E" stroke-width="1.5"/>
+  <polygon points="290.8,436.1 282.1,444.8 269.9,444.8 261.2,436.1 261.2,423.9 269.9,415.2 282.1,415.2 290.8,423.9" fill="#FFFFFF" stroke="#C8860E" stroke-width="2.5"/>
+  <text x="252" y="434" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">&#167;13 — the features declined</text>
+
+  <line x1="350" y1="466" x2="400" y2="466" stroke="#C8860E" stroke-width="1.5"/>
+  <circle cx="424" cy="466" r="12" fill="none" stroke="#C8860E" stroke-width="2.5"/>
+  <circle cx="448" cy="466" r="4" fill="#2a1a0e"/>
+  <text x="462" y="460" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">&#167;14 — open questions, each with</text>
+  <text x="462" y="475" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">its measurement standing by</text>
+
+  <!-- legend -->
+  <circle cx="100" cy="508" r="5" fill="#2a1a0e"/>
+  <text x="112" y="512" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">guardrail in place</text>
+  <circle cx="240" cy="508" r="5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="252" y="512" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">open — measurement attached</text>
+
+  <text x="32" y="532" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">One argument, fourteen exhibits — the four-arc clustering is editorial, not the chapter's own taxonomy.</text>
+</svg>

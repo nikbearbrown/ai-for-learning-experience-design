@@ -1,0 +1,50 @@
+<!-- AI for Learning Experience Design · Chapter 4 · Figure 1 — The Evidence-State Map · 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch4-fig01-title ch4-fig01-desc">
+  <title id="ch4-fig01-title">The Evidence-State Map: Twenty Causal Studies Inside Eight Hundred</title>
+  <desc id="ch4-fig01-desc">A waffle grid of 800 small squares, each representing one study of AI in K-12 education. Twenty squares clustered in the lower-right corner are highlighted in red, representing the roughly twenty studies that rigorously measure causal impact. A magnified inset at right enlarges the twenty highlighted squares.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="4" figure-number="1" title="The Evidence-State Map: Twenty Causal Studies Inside Eight Hundred" slug="evidence-state-map" type="proportional-unit-chart" priority="critical" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/04-reading-the-evidence-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+    <pattern id="cellField" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="#D4D4D4"/></pattern>
+    <pattern id="cellCore" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="#C8102E"/></pattern>
+    <pattern id="cellCoreBig" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#C8102E"/></pattern>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+    .m{font:11px 'JetBrains Mono','Fira Code','Courier New',monospace;fill:#2a1a0e}
+    .src{font:10px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#787878;letter-spacing:.08em}
+  </style>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">The Evidence-State Map: Twenty Causal Studies Inside Eight Hundred</text>
+
+  <!-- field label -->
+  <text class="l" x="64" y="70">800+ studies of AI in K-12 education</text>
+  <text class="s" x="64" y="258">each square = 1 study</text>
+
+  <!-- waffle grid: 40 x 20 cells, 8px pitch -->
+  <rect x="64" y="80" width="320" height="160" fill="url(#cellField)"/>
+  <!-- causal core: 5 x 4 cells, lower-right corner -->
+  <rect x="344" y="208" width="40" height="32" fill="url(#cellCore)"/>
+
+  <!-- magnification connectors -->
+  <line x1="384" y1="208" x2="436" y2="108" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="384" y1="240" x2="436" y2="224" stroke="#ADADAD" stroke-width="1"/>
+
+  <!-- inset: the causal core magnified, 5 x 4 at 24px pitch -->
+  <text class="l" x="436" y="84">the causal core, magnified</text>
+  <rect x="436" y="92" width="160" height="132" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="456" y="108" width="116" height="92" fill="url(#cellCoreBig)"/>
+  <text class="m" x="436" y="244">~20 of 800</text>
+  <text class="s" x="436" y="260">rigorously measure causal impact</text>
+
+  <!-- numerics -->
+  <text class="m" x="64" y="290">800+ studies</text>
+  <text class="m" x="436" y="290">~20 causal &#8776; 2.5%</text>
+
+  <text class="src" x="32" y="346">STANFORD SCALE 2026 &#183; AS REPORTED IN CHAPTER 4</text>
+  <text class="s" x="32" y="372">Each square is one study. Of 800+ academic studies of AI in K-12 education, roughly twenty rigorously measure causal</text>
+  <text class="s" x="32" y="387">impact &#8212; about 2.5%. The repository has since passed 1,100 papers without the causal core growing proportionally</text>
+  <text class="s" x="32" y="402">(repository count as of publication; not drawn).</text>
+</svg>

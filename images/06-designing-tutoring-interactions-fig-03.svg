@@ -1,0 +1,49 @@
+<!-- AI for Learning Experience Design · Chapter 6 · Figure 3 — Fading with a Reversal Rule · 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch6-fig03-title ch6-fig03-desc">
+  <title id="ch6-fig03-title">Fading with a Reversal Rule: Contraction Is Not Abandonment</title>
+  <desc id="ch6-fig03-desc">A gray support band contracts in rectangular steps around a rising learner-competence line. Dashed vertical thresholds mark competence signals, not calendar dates. After the second contraction the trajectory dips; an upward trigger arrow marks the reversal rule, and the band immediately re-expands one tier before contracting again once the trajectory resumes rising. The band never reaches zero height.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="6" figure-number="3" title="Fading with a Reversal Rule: Contraction Is Not Abandonment" slug="fading-reversal-rule" type="contracting-band-timeline" priority="critical" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/06-designing-tutoring-interactions-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+    .src{font:10px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#787878;letter-spacing:.08em}
+  </style>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">Fading with a Reversal Rule: Contraction Is Not Abandonment</text>
+
+  <!-- support band: stepped contraction with one re-expansion; never zero -->
+  <path d="M64 310 L64 140 L230 140 L230 200 L390 200 L390 280 L450 280 L450 200 L550 200 L550 280 L640 280 L640 310 Z" fill="#D4D4D4"/>
+  <text class="s" x="147" y="166" text-anchor="middle" fill="#2a1a0e">Tier 0</text>
+  <text class="s" x="147" y="181" text-anchor="middle" fill="#2a1a0e">full ladder</text>
+  <text class="s" x="310" y="261" text-anchor="middle" fill="#2a1a0e">Tier 1 &#8212; compressed</text>
+  <text class="s" x="595" y="268" text-anchor="middle">Tier 2 &#8212; error-flag only</text>
+
+  <!-- competence-signal thresholds (dashed = signal-triggered, never calendar) -->
+  <line x1="230" y1="120" x2="230" y2="310" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3"/>
+  <text class="s" x="230" y="112" text-anchor="middle">competence signal &#8212; not a calendar date</text>
+  <line x1="390" y1="120" x2="390" y2="310" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3"/>
+  <text class="s" x="390" y="112" text-anchor="middle">signal</text>
+
+  <!-- learner trajectory with one struggle dip -->
+  <path d="M80 260 C140 247, 190 237, 230 229 C290 219, 350 211, 390 205 C405 203, 412 226, 425 232 C438 238, 448 217, 464 211 C520 196, 580 184, 636 172" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <circle cx="230" cy="229" r="4.5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="390" cy="205" r="4.5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- reversal: struggle re-expands support one tier -->
+  <line x1="430" y1="258" x2="430" y2="240" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text class="s" x="497" y="260" text-anchor="middle" fill="#2a1a0e">struggle &#8594; support returns</text>
+
+  <!-- axes -->
+  <line x1="64" y1="310" x2="648" y2="310" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text class="s" x="648" y="328" text-anchor="end">time under instruction (no calendar ticks by design)</text>
+  <text class="l" x="50" y="225" text-anchor="middle" transform="rotate(-90 50 225)">support breadth</text>
+
+  <text class="src" x="32" y="352">WOOD, BRUNER &amp; ROSS 1976 &#183; RENKL &amp; ATKINSON 2003 &#183; KALYUGA ET AL. 2003</text>
+  <text class="s" x="32" y="370">Zero direct GenAI RCTs exist on fading &#8212; this schedule is evidence-informed extrapolation from contingency theory, faded</text>
+  <text class="s" x="32" y="385">worked examples, and expertise reversal. Thresholds are competence signals, never dates; the band never contracts to zero;</text>
+  <text class="s" x="32" y="400">and the reversal rule re-expands support on struggle. Without the reversal rule, fading is abandonment on a timer.</text>
+</svg>

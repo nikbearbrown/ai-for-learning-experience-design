@@ -1,0 +1,62 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 03-the-scaffold · figure 04 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-the-scaffold-04">
+  <title id="fig-title-03-the-scaffold-04">The Seven-Pattern Catalog Along One Help Interaction — 03-the-scaffold</title>
+  <desc>Five in-line patterns on one help interaction: reasoning gate, Socratic hint ladder, error-flagging without correction, metacognitive prompt, transfer sequencing — ending at unaided performance. Two overlays: a dashed fading band narrowing over time (extrapolation flag) and a constant-width human override bar that never fades.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="03-the-scaffold" figure-number="04" figure-title="The Seven-Pattern Catalog Along One Help Interaction" figure-slug="seven-pattern-catalog" figure-type="conceptual-map" priority="important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/03-the-scaffold-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Seven-Pattern Catalog Along One Help Interaction</text>
+
+  <!-- Overlay A: fading schedule (dashed = extrapolation), contracts left to right -->
+  <text x="350" y="112" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">fading schedule — contracts the whole pathway over time (extrapolation)</text>
+  <polygon points="112,124 588,148 588,162 112,176" fill="none" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- Pathway -->
+  <line x1="100" y1="240" x2="600" y2="240" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="88" cy="240" r="12" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="88" y="268" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">help request</text>
+
+  <!-- Stations (in-line) -->
+  <rect x="112" y="212" width="92" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="158" y="235" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">Reasoning</text>
+  <text x="158" y="250" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">gate</text>
+  <text x="158" y="284" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#545454" text-anchor="middle">articulate before help</text>
+
+  <rect x="208" y="212" width="92" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="254" y="235" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">Socratic</text>
+  <text x="254" y="250" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">hint ladder</text>
+  <text x="254" y="284" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#545454" text-anchor="middle">top rung absent</text>
+
+  <rect x="304" y="212" width="92" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="235" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">Error-flagging</text>
+  <text x="350" y="250" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">no correction</text>
+  <text x="350" y="284" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#545454" text-anchor="middle">the learner makes the fix</text>
+
+  <rect x="400" y="212" width="92" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="446" y="235" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">Metacognitive</text>
+  <text x="446" y="250" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">prompt</text>
+  <text x="446" y="284" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#545454" text-anchor="middle">self-monitoring</text>
+
+  <rect x="496" y="212" width="92" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="542" y="235" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">Transfer</text>
+  <text x="542" y="250" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">sequencing</text>
+  <text x="542" y="284" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#545454" text-anchor="middle">varied next problems</text>
+
+  <!-- Terminal -->
+  <path d="M620 228 L632 240 L620 252 L608 240 Z" fill="#C8102E"/>
+  <text x="620" y="270" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">unaided</text>
+  <text x="620" y="282" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">performance</text>
+
+  <!-- Overlay B: human override (never fades) -->
+  <line x1="254" y1="292" x2="254" y2="320" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="112" y="320" width="476" height="22" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="350" y="335" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" text-anchor="middle">human override — reaches a person at any point; the one pattern that never fades</text>
+
+  <!-- Caption -->
+  <text x="32" y="396" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Entry, during, exit: five in-line patterns; the fading schedule (above) and human override (below) are overlays, not stations.</text>
+  <text x="32" y="412" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Station order is an editorial arrangement of chapter content, not a chapter diagram; the dashed band is the chapter's extrapolation flag.</text>
+</svg>

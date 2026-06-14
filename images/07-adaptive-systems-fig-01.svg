@@ -1,0 +1,75 @@
+<!-- AI for Learning Experience Design | Ch.7 Adaptive Systems | Figure 1 | Two machines, one word | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch7-fig1-title ch7-fig1-desc">
+  <title id="ch7-fig1-title">Two machines, one word — pacing vs. personalization</title>
+  <desc id="ch7-fig1-desc">Two-panel comparison. Left, System A: a fixed track of six identical steps traveled by two learners at different speeds — pacing individualization that routes flow but does not interpret. Right, System B: the same track forks at step three where an error is interpreted, routing through a different kind of support (the single highlighted hexagon) before rejoining the track — genuine personalization.</desc>
+  <metadata>
+    <cajal:figure chapter="07" number="1" file="07-adaptive-systems-fig-01.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="two-panel-comparison-schematic" rank="Critical" concept="Pacing individualization vs. genuine personalization of support" source-status="conceptual; no quantities depicted"/>
+  </metadata>
+  <defs>
+    <marker id="ch7f1-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Two machines, one word — pacing vs. personalization</text>
+
+  <!-- panel divider -->
+  <line x1="350" y1="56" x2="350" y2="340" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- LEFT PANEL: System A -->
+  <text x="200" y="76" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">System A &#183; pacing individualization</text>
+
+  <!-- learners with motion arrows -->
+  <text x="148" y="132" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">slower</text>
+  <line x1="118" y1="150" x2="138" y2="150" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch7f1-arrow)"/>
+  <circle cx="150" cy="150" r="5" fill="#2a1a0e"/>
+  <text x="296" y="132" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">faster</text>
+  <line x1="216" y1="150" x2="286" y2="150" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch7f1-arrow)"/>
+  <circle cx="298" cy="150" r="5" fill="#2a1a0e"/>
+
+  <!-- fixed track: six identical squares -->
+  <line x1="104" y1="200" x2="118" y2="200" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="146" y1="200" x2="160" y2="200" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="188" y1="200" x2="202" y2="200" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="230" y1="200" x2="244" y2="200" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="272" y1="200" x2="286" y2="200" stroke="#ADADAD" stroke-width="1"/>
+  <rect x="76" y="186" width="28" height="28" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="118" y="186" width="28" height="28" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="160" y="186" width="28" height="28" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="202" y="186" width="28" height="28" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="244" y="186" width="28" height="28" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="286" y="186" width="28" height="28" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+
+  <text x="200" y="252" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">same path, same content — different speeds</text>
+  <text x="200" y="270" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">routes flow; does not interpret</text>
+
+  <!-- RIGHT PANEL: System B -->
+  <text x="500" y="76" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">System B &#183; personalized support</text>
+
+  <text x="494" y="172" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">error interpreted</text>
+
+  <!-- track of six identical squares -->
+  <line x1="396" y1="200" x2="416" y2="200" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="440" y1="200" x2="460" y2="200" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="572" y1="200" x2="592" y2="200" stroke="#ADADAD" stroke-width="1"/>
+  <rect x="372" y="188" width="24" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="416" y="188" width="24" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="460" y="188" width="24" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="504" y="188" width="24" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="548" y="188" width="24" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="592" y="188" width="24" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- fork diamond between steps 3 and 4 -->
+  <polygon points="494,191 503,200 494,209 485,200" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="503" y1="200" x2="504" y2="200" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- divergent branch through the support hexagon, rejoining the track -->
+  <line x1="494" y1="209" x2="494" y2="255" stroke="#2a1a0e" stroke-width="1.5"/>
+  <polygon points="494,256 508,264 508,280 494,288 480,280 480,264" fill="#C8102E"/>
+  <path d="M508,272 L538,272 L538,218" fill="none" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch7f1-arrow)"/>
+  <text x="494" y="308" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">a different kind of support</text>
+
+  <!-- caption -->
+  <text x="64" y="384" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">System A changes only when and in what order the same six steps arrive. System B reads what an error means</text>
+  <text x="64" y="398" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">and routes through a different kind of support — the hexagon is the only element in either panel that differs.</text>
+</svg>

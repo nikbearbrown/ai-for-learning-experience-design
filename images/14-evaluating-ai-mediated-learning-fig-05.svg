@@ -1,0 +1,47 @@
+<!--
+  AI for Learning Experience Design — Chapter 14, Figure 05
+  The counterfactual ladder: compared to what?
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-05">
+  <title id="fig-title-14-05">The counterfactual ladder: compared to what? — 14-evaluating-ai-mediated-learning</title>
+  <desc>Three comparison designs in descending evidential strength: a randomized pilot splitting equivalent groups by chance, a staggered rollout or waitlist where timing makes the comparison, and a single-group pre/post that stays honest only by naming its threats.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="14-evaluating-ai-mediated-learning" figure-number="05" figure-title="The counterfactual ladder: compared to what?" figure-slug="counterfactual-ladder" figure-type="three-tier descending strength schematic" priority="Supplementary" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/14-evaluating-ai-mediated-learning-cajal.md"/></metadata>
+  <defs><marker id="arrow-14-05" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The counterfactual ladder: compared to what?</text>
+
+  <!-- descending-strength spine -->
+  <line x1="96" y1="80" x2="96" y2="416" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-14-05)"/>
+  <text x="78" y="248" transform="rotate(-90 78 248)" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">descending strength</text>
+
+  <!-- tier 1: randomized pilot -->
+  <rect x="140" y="80" width="480" height="96" rx="0" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.2"/>
+  <text x="152" y="102" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Randomized pilot</text>
+  <text x="152" y="118" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">equivalent groups, split by chance — the strongest answer</text>
+  <rect x="160" y="130" width="212" height="36" rx="0" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="388" y="130" width="212" height="36" rx="0" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <polygon points="380,123 387,130 380,137 373,130" fill="#C8102E"/>
+  <text x="266" y="152" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">group A</text>
+  <text x="494" y="152" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">group B</text>
+
+  <!-- tier 2: staggered rollout / waitlist -->
+  <rect x="170" y="200" width="420" height="96" rx="0" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="182" y="222" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Staggered rollout / waitlist</text>
+  <text x="182" y="238" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">everyone treated — timing makes the comparison</text>
+  <rect x="190" y="250" width="150" height="36" rx="0" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="410" y="250" width="150" height="36" rx="0" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="344" y1="268" x2="402" y2="268" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-14-05)"/>
+  <text x="373" y="260" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">later</text>
+
+  <!-- tier 3: pre/post with named threats -->
+  <rect x="200" y="320" width="360" height="96" rx="0" fill="#FFFFFF" stroke="#ADADAD" stroke-width="1"/>
+  <text x="212" y="342" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Pre/post, single group</text>
+  <text x="212" y="358" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">honest only with its threats named</text>
+  <rect x="220" y="370" width="320" height="36" rx="0" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <polygon points="228,402 240,402 234,390" fill="#2a1a0e"/>
+  <polygon points="520,402 532,402 526,390" fill="#2a1a0e"/>
+  <text x="380" y="398" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the named threats</text>
+
+  <text x="32" y="452" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Three designs that answer "compared to what?", in descending strength — no-comparison is not dignified with a rung.</text>
+</svg>

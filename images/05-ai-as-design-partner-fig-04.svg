@@ -1,0 +1,76 @@
+<!-- AI for Learning Experience Design · Chapter 5 · Figure 4 — Anatomy of a Policy That Survives Deadlines · 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch5-fig04-title ch5-fig04-desc">
+  <title id="ch5-fig04-title">Anatomy of a Policy That Survives Deadlines</title>
+  <desc id="ch5-fig04-desc">Three task columns with governance wiring. The AI-drafts column holds tasks with no criterion review. The AI-assists column wires each task through a review badge to a single named reviewer above it. The never-touch column has a heavier border capped by a flat stop bar; its tasks carry corner tags marking risk-based and/or apprenticeship-based rationales.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="5" figure-number="4" title="Anatomy of a Policy That Survives Deadlines" slug="policy-anatomy" type="policy-anatomy-schematic" priority="important" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/05-ai-as-design-partner-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+    <g id="doc5">
+      <path d="M0 0 h22 l12 12 v30 h-34 z" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+      <path d="M22 0 v12 h12" fill="none" stroke="#787878" stroke-width="1"/>
+      <line x1="6" y1="24" x2="28" y2="24" stroke="#D4D4D4" stroke-width="1"/>
+      <line x1="6" y1="32" x2="28" y2="32" stroke="#D4D4D4" stroke-width="1"/>
+    </g>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+  </style>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">Anatomy of a Policy That Survives Deadlines</text>
+
+  <!-- named reviewer: the enforcement surface -->
+  <circle cx="350" cy="86" r="18" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text class="l" x="378" y="84">named reviewer</text>
+  <text class="s" x="378" y="98">the enforcement surface &#8212; wired to the middle column only</text>
+
+  <!-- column 1: AI drafts -->
+  <text class="l" x="152" y="120" text-anchor="middle">AI drafts</text>
+  <rect x="72" y="130" width="160" height="200" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <use href="#doc5" x="135" y="148"/>
+  <use href="#doc5" x="135" y="212"/>
+  <use href="#doc5" x="135" y="276"/>
+  <text class="s" x="152" y="348" text-anchor="middle">human-owned after drafting;</text>
+  <text class="s" x="152" y="362" text-anchor="middle">no criterion review wired</text>
+
+  <!-- column 2: AI assists, each task with a review badge -->
+  <text class="l" x="350" y="120" text-anchor="middle">AI assists</text>
+  <rect x="270" y="130" width="160" height="200" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <use href="#doc5" x="300" y="148"/>
+  <use href="#doc5" x="300" y="212"/>
+  <use href="#doc5" x="300" y="276"/>
+  <line x1="334" y1="169" x2="395" y2="169" stroke="#C8102E" stroke-width="1.25"/>
+  <line x1="334" y1="233" x2="395" y2="233" stroke="#C8102E" stroke-width="1.25"/>
+  <line x1="334" y1="297" x2="395" y2="297" stroke="#C8102E" stroke-width="1.25"/>
+  <circle cx="402" cy="169" r="7" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.25"/>
+  <circle cx="402" cy="233" r="7" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.25"/>
+  <circle cx="402" cy="297" r="7" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.25"/>
+  <path d="M402 297 L402 169 L402 120 L367 96" fill="none" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text class="s" x="350" y="348" text-anchor="middle">each task names its</text>
+  <text class="s" x="350" y="362" text-anchor="middle">review criterion</text>
+
+  <!-- column 3: never touch, heavier border, stop-bar cap -->
+  <text class="l" x="548" y="120" text-anchor="middle">never touch</text>
+  <rect x="468" y="130" width="160" height="200" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="468" y1="130" x2="628" y2="130" stroke="#2a1a0e" stroke-width="3.5"/>
+  <use href="#doc5" x="528" y="148"/>
+  <rect x="556" y="142" width="12" height="12" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <use href="#doc5" x="528" y="212"/>
+  <rect x="556" y="206" width="12" height="12" fill="#787878"/>
+  <use href="#doc5" x="528" y="276"/>
+  <rect x="556" y="270" width="12" height="12" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <rect x="540" y="270" width="12" height="12" fill="#787878"/>
+  <text class="s" x="548" y="348" text-anchor="middle">tasks do not flow out;</text>
+  <text class="s" x="548" y="362" text-anchor="middle">each carries its rationale</text>
+
+  <!-- tag legend -->
+  <rect x="72" y="392" width="11" height="11" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text class="s" x="90" y="401">risk-based rationale</text>
+  <rect x="232" y="392" width="11" height="11" fill="#787878"/>
+  <text class="s" x="250" y="401">apprenticeship-based rationale &#8212; the reps being protected</text>
+
+  <text class="s" x="32" y="432">Conceptual schematic of the policy&#8217;s structure, left to right in decreasing AI involvement. The reviewer wires to the middle</text>
+  <text class="s" x="32" y="447">column only; never-touch tasks carry risk-based and/or apprenticeship-based rationales. The gym clause &#8212; protected,</text>
+  <text class="s" x="32" y="462">deliberately unassisted practice &#8212; accompanies the policy as text.</text>
+</svg>

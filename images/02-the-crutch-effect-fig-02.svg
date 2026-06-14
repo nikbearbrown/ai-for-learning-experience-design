@@ -1,0 +1,57 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 02-the-crutch-effect · figure 02 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-the-crutch-effect-02">
+  <title id="fig-title-02-the-crutch-effect-02">The Rational Shortcut: One Choice, Accumulated Policy — 02-the-crutch-effect</title>
+  <desc>Decision mechanism. At each stuck moment: Option A, struggle — high effort now, delayed invisible benefit (stronger schema); Option B, ask — low effort, guaranteed progress, delayed invisible cost (weaker schema). A loop arrow repeats Option B about 100 times per semester; the accumulated cost wedge grows. Dashed strokes mark delayed, invisible consequences.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="02-the-crutch-effect" figure-number="02" figure-title="The Rational Shortcut: One Choice, Accumulated Policy" figure-slug="rational-shortcut-loop" figure-type="cycle-mechanism" priority="critical" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/02-the-crutch-effect-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Rational Shortcut: One Choice, Accumulated Policy</text>
+
+  <!-- Stuck moment -->
+  <rect x="270" y="56" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="82" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Stuck moment</text>
+
+  <!-- Fork arrows -->
+  <line x1="302" y1="100" x2="182" y2="142" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="398" y1="100" x2="518" y2="142" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Option A -->
+  <rect x="64" y="148" width="216" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="172" y="172" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Option A — struggle</text>
+  <text x="172" y="192" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">high effort now</text>
+  <text x="172" y="208" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">progress not guaranteed</text>
+
+  <!-- Option B -->
+  <rect x="420" y="148" width="216" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="528" y="172" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Option B — ask</text>
+  <text x="528" y="192" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">low effort · progress guaranteed</text>
+  <text x="528" y="208" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">feels rational every single time</text>
+
+  <!-- Delayed consequences (dashed = delayed, invisible, probabilistic) -->
+  <line x1="172" y1="224" x2="172" y2="286" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <path d="M172 294 L182 304 L172 314 L162 304 Z" fill="#2a1a0e"/>
+  <text x="172" y="334" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">delayed benefit — stronger schema</text>
+  <text x="172" y="348" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">(invisible at decision time)</text>
+
+  <line x1="528" y1="224" x2="528" y2="286" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <path d="M528 294 L538 304 L528 314 L518 304 Z" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="528" y="334" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">delayed cost — weaker schema</text>
+  <text x="528" y="348" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">(invisible at decision time)</text>
+
+  <!-- Loop back: B side only -->
+  <path d="M636 168 C 668 132, 596 86, 438 76" fill="none" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="562" y="112" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">repeat — ~100 stuck moments per semester</text>
+
+  <!-- Accumulation wedge (schematic) -->
+  <line x1="528" y1="318" x2="528" y2="372" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+  <polygon points="420,406 636,406 636,378" fill="#ADADAD"/>
+  <text x="528" y="426" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">accumulated cost — the "always B" policy</text>
+
+  <!-- Caption -->
+  <text x="32" y="452" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Each B-choice is individually rational; the catastrophe exists only in repetition — dashed strokes mark delayed, invisible consequences.</text>
+  <text x="32" y="468" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Accumulation wedge schematic, not measured data.</text>
+</svg>

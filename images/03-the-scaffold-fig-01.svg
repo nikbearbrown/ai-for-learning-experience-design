@@ -1,0 +1,73 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 03-the-scaffold · figure 01 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-the-scaffold-01">
+  <title id="fig-title-03-the-scaffold-01">Three Architectures: Where the Judgment Lives — 03-the-scaffold</title>
+  <desc>Three parallel panels with the same cast (AI, human, learner) and one moving judgment marker. Constrain the AI: judgment encoded in advance, AI faces the learner. Supervise the AI: judgment at a runtime human checkpoint. Support the human: judgment stays with the tutor; the AI only suggests and never touches the learner.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="03-the-scaffold" figure-number="01" figure-title="Three Architectures: Where the Judgment Lives" figure-slug="three-architectures" figure-type="comparison-panels" priority="critical" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/03-the-scaffold-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Three Architectures: Where the Judgment Lives</text>
+  <path d="M38 44 L44 50 L38 56 L32 50 Z" fill="#C8102E"/>
+  <text x="52" y="54" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">marks where pedagogical judgment lives — one locus per panel</text>
+
+  <!-- Panel 1: Constrain the AI -->
+  <rect x="48" y="68" width="188" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="142" y="90" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Constrain the AI</text>
+  <text x="142" y="106" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">GPT Tutor</text>
+  <circle cx="142" cy="134" r="13" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="162" y="138" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">designer</text>
+  <line x1="142" y1="147" x2="142" y2="172" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <rect x="82" y="178" width="120" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <path d="M112 198 L120 206 L112 214 L104 206 Z" fill="#C8102E"/>
+  <text x="130" y="202" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">AI tutor</text>
+  <text x="130" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">guardrailed</text>
+  <line x1="142" y1="234" x2="142" y2="282" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="142" cy="298" r="13" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="142" y="326" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">learner</text>
+  <text x="142" y="346" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">judgment encoded in advance;</text>
+  <text x="142" y="360" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">the AI faces the learner</text>
+
+  <!-- Panel 2: Supervise the AI -->
+  <rect x="254" y="68" width="188" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="348" y="90" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Supervise the AI</text>
+  <text x="348" y="106" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">LearnLM × Eedi</text>
+  <rect x="288" y="120" width="120" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="348" y="140" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">AI drafts</text>
+  <text x="348" y="156" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">each message</text>
+  <line x1="348" y1="168" x2="348" y2="192" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="348" cy="212" r="14" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <path d="M348 204 L356 212 L348 220 L340 212 Z" fill="#C8102E"/>
+  <text x="370" y="216" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">tutor</text>
+  <text x="348" y="246" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">reviews before delivery</text>
+  <line x1="348" y1="252" x2="348" y2="282" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="348" cy="298" r="13" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="348" y="326" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">learner</text>
+  <text x="348" y="346" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">judgment at a runtime</text>
+  <text x="348" y="360" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">human checkpoint</text>
+
+  <!-- Panel 3: Support the human -->
+  <rect x="460" y="68" width="188" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="554" y="90" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Support the human</text>
+  <text x="554" y="106" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">Tutor CoPilot</text>
+  <rect x="494" y="120" width="120" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="554" y="140" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">AI suggests</text>
+  <text x="554" y="156" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">next moves</text>
+  <line x1="554" y1="168" x2="554" y2="192" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <circle cx="554" cy="212" r="14" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <path d="M554 204 L562 212 L554 220 L546 212 Z" fill="#C8102E"/>
+  <text x="576" y="216" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">tutor</text>
+  <line x1="554" y1="226" x2="554" y2="282" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="554" cy="298" r="13" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="554" y="326" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">learner</text>
+  <text x="554" y="346" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">judgment stays with the human;</text>
+  <text x="554" y="360" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">the learner never meets the AI</text>
+
+  <!-- Caption -->
+  <text x="32" y="396" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Three answers to one placement question — not a quality ranking. Dashed arrows carry advice or pre-set rules, never delivery.</text>
+  <text x="32" y="412" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Center panel: tutors sent 76.4% of AI-drafted messages with zero or minimal edits — exploratory RCT, industry-published.</text>
+  <text x="32" y="428" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Right panel: Tutor CoPilot sample sizes await verification [verify].</text>
+  <text x="32" y="452" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">PANELS: BASTANI ET AL. 2025 · GOOGLE × EEDI 2024 · WANG ET AL. 2024</text>
+</svg>

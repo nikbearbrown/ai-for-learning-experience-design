@@ -1,0 +1,45 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 03-the-scaffold · figure 03 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-the-scaffold-03">
+  <title id="fig-title-03-the-scaffold-03">Contingency, Fading, Transfer: The Scaffold Mechanism Over Time — 03-the-scaffold</title>
+  <desc>Schematic timeline: a stepped support band contracts to zero (fading), with contingency ticks and one step back up when the learner falters; a competence curve rises and crosses it; an unaided-performance diamond resolves after support reaches zero. A dashed inset shows the shipped default where support never fades.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="03-the-scaffold" figure-number="03" figure-title="Contingency, Fading, Transfer: The Scaffold Mechanism Over Time" figure-slug="scaffold-mechanism-timeline" figure-type="timeline-mechanism" priority="important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/03-the-scaffold-cajal.md"/>
+  </metadata>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Contingency, Fading, Transfer: The Scaffold Mechanism Over Time</text>
+
+  <!-- Plot region -->
+  <rect x="80" y="72" width="560" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <!-- Axes, zero-anchored -->
+  <line x1="80" y1="72" x2="80" y2="352" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="80" y1="352" x2="640" y2="352" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="360" y="374" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">time across the learning sequence →</text>
+  <text x="60" y="212" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle" transform="rotate(-90 60 212)">support · competence →</text>
+
+  <!-- Never-fading contrast inset (the shipped default) -->
+  <line x1="380" y1="92" x2="560" y2="92" stroke="#ADADAD" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="470" y="82" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878" text-anchor="middle">the shipped default: support never fades</text>
+
+  <!-- Support: rule-triggered stepped contraction, one reversal, reaches zero -->
+  <path d="M88 128 H160 V162 H228 V198 H296 V178 H356 V224 H420 V272 H478 V320 H520 V352" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <!-- contingency ticks (support adjusts up and down) -->
+  <line x1="130" y1="128" x2="130" y2="118" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="196" y1="162" x2="196" y2="172" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="262" y1="198" x2="262" y2="188" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="92" y="116" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">support — fades in rule-triggered steps</text>
+  <text x="326" y="164" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">steps back up when the learner falters</text>
+  <text x="514" y="340" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="end">reaches zero before the test</text>
+
+  <!-- Competence: rising, durable gain -->
+  <path d="M88 332 C 240 320, 420 240, 560 140 C 590 122, 614 118, 632 116" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="200" y="306" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">competence — the durable gain</text>
+  <text x="420" y="210" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">responsibility crosses over</text>
+
+  <!-- Unaided performance, after support reaches zero -->
+  <path d="M596 116 L606 126 L596 136 L586 126 Z" fill="#C8102E"/>
+  <text x="596" y="104" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">unaided performance</text>
+
+  <!-- Caption -->
+  <text x="32" y="412" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Curves schematic — no data plotted. Contingency, fading, transfer: settled constructs (Wood, Bruner &amp; Ross 1976; van de Pol et al. 2010).</text>
+  <text x="32" y="428" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Fading's GenAI instantiation remains extrapolation — no direct test yet. The scaffold's success is measured by its own disappearance.</text>
+</svg>

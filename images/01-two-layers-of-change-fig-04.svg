@@ -1,0 +1,44 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 01-two-layers-of-change · figure 04 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-two-layers-of-change-04">
+  <title id="fig-title-01-two-layers-of-change-04">Engagement Is Not Learning: The Dissociation Quadrant — 01-two-layers-of-change</title>
+  <desc>Conceptual quadrant: engagement (vertical, zero at bottom) versus unassisted learning outcome (horizontal, zero at center). GPT Base sits high-engagement, negative-learning (hollow marker left of zero); GPT Tutor high-engagement, no deficit; control at baseline on the zero line. Positions schematic, ordering per the sources.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="01-two-layers-of-change" figure-number="04" figure-title="Engagement Is Not Learning: The Dissociation Quadrant" figure-slug="dissociation-quadrant" figure-type="statistical-quantitative" priority="supplementary" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/01-two-layers-of-change-cajal.md"/>
+  </metadata>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Engagement Is Not Learning: The Dissociation Quadrant</text>
+
+  <!-- Plot region -->
+  <rect x="96" y="64" width="440" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <!-- negative-learning region (structural shading, left of zero) -->
+  <rect x="96" y="64" width="220" height="280" fill="#ECECEC"/>
+
+  <!-- Zero lines -->
+  <line x1="316" y1="64" x2="316" y2="344" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="96" y1="344" x2="536" y2="344" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Axis labels -->
+  <text x="316" y="360" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">0</text>
+  <text x="316" y="378" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">← negative · unassisted learning outcome · positive →</text>
+  <text x="78" y="204" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle" transform="rotate(-90 78 204)">engagement →</text>
+
+  <!-- GPT Base: high engagement, negative learning (hollow = harm, structural) -->
+  <circle cx="190" cy="128" r="7" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="190" y="106" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">GPT Base</text>
+  <text x="190" y="152" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">max engagement · negative learning</text>
+
+  <!-- GPT Tutor: high engagement, no deficit -->
+  <circle cx="440" cy="136" r="7" fill="#C8102E"/>
+  <text x="440" y="114" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">GPT Tutor</text>
+  <text x="440" y="160" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">high engagement · no deficit</text>
+
+  <!-- Control: baseline, on the zero line -->
+  <circle cx="316" cy="260" r="6" fill="#ADADAD"/>
+  <text x="316" y="238" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Control</text>
+  <text x="316" y="282" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">baseline</text>
+
+  <!-- Caption -->
+  <text x="32" y="412" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Positions schematic; ordering per Bastani et al. 2025 and the Hirsh-Pasek et al. 2015 framework — no engagement metrics are charted.</text>
+  <text x="32" y="428" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The most satisfying condition in the study was the most harmful one.</text>
+  <text x="32" y="452" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: BASTANI ET AL. 2025 · PNAS · POSITIONS SCHEMATIC</text>
+</svg>

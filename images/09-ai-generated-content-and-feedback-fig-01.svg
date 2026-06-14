@@ -1,0 +1,55 @@
+<!-- AI for Learning Experience Design | Ch.9 AI-Generated Content and Feedback | Figure 1 | The specifiability gradient | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch9-fig1-title ch9-fig1-desc">
+  <title id="ch9-fig1-title">The specifiability gradient — and the stakes rule</title>
+  <desc id="ch9-fig1-desc">A two-field boundary schematic: a tinted left field of crisp geometric shapes (work whose criteria can be written down in advance — AI-suitable) and a white right field of irregular organic forms (tacit, in-situ judgment — human-required), divided by a dashed boundary line. A leftward arrow and a ghosted second boundary show the stakes rule: as stakes rise, the boundary moves left and the AI zone shrinks.</desc>
+  <metadata>
+    <cajal:figure chapter="09" number="1" file="09-ai-generated-content-and-feedback-fig-01.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="two-field-boundary-schematic" rank="Critical" concept="Explicit-criteria / tacit-judgment boundary with the stakes-shift rule" source-status="conceptual; shape vocabulary is invented shorthand for specifiable vs. tacit"/>
+  </metadata>
+  <defs>
+    <marker id="ch9f1-arrow-red" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#C8102E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The specifiability gradient — and the stakes rule</text>
+
+  <!-- stakes-shift arrow -->
+  <text x="352" y="74" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">as stakes rise, the boundary moves left</text>
+  <line x1="400" y1="88" x2="306" y2="88" stroke="#C8102E" stroke-width="2" marker-end="url(#ch9f1-arrow-red)"/>
+
+  <!-- framing rectangle with left-field tint -->
+  <rect x="64" y="104" width="572" height="208" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="64" y="104" width="343" height="208" fill="#F5F5F5"/>
+
+  <!-- field labels -->
+  <text x="80" y="130" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">explicit criteria — AI handles well</text>
+  <text x="620" y="130" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">tacit, in-situ judgment — stays human</text>
+
+  <!-- specifiable shapes: machined, gridded -->
+  <rect x="116" y="150" width="32" height="32" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="196" y="154" width="44" height="26" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="304" y="150" width="30" height="30" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <path d="M168,232 h28 v14 h-14 v14 h-14 Z" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="252" y="236" width="24" height="24" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- tacit shapes: organic, scattered -->
+  <path d="M448,166 C450,148 478,144 490,156 C502,168 494,186 478,188 C462,190 446,182 448,166 Z" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <path d="M540,196 C536,180 558,170 574,176 C590,182 592,202 578,210 C564,218 544,212 540,196 Z" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <path d="M466,242 C462,228 480,218 496,224 C512,230 514,250 500,258 C486,266 470,256 466,242 Z" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <path d="M566,138 C570,124 592,122 602,132 C612,142 606,158 592,160 C578,162 562,152 566,138 Z" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+
+  <!-- ghosted high-stakes boundary -->
+  <line x1="293" y1="104" x2="293" y2="312" stroke="#C8102E" stroke-width="1" stroke-dasharray="4 3" opacity="0.55"/>
+  <!-- primary boundary -->
+  <line x1="407" y1="104" x2="407" y2="312" stroke="#2a1a0e" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- boundary labels -->
+  <text x="407" y="332" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">routine-stakes</text>
+  <text x="407" y="346" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">boundary</text>
+  <text x="293" y="332" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">high-stakes</text>
+  <text x="293" y="346" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">boundary</text>
+
+  <!-- caption -->
+  <text x="64" y="384" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">AI is suited to work whose criteria can be written down before the work arrives; it degrades where judgment happens</text>
+  <text x="64" y="398" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">in situ. A specifiability gradient, not a quality gradient — and the line tightens leftward as stakes rise.</text>
+</svg>

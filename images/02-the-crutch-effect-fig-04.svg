@@ -1,0 +1,49 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 02-the-crutch-effect · figure 04 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-the-crutch-effect-04">
+  <title id="fig-title-02-the-crutch-effect-04">The Five Crutch-Producing Patterns: The Default Profile — 02-the-crutch-effect</title>
+  <desc>Taxonomy: five design patterns — complete answers on request; no reasoning required before help; unrestricted access throughout practice; engagement-optimized friction removal; no fading (dashed, extrapolated) — converge on one terminal: the crutch default, the zero-design outcome standard practice ships.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="02-the-crutch-effect" figure-number="04" figure-title="The Five Crutch-Producing Patterns: The Default Profile" figure-slug="five-crutch-patterns" figure-type="hierarchy-taxonomy" priority="important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/02-the-crutch-effect-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Five Crutch-Producing Patterns: The Default Profile</text>
+
+  <!-- Pattern modules (equal size: checklist, not ranking) -->
+  <rect x="48" y="72" width="280" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="62" y="102" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Complete answers on request</text>
+
+  <rect x="48" y="136" width="280" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="62" y="166" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">No reasoning required before help</text>
+
+  <rect x="48" y="200" width="280" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="62" y="230" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Unrestricted access throughout practice</text>
+
+  <rect x="48" y="264" width="280" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="62" y="294" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Engagement-optimized friction removal</text>
+
+  <!-- Fifth pattern: dashed = evidence-informed extrapolation -->
+  <rect x="48" y="328" width="280" height="52" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="62" y="358" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">No fading — support never contracts</text>
+  <text x="48" y="396" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">dashed: least-studied pattern in GenAI tutoring — evidence-informed extrapolation</text>
+
+  <!-- Converging arrows -->
+  <line x1="328" y1="98" x2="466" y2="186" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="328" y1="162" x2="466" y2="208" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="328" y1="226" x2="466" y2="228" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="328" y1="290" x2="466" y2="250" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="328" y1="354" x2="466" y2="272" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Convergence terminal -->
+  <rect x="472" y="168" width="180" height="120" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="562" y="208" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">The crutch default</text>
+  <text x="562" y="230" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">the zero-design outcome —</text>
+  <text x="562" y="246" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">what standard product</text>
+  <text x="562" y="262" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">practice ships</text>
+
+  <!-- Caption -->
+  <text x="32" y="432" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">A checklist, not a severity ranking — the five patterns jointly constitute the default; no single one is required.</text>
+  <text x="32" y="448" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">"No fading" carries the chapter's own extrapolation flag — encoded here as the dashed outline, the chapter's Evidence Box discipline.</text>
+</svg>

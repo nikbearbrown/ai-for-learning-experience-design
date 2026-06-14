@@ -1,0 +1,58 @@
+<!-- AI for Learning Experience Design · Chapter 4 · Figure 2 — Four Endpoints, One Sign Flip · 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch4-fig02-title ch4-fig02-desc">
+  <title id="ch4-fig02-title">Four Endpoints, One Sign Flip</title>
+  <desc id="ch4-fig02-desc">Diverging bars over a four-station measurement timeline. Above the assisted station a bar rises 48 units above a drawn zero line; above the unassisted station a bar falls 17 units below the same zero line. Dashed empty frames above the transfer and retention stations mark measurements the field has essentially never taken. A break mark on the timeline between the first two stations shows where the tool is withdrawn.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="4" figure-number="2" title="Four Endpoints, One Sign Flip" slug="four-endpoints-sign-flip" type="diverging-bars-timeline" priority="critical" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/04-reading-the-evidence-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+    .m{font:11px 'JetBrains Mono','Fira Code','Courier New',monospace;fill:#2a1a0e}
+    .src{font:10px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#787878;letter-spacing:.08em}
+  </style>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">Four Endpoints, One Sign Flip</text>
+
+  <!-- plot region -->
+  <rect x="64" y="56" width="596" height="244" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- bars (drawn before zero line so the line reads on top) -->
+  <rect x="110" y="76" width="60" height="134" fill="#ADADAD"/>
+  <rect x="260" y="210" width="60" height="48" fill="#2a1a0e"/>
+
+  <!-- honest-empty slots: transfer, retention -->
+  <rect x="410" y="150" width="60" height="60" fill="none" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <rect x="560" y="150" width="60" height="60" fill="none" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <text class="s" x="515" y="140" text-anchor="middle">essentially unmeasured across the field</text>
+
+  <!-- zero line -->
+  <line x1="64" y1="210" x2="660" y2="210" stroke="#2a1a0e" stroke-width="1"/>
+  <text class="m" x="58" y="214" text-anchor="end">0</text>
+
+  <!-- bar values -->
+  <text class="m" x="140" y="70" text-anchor="middle">+48%</text>
+  <text class="m" x="290" y="273" text-anchor="middle">&#8722;17%</text>
+
+  <!-- measurement timeline -->
+  <line x1="80" y1="330" x2="644" y2="330" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="140" cy="330" r="5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="290" cy="330" r="5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="440" cy="330" r="5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="590" cy="330" r="5" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <!-- withdrawal break between stations 1 and 2 -->
+  <line x1="209" y1="322" x2="219" y2="338" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="217" y1="322" x2="227" y2="338" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text class="s" x="218" y="316" text-anchor="middle">tool withdrawn</text>
+
+  <text class="l" x="140" y="352" text-anchor="middle">assisted</text>
+  <text class="l" x="290" y="352" text-anchor="middle">unassisted</text>
+  <text class="l" x="440" y="352" text-anchor="middle">transfer</text>
+  <text class="l" x="590" y="352" text-anchor="middle">retention</text>
+
+  <text class="src" x="32" y="374">BASTANI ET AL. 2025</text>
+  <text class="s" x="32" y="390">Same condition, two endpoints: +48% while the tool is on, &#8722;17% once it is withdrawn &#8212; assisted-only evaluation is structurally</text>
+  <text class="s" x="32" y="405">incapable of detecting a crutch. Dashed frames are transfer and retention slots left honestly empty: the field has almost no such data.</text>
+</svg>

@@ -1,0 +1,66 @@
+<!-- AI for Learning Experience Design | Ch.9 AI-Generated Content and Feedback | Figure 4 | The shell without the core | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch9-fig4-title ch9-fig4-desc">
+  <title id="ch9-fig4-title">The shell without the core</title>
+  <desc id="ch9-fig4-desc">Mirrored two-panel core-and-shell schematic. Left, evaluation side (the BABEL result): a shell containing a solid construct core and an identical empty shell both receive the identical verdict mark from the automated scorer. Right, generation side: a hollow distractor connects to the test item only by a dashed, asserted link, while a distractor with a named-misconception core connects by a solid link — the same proxy-versus-construct failure, mirrored.</desc>
+  <metadata>
+    <cajal:figure chapter="09" number="4" file="09-ai-generated-content-and-feedback-fig-04.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="mirrored-core-shell-schematic" rank="Medium" concept="Proxy vs. construct in both directions: BABEL on evaluation, plausible distractors on generation" source-status="conceptual; verdict equality renders the BABEL finding, no score values depicted"/>
+  </metadata>
+  <defs>
+    <marker id="ch9f4-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+    <marker id="ch9f4-arrow-gray" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#787878"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The shell without the core</text>
+
+  <line x1="350" y1="60" x2="350" y2="340" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- LEFT: evaluation side, reads downward -->
+  <text x="207" y="92" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">evaluation side &#183; the BABEL result</text>
+
+  <text x="150" y="122" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">with construct</text>
+  <text x="264" y="122" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">hollow shell</text>
+
+  <circle cx="150" cy="170" r="34" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="2"/>
+  <circle cx="150" cy="170" r="13" fill="#C8102E"/>
+  <circle cx="264" cy="170" r="34" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="2"/>
+
+  <line x1="150" y1="208" x2="150" y2="244" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch9f4-arrow)"/>
+  <line x1="264" y1="208" x2="264" y2="244" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch9f4-arrow)"/>
+
+  <circle cx="150" cy="260" r="8" fill="#2a1a0e"/>
+  <circle cx="264" cy="260" r="8" fill="#2a1a0e"/>
+  <text x="207" y="294" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">identical top score</text>
+
+  <!-- RIGHT: generation side, reads upward -->
+  <text x="510" y="92" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">generation side &#183; plausible distractors</text>
+
+  <text x="510" y="112" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">test item</text>
+  <rect x="490" y="120" width="16" height="16" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="510" y="120" width="16" height="16" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="490" y="140" width="16" height="16" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="510" y="140" width="16" height="16" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <circle cx="444" cy="238" r="34" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="2"/>
+  <circle cx="576" cy="238" r="34" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="2"/>
+  <circle cx="576" cy="238" r="13" fill="#C8102E"/>
+
+  <line x1="452" y1="200" x2="488" y2="162" stroke="#787878" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#ch9f4-arrow-gray)"/>
+  <line x1="568" y1="200" x2="530" y2="162" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch9f4-arrow)"/>
+
+  <text x="444" y="296" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">merely plausible</text>
+  <text x="576" y="296" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">named misconception</text>
+
+  <!-- core key -->
+  <circle cx="216" cy="330" r="6" fill="#C8102E"/>
+  <text x="228" y="334" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the construct — the core</text>
+  <line x1="420" y1="330" x2="448" y2="330" stroke="#787878" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="456" y="334" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">asserted, not real</text>
+
+  <!-- caption -->
+  <text x="64" y="384" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The same failure in both directions: an automated scorer reads only the measurable shell — structure, sophistication,</text>
+  <text x="64" y="398" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">length — so full and hollow earn the identical verdict; a distractor without a misconception core diagnoses nothing.</text>
+</svg>

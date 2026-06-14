@@ -1,0 +1,52 @@
+<!-- AI for Learning Experience Design · Chapter 5 · Figure 2 — Floor and Ceiling · 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch5-fig02-title ch5-fig02-desc">
+  <title id="ch5-fig02-title">Floor and Ceiling: Two Claims, One Evidenced</title>
+  <desc id="ch5-fig02-desc">A conceptual schematic over a designer-expertise axis. A solid curve for floor-raising starts high at the novice end and descends toward, but never below, a drawn zero baseline; a pale tint beneath its left third marks the only region where evidence exists. A dashed curve for ceiling-raising rises toward the expert end with no fill beneath it: a hypothesis with no data.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="5" figure-number="2" title="Floor and Ceiling: Two Claims, One Evidenced" slug="floor-vs-ceiling" type="conceptual-curve-pair" priority="critical" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/05-ai-as-design-partner-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+    .m{font:11px 'JetBrains Mono','Fira Code','Courier New',monospace;fill:#2a1a0e}
+    .src{font:10px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#787878;letter-spacing:.08em}
+  </style>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">Floor and Ceiling: Two Claims, One Evidenced</text>
+
+  <!-- chart area -->
+  <rect x="64" y="64" width="556" height="246" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- evidence region tint (left third, under the floor curve) -->
+  <path d="M84 108 C160 131, 220 148, 264 166 L264 310 L84 310 Z" fill="#C8102E" opacity="0.06"/>
+  <text class="s" x="92" y="248">where evidence exists</text>
+  <text class="s" x="92" y="262">(Moore et al. 2025)</text>
+
+  <!-- floor-raising: solid = evidenced; never dips below zero -->
+  <path d="M84 108 C160 131, 220 148, 264 166 C390 212, 500 262, 612 296" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <text class="l" x="104" y="94">floor-raising &#8212; evidenced</text>
+
+  <!-- ceiling-raising: dashed = unevidenced hypothesis -->
+  <path d="M68 306 C240 290, 440 222, 612 140" fill="none" stroke="#787878" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text class="l" x="612" y="126" text-anchor="end" fill="#787878">ceiling-raising &#8212; hypothesis, no data</text>
+
+  <!-- zero-anchored axes -->
+  <line x1="64" y1="310" x2="634" y2="310" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="64" y1="310" x2="64" y2="64" stroke="#2a1a0e" stroke-width="1"/>
+  <text class="m" x="56" y="314" text-anchor="end">0</text>
+  <line x1="150" y1="310" x2="150" y2="316" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="342" y1="310" x2="342" y2="316" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="534" y1="310" x2="534" y2="316" stroke="#2a1a0e" stroke-width="1"/>
+  <text class="s" x="150" y="330" text-anchor="middle">novice</text>
+  <text class="s" x="342" y="330" text-anchor="middle">mid-career</text>
+  <text class="s" x="534" y="330" text-anchor="middle">expert</text>
+  <text class="s" x="634" y="330" text-anchor="end">designer expertise</text>
+  <text class="l" x="46" y="187" text-anchor="middle" transform="rotate(-90 46 187)">AI benefit to artifact quality</text>
+
+  <text class="src" x="32" y="354">MOORE ET AL. 2025</text>
+  <text class="s" x="32" y="374">Conceptual schematic, not plotted data &#8212; curve shapes assert claim structure, not measured magnitudes. Solid = evidenced;</text>
+  <text class="s" x="32" y="389">dashed = unevidenced. Moore et al. report &#8220;never worse, sometimes better&#8221; (n = 27, one course); no effect sizes are drawn</text>
+  <text class="s" x="32" y="404">because none are reported. The expert end of this picture is currently empty.</text>
+</svg>

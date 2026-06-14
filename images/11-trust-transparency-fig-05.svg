@@ -1,0 +1,83 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch11 fig-05 · The Assembly: Six Files, Nine Cells, and the Holes · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 480" role="img" aria-labelledby="ch11-fig05-title ch11-fig05-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch11-fig05-title">The Assembly: Six Files, Nine Cells, and the Holes</title>
+  <desc id="ch11-fig05-desc">Convergence schematic: six spec-file cards feed thin provenance lines into one nine-cell per-touchpoint guardrail row. Seven cells are filled; one cell is conspicuously empty (a gap — a decision to ship the default), one cell is split diagonally with an inhibition mark (two source files contradict), and one dashed cell floats detached at right (an orphan touchpoint no file covered).</desc>
+  <metadata>
+    <cajal:figure chapter="11" figure="5" slug="guardrail-assembly-defects" type="convergence-grid-schematic" rank="medium-high" class="VG" concept="Six spec files assemble into a nine-cell guardrail row; assembly makes the holes visible" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <rect width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 11.5 · The assembly: six files, nine cells, and the holes</text>
+
+  <!-- six spec-file cards -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e" text-anchor="middle">
+    <rect x="86" y="64" width="72" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><rect x="86" y="64" width="72" height="4" fill="#545454"/><text x="122" y="90">spec/05</text>
+    <rect x="182" y="64" width="72" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><rect x="182" y="64" width="72" height="4" fill="#787878"/><text x="218" y="90">spec/06</text>
+    <rect x="278" y="64" width="72" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><rect x="278" y="64" width="72" height="4" fill="#ADADAD"/><text x="314" y="90">spec/07</text>
+    <rect x="374" y="64" width="72" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><rect x="374" y="64" width="72" height="4" fill="#545454"/><text x="410" y="90">spec/08</text>
+    <rect x="470" y="64" width="72" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><rect x="470" y="64" width="72" height="4" fill="#787878"/><text x="506" y="90">spec/09</text>
+    <rect x="566" y="64" width="72" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><rect x="566" y="64" width="72" height="4" fill="#ADADAD"/><text x="602" y="90">spec/10</text>
+  </g>
+
+  <!-- provenance lines (not flows): cell 4 receives none -->
+  <g stroke="#ADADAD" stroke-width="0.75">
+    <line x1="122" y1="104" x2="107" y2="216"/>
+    <line x1="122" y1="104" x2="161" y2="216"/>
+    <line x1="218" y1="104" x2="215" y2="216"/>
+    <line x1="314" y1="104" x2="323" y2="216"/>
+    <line x1="314" y1="104" x2="377" y2="216"/>
+    <line x1="410" y1="104" x2="431" y2="216"/>
+    <line x1="506" y1="104" x2="431" y2="216"/>
+    <line x1="506" y1="104" x2="539" y2="216"/>
+    <line x1="602" y1="104" x2="485" y2="216"/>
+  </g>
+
+  <!-- nine-cell guardrail row -->
+  <rect x="80" y="216" width="162" height="54" fill="#787878"/>
+  <rect x="242" y="216" width="54" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="296" y="216" width="108" height="54" fill="#787878"/>
+  <polygon points="404,216 458,216 404,270" fill="#ADADAD"/>
+  <polygon points="458,216 458,270 404,270" fill="#545454"/>
+  <line x1="424" y1="250" x2="438" y2="236" stroke="#2a1a0e" stroke-width="2.5"/>
+  <rect x="458" y="216" width="108" height="54" fill="#787878"/>
+  <g stroke="#FFFFFF" stroke-width="1">
+    <line x1="134" y1="216" x2="134" y2="270"/>
+    <line x1="188" y1="216" x2="188" y2="270"/>
+    <line x1="350" y1="216" x2="350" y2="270"/>
+    <line x1="512" y1="216" x2="512" y2="270"/>
+  </g>
+  <rect x="80" y="216" width="486" height="54" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" text-anchor="middle">
+    <text x="107" y="246" fill="#FFFFFF">1</text>
+    <text x="161" y="246" fill="#FFFFFF">2</text>
+    <text x="215" y="246" fill="#FFFFFF">3</text>
+    <text x="269" y="246" fill="#787878">4</text>
+    <text x="323" y="246" fill="#FFFFFF">5</text>
+    <text x="377" y="246" fill="#FFFFFF">6</text>
+    <text x="431" y="262" fill="#FFFFFF">7</text>
+    <text x="485" y="246" fill="#FFFFFF">8</text>
+    <text x="539" y="246" fill="#FFFFFF">9</text>
+  </g>
+
+  <!-- orphan cell: detached, dashed -->
+  <rect x="596" y="216" width="54" height="54" fill="none" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- defect callouts -->
+  <line x1="269" y1="270" x2="269" y2="290" stroke="#ADADAD" stroke-width="0.75"/>
+  <text x="269" y="304" font-size="11" fill="#2a1a0e" font-weight="600" text-anchor="middle">GAP</text>
+  <text x="269" y="318" font-size="11" fill="#545454" text-anchor="middle">shipped default</text>
+  <line x1="431" y1="270" x2="431" y2="290" stroke="#ADADAD" stroke-width="0.75"/>
+  <text x="431" y="304" font-size="11" fill="#2a1a0e" font-weight="600" text-anchor="middle">CONTRADICTION</text>
+  <text x="431" y="318" font-size="11" fill="#545454" text-anchor="middle">two files disagree</text>
+  <line x1="623" y1="270" x2="623" y2="290" stroke="#ADADAD" stroke-width="0.75"/>
+  <text x="660" y="304" font-size="11" fill="#2a1a0e" font-weight="600" text-anchor="end">ORPHAN</text>
+  <text x="660" y="318" font-size="11" fill="#545454" text-anchor="end">no file covers it</text>
+
+  <!-- cell key -->
+  <text x="64" y="352" font-size="11" fill="#545454">1 touchpoint · 2 identity/disclosure · 3 permitted · 4 forbidden · 5 gates/fading</text>
+  <text x="64" y="368" font-size="11" fill="#545454">6 routing · 7 content/feedback · 8 assessment role · 9 escalation</text>
+
+  <!-- caption -->
+  <text x="64" y="402" font-size="11" fill="#545454">Six spec files converge into one per-touchpoint guardrail row; assembly is the integration test that makes the</text>
+  <text x="64" y="418" font-size="11" fill="#545454">holes visible. An empty cell is not a missing decision — it is a decision to ship the default. One row stands for all.</text>
+  <text x="64" y="442" font-size="10" fill="#787878" letter-spacing="0.5">GUARDRAIL ASSEMBLY, SPEC/05–SPEC/10, CH. 11 · ORPHAN CASE: THE NUDGE EMAIL</text>
+</svg>

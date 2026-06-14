@@ -1,0 +1,51 @@
+<!--
+  AI for Learning Experience Design — Chapter 14, Figure 04
+  The scissors pattern: harm invisible at the mean
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+  Pattern schematic, not data — the placeholder's −22pp moves to the caption as a labeled hypothetical.
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-04">
+  <title id="fig-title-14-04">The scissors pattern: harm invisible at the mean — 14-evaluating-ai-mediated-learning</title>
+  <desc>Two blades open like scissors across four prior-achievement quartiles: assisted gains run flat just above zero, while the unassisted deficit starts deep below zero at the lowest quartile and rises to touch the baseline at the highest. A hollow circle pinned to the zero line at midfield marks the population mean, which reads as nothing. All magnitudes illustrative.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="14-evaluating-ai-mediated-learning" figure-number="04" figure-title="The scissors pattern: harm invisible at the mean" figure-slug="scissors-pattern" figure-type="conceptual schematic" priority="Important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/14-evaluating-ai-mediated-learning-cajal.md"/></metadata>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The scissors pattern: harm invisible at the mean</text>
+
+  <!-- zero baseline -->
+  <line x1="90" y1="200" x2="640" y2="200" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="80" y="204" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">0</text>
+
+  <!-- subgroup ticks -->
+  <g stroke="#2a1a0e" stroke-width="1">
+    <line x1="160" y1="196" x2="160" y2="204"/>
+    <line x1="300" y1="196" x2="300" y2="204"/>
+    <line x1="440" y1="196" x2="440" y2="204"/>
+    <line x1="580" y1="196" x2="580" y2="204"/>
+  </g>
+  <g text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">
+    <text x="160" y="222">Q1 &#183; lowest</text>
+    <text x="300" y="222">Q2</text>
+    <text x="440" y="222">Q3</text>
+    <text x="580" y="222">Q4 &#183; highest</text>
+  </g>
+
+  <!-- assisted blade: flat and pleasant everywhere -->
+  <path d="M 120 182 C 280 176 460 178 620 176" fill="none" stroke="#787878" stroke-width="1.5"/>
+  <text x="250" y="156" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">assisted gains — flat everywhere</text>
+
+  <!-- deficit blade: severe at the left, gone at the right -->
+  <path d="M 160 340 C 300 296 470 226 580 202" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="160" cy="340" r="4.5" fill="#2a1a0e"/>
+  <text x="168" y="356" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">deepest deficit</text>
+  <text x="370" y="372" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">unassisted deficit — severe at the left, gone at the right</text>
+
+  <!-- the population mean: pinned to zero, reading as nothing (single red category: the argument) -->
+  <circle cx="370" cy="200" r="7" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <line x1="374" y1="191" x2="412" y2="162" stroke="#C8102E" stroke-width="0.75"/>
+  <text x="416" y="158" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">the population mean — reads as nothing</text>
+
+  <text x="365" y="408" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">prior-achievement quartiles, low &#8594; high</text>
+
+  <text x="32" y="444" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Pattern schematic — every plotted magnitude is illustrative; no study reports this quartile breakdown.</text>
+  <text x="32" y="462" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">A hypothetical &#8722;22pp in the lowest quartile reads as &#8776;0 at the mean — a labeled hypothetical, not a measurement.</text>
+</svg>

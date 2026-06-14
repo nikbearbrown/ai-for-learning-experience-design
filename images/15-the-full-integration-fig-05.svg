@@ -1,0 +1,55 @@
+<!--
+  AI for Learning Experience Design — Chapter 15, Figure 05
+  The compliance-theater gate: implementable, and detectable in absence
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-05">
+  <title id="fig-title-15-05">The compliance-theater gate: implementable, and detectable in absence — 15-the-full-integration</title>
+  <desc>Candidate guardrail sentences pass through two gates: can the sentence be implemented, and would its absence be detected? Failures deflect down a dashed path to a rework ring and loop back to the start; the sentence that clears both gates seats into a bracket as a buildable guardrail.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="15-the-full-integration" figure-number="05" figure-title="The compliance-theater gate: implementable, and detectable in absence" figure-slug="compliance-theater-gate" figure-type="two-gate filter schematic" priority="Supplementary" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/15-the-full-integration-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow-15-05" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+    <marker id="arrowGray-15-05" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#787878"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The compliance-theater gate: implementable, and detectable in absence</text>
+
+  <!-- candidate stack -->
+  <text x="120" y="130" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">candidate guardrail sentences</text>
+  <rect x="76" y="148" width="84" height="12" fill="#ADADAD"/>
+  <rect x="84" y="166" width="84" height="12" fill="#ADADAD"/>
+  <rect x="78" y="184" width="84" height="12" fill="#ADADAD"/>
+  <line x1="170" y1="178" x2="224" y2="178" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-15-05)"/>
+
+  <!-- gate 1: implementability -->
+  <text x="249" y="108" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">gate 1</text>
+  <text x="249" y="124" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">implementable?</text>
+  <line x1="240" y1="138" x2="240" y2="218" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="258" y1="138" x2="258" y2="218" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="249" y1="200" x2="332" y2="294" stroke="#787878" stroke-width="1" stroke-dasharray="3 3" marker-end="url(#arrowGray-15-05)"/>
+  <line x1="262" y1="178" x2="380" y2="178" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-15-05)"/>
+
+  <!-- gate 2: absence detectability -->
+  <text x="411" y="104" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">gate 2</text>
+  <text x="411" y="120" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">absence detectable?</text>
+  <polygon points="405,126 417,126 411,136" fill="#2a1a0e"/>
+  <line x1="402" y1="138" x2="402" y2="218" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="420" y1="138" x2="420" y2="218" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="411" y1="200" x2="356" y2="294" stroke="#787878" stroke-width="1" stroke-dasharray="3 3" marker-end="url(#arrowGray-15-05)"/>
+  <line x1="424" y1="178" x2="494" y2="178" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-15-05)"/>
+
+  <!-- the survivor, seated (single red category: the buildable guardrail) -->
+  <rect x="508" y="172" width="84" height="12" fill="#C8102E"/>
+  <path d="M 504 162 L 498 162 L 498 194 L 504 194" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <path d="M 596 162 L 602 162 L 602 194 L 596 194" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="550" y="216" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">a buildable guardrail —</text>
+  <text x="550" y="231" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">locked into the spec</text>
+
+  <!-- rework ring and return loop -->
+  <circle cx="344" cy="310" r="13" fill="none" stroke="#787878" stroke-width="2"/>
+  <text x="344" y="340" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">returned for rework</text>
+  <path d="M 330 314 C 240 336 124 306 96 208" fill="none" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrowGray-15-05)"/>
+  <text x="225" y="362" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">rework, not deletion — back to the Pattern Cards</text>
+
+  <text x="32" y="400" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Two questions separate a guardrail from a wish: can the sentence be implemented, and would its absence be detected?</text>
+</svg>

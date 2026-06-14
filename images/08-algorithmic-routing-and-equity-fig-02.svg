@@ -1,0 +1,71 @@
+<!-- AI for Learning Experience Design | Ch.8 Algorithmic Routing and Equity | Figure 2 | Five doors into the pipeline | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch8-fig2-title ch8-fig2-desc">
+  <title id="ch8-fig2-title">Five doors into the pipeline</title>
+  <desc id="ch8-fig2-desc">A five-stage processing pipeline — training data, proxy features, labels and measures, representation, deployment — with one bias entry arrow descending into every stage, a deployment-feedback return sweeping beneath the pipeline back to training data, and an output fork into two harm classes: allocative (square) and representational (triangle). No protected attribute is required at any door.</desc>
+  <metadata>
+    <cajal:figure chapter="08" number="2" file="08-algorithmic-routing-and-equity-fig-02.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="linear-pipeline-with-entry-arrows" rank="High" concept="Baker &amp; Hawn 2022 structural map: bias enters at every pipeline stage, feeding allocative and representational harms" source-status="taxonomy; entry points rendered with equal weight (editorial flattening — mechanisms and evidence bases differ)"/>
+  </metadata>
+  <defs>
+    <marker id="ch8f2-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+    <marker id="ch8f2-arrow-gray" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#787878"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Five doors into the pipeline</text>
+
+  <!-- entry band -->
+  <text x="350" y="104" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">bias enters at every stage — no protected attribute required</text>
+  <circle cx="114" cy="128" r="5" fill="#787878"/>
+  <circle cx="228" cy="128" r="5" fill="#787878"/>
+  <circle cx="342" cy="128" r="5" fill="#787878"/>
+  <circle cx="456" cy="128" r="5" fill="#787878"/>
+  <circle cx="570" cy="128" r="5" fill="#787878"/>
+  <line x1="114" y1="136" x2="114" y2="200" stroke="#787878" stroke-width="1.2" marker-end="url(#ch8f2-arrow-gray)"/>
+  <line x1="228" y1="136" x2="228" y2="200" stroke="#787878" stroke-width="1.2" marker-end="url(#ch8f2-arrow-gray)"/>
+  <line x1="342" y1="136" x2="342" y2="200" stroke="#787878" stroke-width="1.2" marker-end="url(#ch8f2-arrow-gray)"/>
+  <line x1="456" y1="136" x2="456" y2="200" stroke="#787878" stroke-width="1.2" marker-end="url(#ch8f2-arrow-gray)"/>
+  <line x1="570" y1="136" x2="570" y2="200" stroke="#787878" stroke-width="1.2" marker-end="url(#ch8f2-arrow-gray)"/>
+
+  <!-- pipeline stages -->
+  <rect x="64" y="208" width="100" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="114" y="234" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">training data</text>
+  <rect x="178" y="208" width="100" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="228" y="234" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">proxy features</text>
+  <rect x="292" y="208" width="100" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="342" y="228" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">labels &amp;</text>
+  <text x="342" y="242" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">measures</text>
+  <rect x="406" y="208" width="100" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="456" y="234" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">representation</text>
+  <rect x="520" y="208" width="100" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="570" y="234" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">deployment</text>
+
+  <!-- pipeline flow arrows -->
+  <line x1="164" y1="230" x2="174" y2="230" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f2-arrow)"/>
+  <line x1="278" y1="230" x2="288" y2="230" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f2-arrow)"/>
+  <line x1="392" y1="230" x2="402" y2="230" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f2-arrow)"/>
+  <line x1="506" y1="230" x2="516" y2="230" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f2-arrow)"/>
+
+  <!-- output fork to two harm glyphs -->
+  <line x1="620" y1="230" x2="640" y2="230" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="640" y1="230" x2="646" y2="216" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="640" y1="230" x2="646" y2="244" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="646" y="200" width="14" height="14" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <polygon points="646,262 660,262 653,248" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- harm key (inside the feedback loop's empty interior) -->
+  <rect x="252" y="312" width="12" height="12" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="274" y="322" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">allocative harms — resources and routes withheld</text>
+  <polygon points="252,352 264,352 258,341" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="274" y="350" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">representational harms — who the system says you are</text>
+
+  <!-- deployment feedback return -->
+  <path d="M570,252 L570,410 L114,410 L114,256" fill="none" stroke="#787878" stroke-width="1.2" marker-end="url(#ch8f2-arrow-gray)"/>
+  <text x="342" y="402" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">deployment feedback returns to the start of the pipeline</text>
+
+  <!-- caption -->
+  <text x="64" y="444" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Five independent doors into one pipeline (Baker &amp; Hawn 2022). The five entry arrows are drawn with equal weight;</text>
+  <text x="64" y="458" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the entry points differ in mechanism and evidence base. Everything flows — which is precisely the problem.</text>
+</svg>

@@ -1,0 +1,57 @@
+<!-- AI for Learning Experience Design | Ch.7 Adaptive Systems | Figure 5 | Distance from the classroom | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch7-fig5-title ch7-fig5-desc">
+  <title id="ch7-fig5-title">Distance from the classroom (ordinal — heights are rank, not magnitude)</title>
+  <desc id="ch7-fig5-desc">Four lollipop markers at descending ordinal heights above a zero baseline: controlled studies highest (solid, verified), year-two at scale lower (open, verify-flagged), WWC weighted barely above the line (open, verify-flagged), and year-one resting on the zero baseline (null). An arrow beneath marks increasing distance from controlled study to real deployment. Heights signal rank only; all numeric values live in the caption with their verification flags.</desc>
+  <metadata>
+    <cajal:figure chapter="07" number="5" file="07-adaptive-systems-fig-05.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="ordinal-descent-schematic" rank="Medium" concept="Efficacy-effectiveness gradient: effect estimates shrink as measurement approaches real deployment" source-status="ordinal rendering only; one verified value (Kulik &amp; Fletcher 2016), three verify-flagged values carried in caption"/>
+  </metadata>
+  <defs>
+    <marker id="ch7f5-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Distance from the classroom (ordinal — heights are rank, not magnitude)</text>
+
+  <!-- legend -->
+  <circle cx="428" cy="66" r="6" fill="#C8102E"/>
+  <text x="440" y="70" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">verified</text>
+  <circle cx="514" cy="66" r="6" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <text x="526" y="70" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">verify-flagged</text>
+
+  <!-- zero baseline -->
+  <line x1="64" y1="336" x2="636" y2="336" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="56" y="340" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">0</text>
+
+  <!-- lollipop 1: controlled studies (verified, solid) -->
+  <line x1="150" y1="336" x2="150" y2="137" stroke="#787878" stroke-width="1"/>
+  <circle cx="150" cy="128" r="9" fill="#C8102E"/>
+  <text x="150" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">controlled</text>
+  <text x="150" y="373" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">studies</text>
+
+  <!-- lollipop 2: year-two at scale (open) -->
+  <line x1="290" y1="336" x2="290" y2="217" stroke="#787878" stroke-width="1"/>
+  <circle cx="290" cy="208" r="9" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <text x="290" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">year-two</text>
+  <text x="290" y="373" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">at scale</text>
+
+  <!-- lollipop 3: WWC weighted (open, just above baseline) -->
+  <line x1="430" y1="336" x2="430" y2="309" stroke="#787878" stroke-width="1"/>
+  <circle cx="430" cy="300" r="9" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <text x="430" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">WWC</text>
+  <text x="430" y="373" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">weighted</text>
+
+  <!-- lollipop 4: year-one null, resting on the baseline -->
+  <circle cx="570" cy="327" r="9" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <text x="570" y="358" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">year-one</text>
+  <text x="570" y="373" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">(null)</text>
+
+  <!-- deployment-distance arrow -->
+  <text x="360" y="392" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">increasing distance from controlled study to real deployment</text>
+  <line x1="120" y1="402" x2="596" y2="402" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch7f5-arrow)"/>
+
+  <!-- caption -->
+  <text x="64" y="432" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Heights show rank order only — not magnitude. Caption values: controlled studies d &#8776; 0.66 (Kulik &amp; Fletcher 2016,</text>
+  <text x="64" y="446" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">verified; VanLehn's 0.76 [verify exact figure]) &#8594; year-two at scale &#8776; +0.20 [verify — RAND] &#8594; WWC weighted &#8776; +0.04</text>
+  <text x="64" y="460" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">[verify — partially confirmed] &#8594; year-one null. Open markers carry unresolved verification flags.</text>
+</svg>

@@ -1,0 +1,79 @@
+<!--
+  AI for Learning Experience Design — Chapter 15, Figure 03
+  Anatomy of a documented no: the declined-feature dossier
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+  The figure must end open: the reopen gate is drawn lifted — a closed gate would render the position as technophobia.
+-->
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-03">
+  <title id="fig-title-15-03">Anatomy of a documented no: the declined-feature dossier — 15-the-full-integration</title>
+  <desc>One dossier container, four strata: the steelman elevating the feature's genuine appeal; three evidence items each on an endpoint pedestal; a four-link harm pathway compounding from miscalibrated trust to a concentrated deficit; and an open reopen gate beside the measurement that would reverse the no. A solid octagon stamps the lower-left corner: declined.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="15-the-full-integration" figure-number="03" figure-title="Anatomy of a documented no: the declined-feature dossier" figure-slug="declined-feature-dossier" figure-type="nested anatomy schematic" priority="Important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/15-the-full-integration-cajal.md"/></metadata>
+  <defs><marker id="arrow-15-03" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Anatomy of a documented no: the declined-feature dossier</text>
+
+  <!-- dossier container -->
+  <rect x="180" y="64" width="340" height="380" rx="0" fill="#FFFFFF" stroke="#787878" stroke-width="1.2"/>
+  <line x1="180" y1="148" x2="520" y2="148" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="180" y1="244" x2="520" y2="244" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="180" y1="364" x2="520" y2="364" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- stratum 1: the steelman -->
+  <text x="350" y="86" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">1 &#183; the steelman — the feature's genuine appeal</text>
+  <circle cx="350" cy="104" r="5" fill="#2a1a0e"/>
+  <path d="M 336 124 L 350 112 L 364 124" fill="none" stroke="#787878" stroke-width="2"/>
+  <path d="M 336 136 L 350 124 L 364 136" fill="none" stroke="#787878" stroke-width="2"/>
+
+  <!-- stratum 2: evidence for declining -->
+  <text x="350" y="168" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">2 &#183; the evidence for declining, each with its endpoint type</text>
+  <g fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.2">
+    <rect x="269" y="184" width="22" height="22"/>
+    <rect x="339" y="184" width="22" height="22"/>
+    <rect x="409" y="184" width="22" height="22"/>
+  </g>
+  <g stroke="#787878" stroke-width="1">
+    <line x1="280" y1="206" x2="280" y2="216"/><line x1="272" y1="216" x2="288" y2="216"/>
+    <line x1="350" y1="206" x2="350" y2="216"/><line x1="342" y1="216" x2="358" y2="216"/>
+    <line x1="420" y1="206" x2="420" y2="216"/><line x1="412" y1="216" x2="428" y2="216"/>
+  </g>
+
+  <!-- stratum 3: the harm pathway, compounding -->
+  <text x="350" y="264" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">3 &#183; the harm pathway — compounding</text>
+  <circle cx="240" cy="312" r="6" fill="#2a1a0e"/>
+  <circle cx="308" cy="312" r="9" fill="#2a1a0e"/>
+  <circle cx="382" cy="312" r="13" fill="#2a1a0e"/>
+  <circle cx="462" cy="312" r="18" fill="#2a1a0e"/>
+  <g stroke="#2a1a0e" stroke-width="1.2">
+    <line x1="248" y1="312" x2="293" y2="312" marker-end="url(#arrow-15-03)"/>
+    <line x1="319" y1="312" x2="363" y2="312" marker-end="url(#arrow-15-03)"/>
+    <line x1="397" y1="312" x2="438" y2="312" marker-end="url(#arrow-15-03)"/>
+  </g>
+  <g text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">
+    <text x="240" y="346">miscalibrated</text>
+    <text x="240" y="357">trust</text>
+    <text x="308" y="346">reduced</text>
+    <text x="308" y="357">verification</text>
+    <text x="382" y="346">flattened</text>
+    <text x="382" y="357">reliance curve</text>
+    <text x="462" y="346">concentrated</text>
+    <text x="462" y="357">deficit</text>
+  </g>
+
+  <!-- stratum 4: the reopen condition (single red category: the live, falsifiable element) -->
+  <text x="350" y="384" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">4 &#183; the reopen condition — the study that would reverse the no</text>
+  <line x1="300" y1="398" x2="300" y2="436" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="340" y1="398" x2="340" y2="436" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="300" y1="428" x2="342" y2="402" stroke="#C8102E" stroke-width="2.5"/>
+  <polygon points="400,399 409,408 400,417 391,408" fill="#C8102E"/>
+  <line x1="400" y1="417" x2="400" y2="436" stroke="#C8102E" stroke-width="2"/>
+  <line x1="391" y1="436" x2="409" y2="436" stroke="#C8102E" stroke-width="2"/>
+  <text x="430" y="414" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">gate open =</text>
+  <text x="430" y="425" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">falsifiable</text>
+
+  <!-- the decline stamp, sealing the lower-left corner -->
+  <polygon points="204.8,454.1 196.1,462.8 183.9,462.8 175.2,454.1 175.2,441.9 183.9,433.2 196.1,433.2 204.8,441.9" fill="#2a1a0e"/>
+  <text x="214" y="452" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">declined</text>
+
+  <text x="32" y="494" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The dossier form is the chapter's claim; it ends open — the reopen condition is what separates a position from a mood.</text>
+  <text x="32" y="512" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Evidence flags: Bhat &amp; Long (AIES 2025) contested, pending primary-source check; Common Sense figures unverified.</text>
+</svg>

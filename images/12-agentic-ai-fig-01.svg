@@ -1,0 +1,63 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch12 fig-01 · The Authority Ladder: Autonomy, Visibility, and the Ceiling · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 480" role="img" aria-labelledby="ch12-fig01-title ch12-fig01-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch12-fig01-title">The Authority Ladder: Autonomy, Visibility, and the Ceiling</title>
+  <desc id="ch12-fig01-desc">Conceptual field of agent autonomy (rightward) against human visibility at the moment of action (upward). Four authority levels step down the diagonal: L0 suggest, L1 act with approval, L2 act and notify. The L3 act-silently corner is a dashed hollow square barred by an inhibition mark — presumptively forbidden for learner-differentiated actions. A hatched ceiling band on the right half marks where stakes and reversibility stop high-stakes action types.</desc>
+  <metadata>
+    <cajal:figure chapter="12" figure="1" slug="authority-ladder-field" type="positioned-levels-field" rank="critical" class="VG" concept="L0-L3 authority ladder on autonomy-visibility field; stakes-reversibility ceiling; L3 blocked" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <pattern id="ch12f01-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#FFFFFF"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#787878" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 12.1 · The authority ladder: autonomy, visibility, and the ceiling</text>
+
+  <!-- field (conceptual space: no ticks, no axis furniture) -->
+  <rect x="150" y="60" width="470" height="264" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- step connectors (positions, not flow) -->
+  <path d="M 235 132 V 172 H 261" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <path d="M 340 196 V 236 H 366" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <path d="M 445 260 V 294 H 466" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <!-- inhibition bar: the descent into L3 is refused -->
+  <line x1="456" y1="282" x2="456" y2="306" stroke="#2a1a0e" stroke-width="2.5"/>
+
+  <!-- ceiling band (right half only): structural hatching, hairline edges -->
+  <rect x="360" y="200" width="260" height="10" fill="url(#ch12f01-hatch)" stroke="#545454" stroke-width="0.75"/>
+
+  <!-- levels -->
+  <rect x="170" y="84" width="130" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="235" y="104" font-size="12" fill="#2a1a0e" text-anchor="middle">L0 · SUGGEST</text>
+  <text x="235" y="122" font-size="11" fill="#545454" text-anchor="middle">a voice, no hands</text>
+
+  <rect x="265" y="148" width="150" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="340" y="168" font-size="12" fill="#2a1a0e" text-anchor="middle">L1 · ACT WITH APPROVAL</text>
+  <text x="340" y="186" font-size="11" fill="#545454" text-anchor="middle">a human approves first</text>
+
+  <rect x="370" y="212" width="150" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="445" y="232" font-size="12" fill="#2a1a0e" text-anchor="middle">L2 · ACT AND NOTIFY</text>
+  <text x="445" y="250" font-size="11" fill="#545454" text-anchor="middle">visible, undoable</text>
+
+  <!-- L3: a place on the field that exists and is refused (structural void) -->
+  <rect x="470" y="270" width="150" height="48" fill="#FFFFFF" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="545" y="290" font-size="12" fill="#787878" text-anchor="middle">L3 · ACT SILENTLY</text>
+  <text x="545" y="308" font-size="11" fill="#787878" text-anchor="middle">RULE 3 — forbidden by default</text>
+
+  <!-- ceiling annotation with leader -->
+  <text x="160" y="292" font-size="11" fill="#545454">RULE 2 — stakes × reversibility set the ceiling:</text>
+  <text x="160" y="308" font-size="11" fill="#545454">high-stakes action types stop at L1</text>
+  <line x1="340" y1="276" x2="366" y2="208" stroke="#ADADAD" stroke-width="0.75"/>
+
+  <!-- margin labels -->
+  <text x="385" y="344" font-size="11" fill="#545454" text-anchor="middle">AGENT AUTONOMY →</text>
+  <text x="134" y="192" font-size="11" fill="#545454" text-anchor="middle" transform="rotate(-90 134 192)">HUMAN VISIBILITY AT THE MOMENT OF ACTION →</text>
+
+  <!-- caption -->
+  <text x="64" y="380" font-size="11" fill="#545454">The book's adaptation of Sheridan &amp; Verplanck (1978) and Parasuraman, Sheridan &amp; Wickens (2000) — a design</text>
+  <text x="64" y="396" font-size="11" fill="#545454">tool with lineage, not a measured taxonomy of educational outcomes. Levels are assigned per action type, never</text>
+  <text x="64" y="412" font-size="11" fill="#545454">per system. The dashed L3 corner is presumptively forbidden for learner-differentiated actions; the narrow</text>
+  <text x="64" y="428" font-size="11" fill="#545454">infrastructural carve-out (e.g., cache warming) is deliberately not drawn.</text>
+  <text x="64" y="452" font-size="10" fill="#787878" letter-spacing="0.5">AFTER SHERIDAN–VERPLANCK (1978) AND PARASURAMAN–SHERIDAN–WICKENS (2000), ADAPTED · CH. 12</text>
+</svg>

@@ -1,0 +1,62 @@
+<!--
+  AI for Learning Experience Design — Chapter 13, Figure 01
+  Appropriate reliance has two axes: correctness × objective
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-13-01">
+  <title id="fig-title-13-01">Appropriate reliance has two axes: correctness × objective — 13-ai-literacy-developmental-calibration</title>
+  <desc>A 2×2 quadrant: AI correctness across the top, learning-objective indexation down the side. Three quadrants resolve cleanly; the hazard cell — the AI is correct but the objective required unassisted practice — carries the only emphasis. The vertical axis is the book's own synthesis.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="13-ai-literacy-developmental-calibration" figure-number="01" figure-title="Appropriate reliance has two axes: correctness × objective" figure-slug="appropriate-reliance-quadrant" figure-type="quadrant diagram" priority="Critical" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/13-ai-literacy-developmental-calibration-cajal.md"/></metadata>
+  <defs><marker id="arrow-13-01" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Appropriate reliance has two axes: correctness &#215; objective</text>
+
+  <!-- column headers (horizontal axis: AI correctness) -->
+  <text x="300" y="84" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">AI is correct</text>
+  <text x="480" y="84" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">AI is incorrect</text>
+
+  <!-- quadrant field -->
+  <rect x="210" y="96" width="360" height="260" rx="0" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="390" y1="96" x2="390" y2="356" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="210" y1="226" x2="570" y2="226" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- hazard quadrant: bottom-left, the only emphasis -->
+  <rect x="210" y="226" width="180" height="130" rx="0" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- vertical axis: the book's added dimension (single red category) -->
+  <line x1="205" y1="96" x2="205" y2="356" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="200" y="156" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">objective warrants</text>
+  <text x="200" y="171" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">assistance</text>
+  <text x="200" y="286" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">objective requires</text>
+  <text x="200" y="301" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">unassisted practice</text>
+  <text x="210" y="376" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">vertical axis — the book's own synthesis</text>
+
+  <!-- TL: accept, appropriately -->
+  <circle cx="300" cy="128" r="7" fill="#2a1a0e"/>
+  <line x1="309" y1="128" x2="332" y2="128" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-13-01)"/>
+  <text x="300" y="156" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">accept</text>
+  <text x="300" y="172" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">appropriate reliance —</text>
+  <text x="300" y="186" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">assistance serves the objective</text>
+
+  <!-- TR: decline (AI wrong); failure here is over-reliance -->
+  <circle cx="480" cy="128" r="7" fill="none" stroke="#787878" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text x="480" y="156" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">decline</text>
+  <text x="480" y="172" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the AI is wrong; accepting it</text>
+  <text x="480" y="186" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">is over-reliance</text>
+
+  <!-- BL: the signature hazard -->
+  <circle cx="300" cy="258" r="7" fill="#787878"/>
+  <line x1="288" y1="270" x2="312" y2="246" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="300" y="290" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">decline</text>
+  <text x="300" y="306" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the answer is right —</text>
+  <text x="300" y="320" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the struggle was the point</text>
+  <text x="300" y="340" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">the signature hazard</text>
+
+  <!-- BR: decline, doubly warranted -->
+  <polygon points="487.4,261.1 483.1,265.4 476.9,265.4 472.6,261.1 472.6,254.9 476.9,250.6 483.1,250.6 487.4,254.9" fill="none" stroke="#787878" stroke-width="1.5"/>
+  <text x="480" y="290" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">decline</text>
+  <text x="480" y="306" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">wrong on both axes</text>
+
+  <text x="32" y="440" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Only the two-axis view exposes the hazard cell: accepting a correct answer is the wrong move when struggle was the point.</text>
+  <text x="32" y="458" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The vertical axis — reliance indexed to the learning objective — is this book's synthesis, not an established construct.</text>
+</svg>

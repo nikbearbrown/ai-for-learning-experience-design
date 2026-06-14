@@ -1,0 +1,58 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch11 fig-03 · The Single-Click Escape Hatch: Five Requirements · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 540" role="img" aria-labelledby="ch11-fig03-title ch11-fig03-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch11-fig03-title">The Single-Click Escape Hatch: Five Requirements</title>
+  <desc id="ch11-fig03-desc">Hub-and-requirements schematic: a central red escape-hatch node with an open-doorway glyph, surrounded by five requirement stations at pentagon spacing — visible, one action, functional, never penalized, logged — joined to the hub by plain lines, not arrows. Below, set apart, a dashed hollow doorway marks the unstaffed hatch counter-example.</desc>
+  <metadata>
+    <cajal:figure chapter="11" figure="3" slug="escape-hatch-five-requirements" type="hub-spec-schematic" rank="high" class="VG" concept="Five non-negotiable requirements of the single-click escape hatch; unstaffed hatch counter-example" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <marker id="ch11f03-arrow-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#FFFFFF"/></marker>
+  </defs>
+  <rect width="700" height="540" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 11.3 · The single-click escape hatch: five requirements</text>
+
+  <!-- connector lines (requirements, not flows) -->
+  <line x1="362" y1="232" x2="362" y2="92" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="362" y1="232" x2="495" y2="189" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="362" y1="232" x2="444" y2="345" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="362" y1="232" x2="280" y2="345" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="362" y1="232" x2="229" y2="189" stroke="#ADADAD" stroke-width="1"/>
+
+  <!-- five requirement satellites -->
+  <rect x="292" y="68" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="362" y="88" font-size="12" fill="#2a1a0e" text-anchor="middle">VISIBLE</text>
+  <text x="362" y="106" font-size="11" fill="#545454" text-anchor="middle">at every touchpoint</text>
+
+  <rect x="425" y="165" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="495" y="185" font-size="12" fill="#2a1a0e" text-anchor="middle">ONE ACTION</text>
+  <text x="495" y="203" font-size="11" fill="#545454" text-anchor="middle">a single click</text>
+
+  <rect x="374" y="321" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="444" y="341" font-size="12" fill="#2a1a0e" text-anchor="middle">FUNCTIONAL</text>
+  <text x="444" y="359" font-size="11" fill="#545454" text-anchor="middle">staffed queue, response time</text>
+
+  <rect x="210" y="321" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="280" y="341" font-size="12" fill="#2a1a0e" text-anchor="middle">NEVER PENALIZED</text>
+  <text x="280" y="359" font-size="11" fill="#545454" text-anchor="middle">no cost to using it</text>
+
+  <rect x="159" y="165" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="229" y="185" font-size="12" fill="#2a1a0e" text-anchor="middle">LOGGED</text>
+  <text x="229" y="203" font-size="11" fill="#545454" text-anchor="middle">an evaluation metric</text>
+
+  <!-- central hatch: the single red category (the working exit) -->
+  <rect x="314" y="184" width="96" height="96" fill="#C8102E"/>
+  <path d="M 376 202 H 342 V 246 H 376" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="356" y1="224" x2="384" y2="224" stroke="#FFFFFF" stroke-width="1.5" marker-end="url(#ch11f03-arrow-white)"/>
+  <text x="362" y="270" font-size="11" fill="#FFFFFF" text-anchor="middle">ESCAPE HATCH</text>
+
+  <!-- counter-example: the unstaffed hatch (structural: dashed, isolated) -->
+  <rect x="200" y="396" width="36" height="48" fill="none" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="252" y="416" font-size="11" fill="#545454">the unstaffed hatch — worse than none:</text>
+  <text x="252" y="432" font-size="11" fill="#545454">it teaches learners the exit is fake</text>
+
+  <!-- caption -->
+  <text x="64" y="472" font-size="11" fill="#545454">The fire-exit standard: the hatch is measured by findability in the bad moment. All five requirements are the</text>
+  <text x="64" y="488" font-size="11" fill="#545454">chapter's explicit spec — the connections are structural, not sequential. The dashed hatch below the ring fails</text>
+  <text x="64" y="504" font-size="11" fill="#545454">the spec: an unstaffed escape hatch is worse than none.</text>
+  <text x="64" y="526" font-size="10" fill="#787878" letter-spacing="0.5">ESCAPE-HATCH SPEC, CH. 11 · HONORS AUTHOR DIAGRAM PLACEHOLDER</text>
+</svg>

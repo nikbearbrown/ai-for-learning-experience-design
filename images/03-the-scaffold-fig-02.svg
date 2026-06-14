@@ -1,0 +1,67 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 03-the-scaffold · figure 02 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-the-scaffold-02">
+  <title id="fig-title-03-the-scaffold-02">Three Positive Findings, Three Different Endpoints — 03-the-scaffold</title>
+  <desc>Small-multiple dot plots, one per study, zero-anchored, not on a common scale. GPT Tutor: assisted +127%, unassisted parity, transfer not measured. LearnLM × Eedi: immediate parity, transfer +5.5 pp (the only transfer result, highlighted). Tutor CoPilot: unassisted +4 pp, +9 pp lowest-rated-tutor subgroup (ring marker).</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="03-the-scaffold" figure-number="02" figure-title="Three Positive Findings, Three Different Endpoints" figure-slug="three-findings-endpoints" figure-type="statistical-quantitative" priority="critical" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/03-the-scaffold-cajal.md"/>
+  </metadata>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Three Positive Findings, Three Different Endpoints</text>
+
+  <!-- Panel 1: GPT Tutor -->
+  <text x="32" y="70" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">GPT Tutor — constrain the AI</text>
+  <rect x="176" y="76" width="460" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="200" y1="76" x2="200" y2="172" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="200" y="186" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454" text-anchor="middle">0</text>
+  <text x="168" y="100" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Assisted</text>
+  <circle cx="580" cy="96" r="6" fill="#2a1a0e"/>
+  <text x="592" y="100" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+127%</text>
+  <text x="168" y="130" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Unassisted / immediate</text>
+  <line x1="186" y1="126" x2="214" y2="126" stroke="#787878" stroke-width="1"/>
+  <circle cx="200" cy="126" r="6" fill="#787878"/>
+  <text x="222" y="130" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">parity (n.s.)</text>
+  <text x="168" y="160" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Transfer</text>
+  <line x1="236" y1="156" x2="252" y2="156" stroke="#ADADAD" stroke-width="2"/>
+  <text x="262" y="160" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">not measured</text>
+
+  <!-- Panel 2: LearnLM × Eedi -->
+  <text x="32" y="190" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">LearnLM × Eedi — supervise the AI</text>
+  <rect x="176" y="196" width="460" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="200" y1="196" x2="200" y2="292" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="200" y="306" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454" text-anchor="middle">0</text>
+  <text x="168" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Assisted</text>
+  <line x1="236" y1="216" x2="252" y2="216" stroke="#ADADAD" stroke-width="2"/>
+  <text x="262" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">not applicable</text>
+  <text x="168" y="250" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Unassisted / immediate</text>
+  <line x1="186" y1="246" x2="214" y2="246" stroke="#787878" stroke-width="1"/>
+  <circle cx="200" cy="246" r="6" fill="#787878"/>
+  <text x="222" y="250" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">parity (n.s.)</text>
+  <text x="168" y="280" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Transfer</text>
+  <circle cx="560" cy="276" r="6" fill="#C8102E"/>
+  <text x="574" y="280" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+5.5 pp</text>
+
+  <!-- Panel 3: Tutor CoPilot -->
+  <text x="32" y="310" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">Tutor CoPilot — support the human</text>
+  <rect x="176" y="316" width="460" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="200" y1="316" x2="200" y2="412" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="200" y="426" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454" text-anchor="middle">0</text>
+  <text x="168" y="340" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Assisted</text>
+  <line x1="236" y1="336" x2="252" y2="336" stroke="#ADADAD" stroke-width="2"/>
+  <text x="262" y="340" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">not measured</text>
+  <text x="168" y="370" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Unassisted / immediate</text>
+  <circle cx="360" cy="366" r="6" fill="#2a1a0e"/>
+  <text x="374" y="370" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+4 pp</text>
+  <circle cx="560" cy="366" r="6" fill="#2a1a0e"/>
+  <circle cx="560" cy="366" r="10" fill="none" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="576" y="362" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+9 pp</text>
+  <text x="576" y="376" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#545454">(subgroup)</text>
+  <text x="168" y="400" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="end">Transfer</text>
+  <line x1="236" y1="396" x2="252" y2="396" stroke="#ADADAD" stroke-width="2"/>
+  <text x="262" y="400" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">not measured</text>
+
+  <!-- Caption -->
+  <text x="32" y="452" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Panels are not on a common scale; units differ across studies (percent improvement vs. percentage points).</text>
+  <text x="32" y="468" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Red: the one transfer result in the set. Parity dots sit on zero with whiskers; dashes mark endpoints not measured — absence, not null effect.</text>
+  <text x="32" y="484" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">LearnLM × Eedi: exploratory RCT, industry-published. Tutor CoPilot: +9 pp is the lowest-rated-tutor subgroup; ns [verify].</text>
+  <text x="32" y="510" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCES: BASTANI ET AL. 2025 · PNAS — GOOGLE × EEDI 2024 — WANG ET AL. 2024 · ARXIV:2410.03017</text>
+</svg>

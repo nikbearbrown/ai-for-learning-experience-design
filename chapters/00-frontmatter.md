@@ -59,3 +59,5 @@ ISBN: [INSERT ISBN]
      - Any biographical context that establishes credibility
      - Brief acknowledgment of what the book does NOT cover
 -->
+
+<!-- FACT-CHECK (2026-06-07): front matter contains template placeholders only — no factual assertions to verify; no References section required. See factchecks/00-frontmatter-assertions.md -->

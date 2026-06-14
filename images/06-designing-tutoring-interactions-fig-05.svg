@@ -1,0 +1,68 @@
+<!-- AI for Learning Experience Design · Chapter 6 · Figure 5 — Escalation: Four Triggers, One Human · 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch6-fig05-title ch6-fig05-desc">
+  <title id="ch6-fig05-title">Escalation: Four Triggers, One Human, A Designed Handoff</title>
+  <desc id="ch6-fig05-desc">Four trigger families — repeated failure after the deepest hint, affective distress, boundary conditions, and direct learner request — converge as distinct arrows on an escalation router, which hands off along one heavy arrow to a single human node. A document glyph rides the handoff arrow showing context traveling with it, and a thin return arc ends at a clock face: the learner is told and the wait is bounded.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="6" figure-number="5" title="Escalation: Four Triggers, One Human, A Designed Handoff" slug="escalation-four-triggers" type="convergent-routing-schematic" priority="important" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/06-designing-tutoring-interactions-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+  </style>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">Escalation: Four Triggers, One Human, A Designed Handoff</text>
+
+  <!-- trigger families (separately specified, never pooled) -->
+  <rect x="64" y="64" width="216" height="38" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="72" y="80">repeated failure</text>
+  <text class="s" x="72" y="95">same misconception after deepest hint</text>
+
+  <rect x="64" y="116" width="216" height="38" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="72" y="132">affective distress</text>
+  <text class="s" x="72" y="147">&#8220;I give up&#8221; &#8212; never another hint</text>
+
+  <rect x="64" y="168" width="216" height="38" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="72" y="184">boundary condition</text>
+  <text class="s" x="72" y="199">graded work, privacy, out-of-scope</text>
+
+  <rect x="64" y="220" width="216" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text class="l" x="72" y="239">learner request</text>
+  <text class="s" x="72" y="255">always visible, one click away &#8212; learner-initiated</text>
+
+  <!-- convergence: distinct arrows to the router -->
+  <line x1="280" y1="83" x2="350" y2="148" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="280" y1="135" x2="336" y2="156" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="280" y1="187" x2="336" y2="172" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="280" y1="242" x2="350" y2="182" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- router -->
+  <polygon points="372 134, 412 164, 372 194, 332 164" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="s" x="372" y="212" text-anchor="middle">escalation router</text>
+
+  <!-- handoff with context -->
+  <line x1="412" y1="164" x2="526" y2="164" stroke="#2a1a0e" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M452 124 L470 124 L478 132 L478 154 L452 154 Z" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <path d="M470 124 L470 132 L478 132" fill="none" stroke="#787878" stroke-width="1"/>
+  <line x1="458" y1="140" x2="472" y2="140" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="458" y1="147" x2="472" y2="147" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="s" x="480" y="112" text-anchor="middle">context travels with the handoff</text>
+
+  <!-- the human -->
+  <circle cx="560" cy="164" r="28" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text class="l" x="560" y="210" text-anchor="middle">a human</text>
+  <text class="s" x="560" y="225" text-anchor="middle">the resolving capacity</text>
+
+  <!-- learner-side experience: told, bounded wait -->
+  <path d="M548 190 C500 260, 440 290, 380 298" fill="none" stroke="#2a1a0e" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <circle cx="360" cy="300" r="14" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <path d="M360 300 L360 288 A12 12 0 0 1 369 295 Z" fill="#D4D4D4"/>
+  <line x1="360" y1="300" x2="360" y2="288" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="360" y1="300" x2="369" y2="295" stroke="#2a1a0e" stroke-width="1"/>
+  <text class="s" x="360" y="334" text-anchor="middle">the learner is told; the wait is bounded</text>
+
+  <text class="s" x="32" y="376">Four trigger families, separately specified, converge on one designed handoff: the learner is told, the human receives the</text>
+  <text class="s" x="32" y="391">interaction summary, and the wait is bounded. Escalation is a route, not a block &#8212; boundary cases decline and route;</text>
+  <text class="s" x="32" y="406">distress routes warmly, never to another hint. No arrow returns from the human to more AI hints.</text>
+</svg>

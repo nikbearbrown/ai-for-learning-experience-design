@@ -1,0 +1,65 @@
+<!-- AI for Learning Experience Design | Ch.8 Algorithmic Routing and Equity | Figure 4 | Same start, different diets | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch8-fig4-title ch8-fig4-desc">
+  <title id="ch8-fig4-title">Same start, different diets</title>
+  <desc id="ch8-fig4-desc">Zero-anchored divergence chart over six weeks: two learners begin at one shared origin (identical 62 percent diagnostic). Learner A's share of higher-order tasks climbs to 40 percent by week six; Learner B's declines to 8 percent, bending downward at three fork events — week two (session break scored as failures), week three (latency spike trips the classifier), week four (remediation exit keyed to its own estimate). Values are an illustrative worked case, not empirical data.</desc>
+  <metadata>
+    <cajal:figure chapter="08" number="4" file="08-algorithmic-routing-and-equity-fig-04.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="zero-anchored-two-line-divergence" rank="High" concept="Task-diet divergence: identical diagnostic, 40% vs. 8% higher-order share by week six" source-status="illustrative worked-case values (DataWise 101 fiction); weekly intermediates interpolated"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Same start, different diets</text>
+  <text x="64" y="68" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">share of higher-order tasks (%)</text>
+
+  <!-- plot region -->
+  <rect x="64" y="80" width="556" height="256" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- zero-anchored axes -->
+  <line x1="64" y1="80" x2="64" y2="336" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="64" y1="336" x2="620" y2="336" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="56" y="340" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">0</text>
+  <text x="56" y="289" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">10</text>
+  <text x="56" y="238" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">20</text>
+  <text x="56" y="186" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">30</text>
+  <text x="56" y="135" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">40</text>
+  <text x="56" y="84" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">50</text>
+
+  <!-- week labels -->
+  <text x="120" y="354" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">wk 1</text>
+  <text x="212" y="354" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">wk 2</text>
+  <text x="304" y="354" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">wk 3</text>
+  <text x="396" y="354" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">wk 4</text>
+  <text x="488" y="354" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">wk 5</text>
+  <text x="580" y="354" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">wk 6</text>
+
+  <!-- shared-origin annotation -->
+  <text x="84" y="160" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">identical 62% diagnostic</text>
+  <line x1="118" y1="168" x2="119" y2="205" stroke="#ADADAD" stroke-width="0.75"/>
+
+  <!-- Learner A trajectory -->
+  <polyline points="120,213 212,198 304,182 396,164 488,147 580,131" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <!-- Learner B trajectory -->
+  <polyline points="120,213 212,228 304,254 396,280 488,287 580,295" fill="none" stroke="#787878" stroke-width="1.5"/>
+
+  <!-- shared origin and terminals -->
+  <circle cx="120" cy="213" r="5" fill="#2a1a0e"/>
+  <circle cx="580" cy="131" r="4" fill="#2a1a0e"/>
+  <circle cx="580" cy="295" r="4" fill="#787878"/>
+
+  <!-- fork-event diamonds (hollow, structural) -->
+  <polygon points="212,222 218,228 212,234 206,228" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <polygon points="304,248 310,254 304,260 298,254" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <polygon points="396,274 402,280 396,286 390,280" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="224" y="236" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">1</text>
+  <text x="316" y="262" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">2</text>
+  <text x="408" y="288" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">3</text>
+
+  <!-- terminal labels -->
+  <text x="612" y="116" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">Learner A — 40%</text>
+  <text x="612" y="316" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">Learner B — 8%</text>
+
+  <!-- fork key -->
+  <text x="64" y="372" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">1 &#183; session break scored as failures&#160;&#160;&#160;&#160;2 &#183; latency spike trips the classifier&#160;&#160;&#160;&#160;3 &#183; remediation exit keyed to its own estimate</text>
+
+  <!-- caption -->
+  <text x="64" y="392" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Illustrative worked case (DataWise 101) — not empirical data. Two learners enter at the identical 62% diagnostic; by</text>
+  <text x="64" y="406" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">week six one receives 40% higher-order tasks, the other 8%. Weekly values between the stated endpoints are interpolated.</text>
+</svg>

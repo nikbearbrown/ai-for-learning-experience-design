@@ -1,0 +1,66 @@
+<!-- AI for Learning Experience Design | Ch.8 Algorithmic Routing and Equity | Figure 1 | The loop with no exit | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch8-fig1-title ch8-fig1-desc">
+  <title id="ch8-fig1-title">The loop with no exit</title>
+  <desc id="ch8-fig1-desc">A six-node clockwise cycle: income-correlated connectivity (entry condition, open outline) feeds latency and session breaks, which the model reads as struggle, which assigns remedial drill, which displaces higher-order work, which depresses next-unit scores, which feeds back around the ring. The single off-ramp toward grade-level work is stopped by a perpendicular block bar because the exit is keyed to the loop's own depressed estimate. The hub is deliberately empty: no villain at the center.</desc>
+  <metadata>
+    <cajal:figure chapter="08" number="1" file="08-algorithmic-routing-and-equity-fig-01.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="closed-cycle-mechanism-diagram" rank="Critical" concept="Proxy-driven remedial feedback loop with the off-ramp failure mode as a blocked exit" source-status="conceptual mechanism; no quantities depicted"/>
+  </metadata>
+  <defs>
+    <marker id="ch8f1-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The loop with no exit</text>
+
+  <!-- ring arrows (clockwise) -->
+  <line x1="168" y1="226" x2="200" y2="164" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f1-arrow)"/>
+  <line x1="286" y1="136" x2="324" y2="136" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f1-arrow)"/>
+  <line x1="442" y1="162" x2="474" y2="222" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f1-arrow)"/>
+  <line x1="470" y1="276" x2="438" y2="336" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f1-arrow)"/>
+  <line x1="330" y1="364" x2="292" y2="364" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f1-arrow)"/>
+  <line x1="172" y1="338" x2="140" y2="278" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch8f1-arrow)"/>
+
+  <!-- N1 entry condition: open outline, outside the system proper -->
+  <rect x="64" y="228" width="128" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="128" y="246" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">income-correlated</text>
+  <text x="128" y="261" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">connectivity</text>
+
+  <!-- N2 signal -->
+  <rect x="158" y="114" width="128" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="222" y="132" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">latency &amp;</text>
+  <text x="222" y="147" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">session breaks</text>
+
+  <!-- N3 interpretation -->
+  <rect x="330" y="114" width="128" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="394" y="132" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">model reads</text>
+  <text x="394" y="147" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">&#8220;struggle&#8221;</text>
+
+  <!-- N4 routing -->
+  <rect x="424" y="228" width="128" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="488" y="246" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">remedial drill</text>
+  <text x="488" y="261" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">assigned</text>
+
+  <!-- N5 displacement -->
+  <rect x="330" y="342" width="128" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="394" y="360" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">higher-order</text>
+  <text x="394" y="375" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">work displaced</text>
+
+  <!-- N6 confirmation -->
+  <rect x="158" y="342" width="128" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="222" y="360" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">next-unit scores</text>
+  <text x="222" y="375" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">depressed</text>
+
+  <!-- blocked exit: off-ramp stopped by a perpendicular bar -->
+  <line x1="552" y1="250" x2="582" y2="250" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="586" y1="236" x2="586" y2="264" stroke="#2a1a0e" stroke-width="2.5"/>
+  <circle cx="628" cy="250" r="15" fill="#FFFFFF" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="626" y="288" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">grade-level</text>
+  <text x="626" y="302" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">work</text>
+  <text x="560" y="322" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">off-ramp keyed to the</text>
+  <text x="560" y="336" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">loop's own estimate</text>
+
+  <!-- caption -->
+  <text x="64" y="444" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Every node is locally defensible; the injustice is a property of the cycle. No demographic field exists anywhere in the</text>
+  <text x="64" y="458" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">system, and the one exit — the off-ramp — is keyed to the loop's own depressed estimate, so it never opens.</text>
+</svg>

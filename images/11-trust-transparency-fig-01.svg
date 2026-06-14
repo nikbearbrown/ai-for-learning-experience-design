@@ -1,0 +1,74 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch11 fig-01 · Every Cue Is a Claim · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 480" role="img" aria-labelledby="ch11-fig01-title ch11-fig01-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch11-fig01-title">Every Cue Is a Claim</title>
+  <desc id="ch11-fig01-desc">Two parallel left-to-right chains. Upper chain: a design cue implies an inner-state claim, the learner forms a sincere belief, and an inhibition bar separates that belief from its referent, which does not exist. Lower chain: an honest signal makes a true claim and produces a calibrated belief that lands on a real referent, marked in red.</desc>
+  <metadata>
+    <cajal:figure chapter="11" figure="1" slug="cue-claim-belief-referent" type="two-path-mechanism" rank="critical" class="MC" concept="Affective misinformation: cue makes claim, belief forms, referent absent; honest-signal path parallel" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <marker id="ch11f01-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2a1a0e"/></marker>
+    <marker id="ch11f01-arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#787878"/></marker>
+  </defs>
+  <rect width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 11.1 · Every cue is a claim</text>
+
+  <!-- upper chain: anthropomorphic cue path -->
+  <text x="64" y="66" font-size="11" fill="#545454">ANTHROPOMORPHIC CUE PATH — affective misinformation</text>
+
+  <rect x="64" y="80" width="124" height="44" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="126" y="106" font-size="12" fill="#2a1a0e" text-anchor="middle">DESIGN CUE</text>
+  <text x="126" y="142" font-size="11" fill="#787878" text-anchor="middle">typing dots · memory talk</text>
+
+  <rect x="221" y="80" width="124" height="44" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="283" y="106" font-size="12" fill="#2a1a0e" text-anchor="middle">IMPLIED CLAIM</text>
+  <text x="283" y="142" font-size="11" fill="#787878" text-anchor="middle">"I feel · I remember"</text>
+
+  <rect x="378" y="80" width="124" height="44" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="440" y="106" font-size="12" fill="#2a1a0e" text-anchor="middle">LEARNER BELIEF</text>
+  <text x="440" y="142" font-size="11" fill="#787878" text-anchor="middle">sincerely formed</text>
+
+  <rect x="535" y="80" width="124" height="44" fill="#FFFFFF" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="597" y="106" font-size="12" fill="#787878" text-anchor="middle">REFERENT: NONE</text>
+  <text x="597" y="142" font-size="11" fill="#787878" text-anchor="middle">no inner state exists</text>
+
+  <line x1="190" y1="102" x2="217" y2="102" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch11f01-arrow)"/>
+  <line x1="347" y1="102" x2="374" y2="102" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch11f01-arrow)"/>
+  <!-- inhibition bar: the belief points at nothing -->
+  <line x1="504" y1="102" x2="512" y2="102" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="518" y1="84" x2="518" y2="120" stroke="#2a1a0e" stroke-width="2.5"/>
+  <line x1="524" y1="102" x2="531" y2="102" stroke="#787878" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ch11f01-arrow-gray)"/>
+  <text x="518" y="172" font-size="11" fill="#545454" text-anchor="middle">the belief points at nothing</text>
+
+  <!-- divider -->
+  <line x1="64" y1="196" x2="660" y2="196" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- lower chain: honest-signal path -->
+  <text x="64" y="222" font-size="11" fill="#545454">HONEST-SIGNAL PATH — the design pattern</text>
+
+  <rect x="64" y="236" width="124" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="126" y="262" font-size="12" fill="#2a1a0e" text-anchor="middle">HONEST SIGNAL</text>
+  <text x="126" y="298" font-size="11" fill="#787878" text-anchor="middle">visible log · stated function</text>
+
+  <rect x="221" y="236" width="124" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="283" y="262" font-size="12" fill="#2a1a0e" text-anchor="middle">TRUE CLAIM</text>
+  <text x="283" y="298" font-size="11" fill="#787878" text-anchor="middle">"this is automated"</text>
+
+  <rect x="378" y="236" width="124" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="440" y="262" font-size="12" fill="#2a1a0e" text-anchor="middle">CALIBRATED BELIEF</text>
+  <text x="440" y="298" font-size="11" fill="#787878" text-anchor="middle">matches the system</text>
+
+  <!-- real referent: the single red category (the honest path lands on something real) -->
+  <rect x="535" y="236" width="124" height="44" fill="#C8102E"/>
+  <text x="597" y="262" font-size="12" fill="#FFFFFF" text-anchor="middle">REFERENT: REAL</text>
+  <text x="597" y="298" font-size="11" fill="#787878" text-anchor="middle">system facts hold the belief</text>
+
+  <line x1="190" y1="258" x2="217" y2="258" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch11f01-arrow)"/>
+  <line x1="347" y1="258" x2="374" y2="258" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch11f01-arrow)"/>
+  <line x1="504" y1="258" x2="531" y2="258" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch11f01-arrow)"/>
+
+  <!-- caption -->
+  <text x="64" y="356" font-size="11" fill="#545454">Every cue is a claim: an anthropomorphic cue implies an inner state, the learner's belief is sincerely formed,</text>
+  <text x="64" y="372" font-size="11" fill="#545454">but its referent does not exist — misinformation about the relationship (Bhat &amp; Long). The honest-signal path</text>
+  <text x="64" y="388" font-size="11" fill="#545454">is the chapter's design pattern: true claims, calibrated beliefs. The audit bans false claims, not warmth.</text>
+  <text x="64" y="414" font-size="10" fill="#787878" letter-spacing="0.5">MECHANISM: BHAT &amp; LONG · HONEST-PATH PARALLEL: DESIGN PATTERN, CH. 11</text>
+</svg>

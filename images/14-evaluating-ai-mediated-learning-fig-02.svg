@@ -1,0 +1,58 @@
+<!--
+  AI for Learning Experience Design — Chapter 14, Figure 02
+  The dissociation: same model, two columns (Bastani et al. 2025)
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+  The only data chart in chapters 13–15. All four values verified: +48 / −17 / +127 / ~0.
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-02">
+  <title id="fig-title-14-02">The dissociation: same model, two columns (Bastani et al. 2025) — 14-evaluating-ai-mediated-learning</title>
+  <desc>Zero-anchored diverging bar chart. GPT Base: assisted +48 percent, unassisted −17 percent below control. GPT Tutor: assisted +127 percent, unassisted no deficit. The white bands spotlight the unassisted column — the column an assisted-only pilot deck does not have. Control is the zero line. Source: Bastani et al. 2025, PNAS.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="14-evaluating-ai-mediated-learning" figure-number="02" figure-title="The dissociation: same model, two columns (Bastani et al. 2025)" figure-slug="bastani-dissociation" figure-type="statistical-quantitative diverging bars" priority="Important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/14-evaluating-ai-mediated-learning-cajal.md"/></metadata>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The dissociation: same model, two columns (Bastani et al. 2025)</text>
+  <text x="648" y="58" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">the column the pilot deck doesn't have</text>
+
+  <!-- plot region -->
+  <rect x="96" y="64" width="552" height="280" rx="0" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <!-- withdrawal-column spotlight bands -->
+  <rect x="240" y="64" width="90" height="280" fill="#FFFFFF"/>
+  <rect x="500" y="64" width="90" height="280" fill="#FFFFFF"/>
+
+  <!-- y ticks -->
+  <g stroke="#787878" stroke-width="0.75">
+    <line x1="90" y1="125" x2="96" y2="125"/>
+    <line x1="90" y1="212.5" x2="96" y2="212.5"/>
+    <line x1="90" y1="300" x2="96" y2="300"/>
+  </g>
+  <text x="86" y="129" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+100</text>
+  <text x="86" y="216.5" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+50</text>
+  <text x="86" y="304" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">0</text>
+  <text x="40" y="204" transform="rotate(-90 40 204)" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">performance vs. control (%)</text>
+
+  <!-- bars -->
+  <rect x="160" y="216" width="70" height="84" fill="#ADADAD"/>
+  <rect x="250" y="300" width="70" height="30" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <rect x="420" y="78" width="70" height="222" fill="#ADADAD"/>
+  <rect x="510" y="300" width="70" height="3" fill="#787878"/>
+
+  <!-- zero line: control baseline, drawn over the bars -->
+  <line x1="96" y1="300" x2="648" y2="300" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- value labels -->
+  <text x="195" y="208" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+48</text>
+  <text x="285" y="321" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">&#8722;17</text>
+  <text x="455" y="72" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+127</text>
+  <text x="545" y="294" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">&#8776;0</text>
+
+  <!-- column labels -->
+  <text x="195" y="362" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">assisted</text>
+  <text x="285" y="362" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">unassisted</text>
+  <text x="455" y="362" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">assisted</text>
+  <text x="545" y="362" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">unassisted</text>
+  <text x="240" y="384" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">GPT Base</text>
+  <text x="500" y="384" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">GPT Tutor</text>
+
+  <text x="32" y="420" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">An assisted-only pilot would report GPT Base as a triumph. Remove the AI: Base lands 17 points below control;</text>
+  <text x="32" y="438" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the tutor-scaffolded condition shows no deficit. Control is the zero line — no bars are fabricated for it.</text>
+  <text x="32" y="462" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" letter-spacing="0.08em" fill="#545454">SOURCE: BASTANI ET AL. 2025, PNAS</text>
+</svg>

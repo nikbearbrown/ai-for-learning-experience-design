@@ -1,0 +1,80 @@
+<!-- AI for Learning Experience Design · Chapter 6 · Figure 2 — The Hint Ladder Is a Gated Ladder · 2026-06-07 -->
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch6-fig02-title ch6-fig02-desc">
+  <title id="ch6-fig02-title">The Hint Ladder Is a Gated Ladder</title>
+  <desc id="ch6-fig02-desc">A four-level hint ladder of increasing specificity — orientation, principle, partial step, targeted correction — with reasoning gates before levels two and three that open only when the learner contributes inspectable work, attempt loops connecting every rung back to the problem, a delay before the deepest level, and a thick do-not-reveal floor beneath level four sealing off the final answer and full solution path.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="6" figure-number="2" title="The Hint Ladder Is a Gated Ladder" slug="gated-hint-ladder" type="gated-progression-schematic" priority="critical" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/06-designing-tutoring-interactions-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#C8102E"/></marker>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+  </style>
+  <rect x="0" y="0" width="700" height="540" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">The Hint Ladder Is a Gated Ladder</text>
+
+  <!-- specificity axis -->
+  <line x1="80" y1="84" x2="80" y2="340" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+  <text class="s" x="66" y="214" text-anchor="middle" transform="rotate(-90 66 214)">increasing specificity &#8212; least help first</text>
+
+  <!-- the problem -->
+  <path d="M530 70 L566 70 L580 84 L580 120 L530 120 Z" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <path d="M566 70 L566 84 L580 84" fill="none" stroke="#787878" stroke-width="1"/>
+  <line x1="538" y1="96" x2="572" y2="96" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="538" y1="106" x2="572" y2="106" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="s" x="555" y="138" text-anchor="middle">the problem</text>
+
+  <!-- rungs -->
+  <rect x="180" y="80" width="160" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="260" y="100" text-anchor="middle">L1 &#8212; orientation</text>
+  <rect x="160" y="168" width="200" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="260" y="188" text-anchor="middle">L2 &#8212; principle</text>
+  <rect x="140" y="256" width="240" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="260" y="276" text-anchor="middle">L3 &#8212; partial step</text>
+  <rect x="120" y="316" width="280" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="260" y="336" text-anchor="middle">L4 &#8212; targeted correction</text>
+
+  <!-- gate 1 -->
+  <line x1="260" y1="112" x2="260" y2="118" stroke="#2a1a0e" stroke-width="1.5"/>
+  <polygon points="260 120, 296 140, 260 160, 224 140" fill="#FFFFFF" stroke="#787878" stroke-width="1.25"/>
+  <circle cx="190" cy="140" r="6" fill="#C8102E"/>
+  <line x1="196" y1="140" x2="222" y2="140" stroke="#C8102E" stroke-width="1.25"/>
+  <text class="s" x="180" y="130" text-anchor="end">learner contribution</text>
+  <text class="s" x="180" y="144" text-anchor="end">opens the gate</text>
+  <text class="s" x="304" y="144">gate: name your approach</text>
+  <line x1="260" y1="160" x2="260" y2="164" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- gate 2 -->
+  <line x1="260" y1="200" x2="260" y2="206" stroke="#2a1a0e" stroke-width="1.5"/>
+  <polygon points="260 208, 296 228, 260 248, 224 228" fill="#FFFFFF" stroke="#787878" stroke-width="1.25"/>
+  <circle cx="190" cy="228" r="6" fill="#C8102E"/>
+  <line x1="196" y1="228" x2="222" y2="228" stroke="#C8102E" stroke-width="1.25"/>
+  <text class="s" x="304" y="232">gate: show your attempt</text>
+  <line x1="260" y1="248" x2="260" y2="252" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- slow-the-bottom delay -->
+  <path d="M260 288 C248 294, 272 300, 260 306 C248 312, 272 316, 260 316" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text class="s" x="276" y="306">slow-the-bottom delay</text>
+
+  <!-- attempt loops: the learner works the problem between hints -->
+  <path d="M340 96 C420 90, 470 90, 522 92" fill="none" stroke="#C8102E" stroke-width="1.25" marker-end="url(#arrowR)"/>
+  <path d="M360 184 C460 170, 500 132, 526 114" fill="none" stroke="#C8102E" stroke-width="1.25" marker-end="url(#arrowR)"/>
+  <path d="M380 272 C480 252, 522 172, 538 126" fill="none" stroke="#C8102E" stroke-width="1.25" marker-end="url(#arrowR)"/>
+  <path d="M400 332 C520 304, 562 204, 564 126" fill="none" stroke="#C8102E" stroke-width="1.25" marker-end="url(#arrowR)"/>
+  <path d="M524 78 C440 50, 330 54, 270 76" fill="none" stroke="#C8102E" stroke-width="1.25" marker-end="url(#arrowR)"/>
+  <text class="s" x="420" y="46" text-anchor="middle">attempt loop: work the problem between hints</text>
+
+  <!-- do-not-reveal floor -->
+  <line x1="100" y1="372" x2="420" y2="372" stroke="#2a1a0e" stroke-width="3.5"/>
+  <circle cx="244" cy="396" r="5" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <line x1="249" y1="396" x2="264" y2="396" stroke="#2a1a0e" stroke-width="1.25"/>
+  <line x1="259" y1="396" x2="259" y2="401" stroke="#2a1a0e" stroke-width="1.25"/>
+  <line x1="264" y1="396" x2="264" y2="402" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text class="s" x="260" y="424" text-anchor="middle">withheld beneath the floor: final answer, full solution path</text>
+
+  <text class="s" x="32" y="466">Ladder and gate are one pattern, not two features: four levels of increasing specificity, reasoning gates before L2 and L3</text>
+  <text class="s" x="32" y="481">that open only on inspectable learner work, an attempt loop at every rung, a delay before the deepest hint, and a</text>
+  <text class="s" x="32" y="496">do-not-reveal floor. There is no fifth rung &#8212; the answer is not a level of help.</text>
+</svg>

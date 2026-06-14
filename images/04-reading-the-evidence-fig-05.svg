@@ -1,0 +1,62 @@
+<!-- AI for Learning Experience Design · Chapter 4 · Figure 5 — The Same Effect, Two Rulers · 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch4-fig05-title ch4-fig05-desc">
+  <title id="ch4-fig05-title">The Same Effect, Two Rulers: Cohen vs Kraft</title>
+  <desc id="ch4-fig05-desc">Two horizontal benchmark bands share one zero-anchored effect-size axis. The upper band shows Cohen's generic thresholds (0.2 small, 0.5 medium, 0.8 large); the lower band shows Kraft's education-specific thresholds (0.05 and 0.20). Two dashed reference lines with red diamond markers cross both bands: the Cognitive Tutor at-scale result near 0.20, which reads below-small on Cohen's ruler and large on Kraft's, and human tutoring near 0.79.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="4" figure-number="5" title="The Same Effect, Two Rulers: Cohen vs Kraft" slug="cohen-vs-kraft-rulers" type="dual-benchmark-band" priority="supporting" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/04-reading-the-evidence-cajal.md"/></metadata>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+    .m{font:11px 'JetBrains Mono','Fira Code','Courier New',monospace;fill:#2a1a0e}
+    .src{font:10px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#787878;letter-spacing:.08em}
+  </style>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">The Same Effect, Two Rulers: Cohen vs Kraft</text>
+
+  <!-- scale numerals (0.2 carried by the marker label below) -->
+  <text class="m" x="64" y="84" text-anchor="middle">0</text>
+  <text class="m" x="95" y="84" text-anchor="middle">0.05</text>
+  <text class="m" x="373" y="84" text-anchor="middle">0.5</text>
+  <text class="m" x="558" y="84" text-anchor="middle">0.8</text>
+
+  <!-- Cohen band -->
+  <rect x="64" y="112" width="124" height="56" fill="#EFEFEF"/>
+  <rect x="188" y="112" width="185" height="56" fill="#D4D4D4"/>
+  <rect x="373" y="112" width="185" height="56" fill="#ADADAD"/>
+  <rect x="558" y="112" width="62" height="56" fill="#787878"/>
+  <text class="l" x="72" y="130">Cohen (1988)</text>
+  <text class="s" x="126" y="158" text-anchor="middle">below small</text>
+  <text class="s" x="280" y="158" text-anchor="middle">small</text>
+  <text class="s" x="465" y="158" text-anchor="middle" fill="#2a1a0e">medium</text>
+  <text class="s" x="589" y="158" text-anchor="middle" fill="#FFFFFF">large</text>
+
+  <!-- shared zero-anchored axis -->
+  <line x1="64" y1="180" x2="632" y2="180" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="64" y1="174" x2="64" y2="186" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="95" y1="176" x2="95" y2="184" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="188" y1="176" x2="188" y2="184" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="373" y1="176" x2="373" y2="184" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="558" y1="176" x2="558" y2="184" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Kraft band -->
+  <rect x="64" y="192" width="31" height="56" fill="#EFEFEF"/>
+  <rect x="95" y="192" width="93" height="56" fill="#ADADAD"/>
+  <rect x="188" y="192" width="432" height="56" fill="#787878"/>
+  <text class="l" x="240" y="212" fill="#FFFFFF">Kraft (2020)</text>
+  <text class="s" x="80" y="264" text-anchor="middle">small</text>
+  <text class="s" x="141" y="264" text-anchor="middle">medium</text>
+  <text class="s" x="404" y="264" text-anchor="middle">large</text>
+
+  <!-- reference markers: observed results read against both rulers -->
+  <line x1="188" y1="104" x2="188" y2="282" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="5 4"/>
+  <polygon points="188 92, 195 100, 188 108, 181 100" fill="#C8102E"/>
+  <line x1="552" y1="104" x2="552" y2="282" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="5 4"/>
+  <polygon points="552 92, 559 100, 552 108, 545 100" fill="#C8102E"/>
+  <text class="s" x="188" y="298" text-anchor="middle">Cognitive Tutor at scale &#8776; 0.20</text>
+  <text class="s" x="552" y="298" text-anchor="middle">human tutoring &#8776; 0.79</text>
+
+  <text class="src" x="32" y="336">COHEN 1988 &#183; KRAFT 2020 &#183; PANE ET AL. 2014 &#183; VANLEHN 2011</text>
+  <text class="s" x="32" y="362">One axis, two interpretive rulers: the same &#8776;0.20 effect lands in Cohen&#8217;s palest segment and Kraft&#8217;s deepest segment</text>
+  <text class="s" x="32" y="377">simultaneously. Kraft&#8217;s thresholds derive from the distribution of education RCT effects; the contested 0.40 &#8220;hinge&#8221; is an</text>
+  <text class="s" x="32" y="392">argument, not a benchmark, and is not drawn.</text>
+</svg>

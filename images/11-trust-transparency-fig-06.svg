@@ -1,0 +1,64 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch11 fig-06 · The Floor Numbers · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 480" role="img" aria-labelledby="ch11-fig06-title ch11-fig06-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch11-fig06-title">The Floor Numbers</title>
+  <desc id="ch11-fig06-desc">Zero-anchored horizontal bar chart of five verified WGU Labs toplines: 89 percent can tell bot from person; 76 percent prefer a person for sensitive issues; 65 percent trust staff to use AI ethically; 65 percent know how to escalate to a human, with the remaining 35 percent hatched as the third who cannot find the human; 50 percent trust fellow students.</desc>
+  <metadata>
+    <cajal:figure chapter="11" figure="6" slug="wgu-floor-numbers" type="zero-anchored-bar-chart" rank="medium" class="PQ" concept="Verified WGU Labs toplines setting the transparency layer's floor; emphasized escalation gap" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <pattern id="ch11f06-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#FFFFFF"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#ADADAD" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 11.6 · The floor numbers</text>
+
+  <!-- plot region -->
+  <rect x="250" y="76" width="400" height="276" fill="#F5F5F5" stroke="#F5F5F5" stroke-width="0.75"/>
+
+  <!-- 100% reference frames -->
+  <rect x="250" y="84" width="400" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="140" width="400" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="196" width="400" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="252" width="400" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="308" width="400" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- bars (near-monochrome; the only emphasis is the hatched gap) -->
+  <rect x="250" y="84" width="356" height="36" fill="#2a1a0e"/>
+  <rect x="250" y="140" width="304" height="36" fill="#787878"/>
+  <rect x="250" y="196" width="260" height="36" fill="#787878"/>
+  <rect x="250" y="252" width="260" height="36" fill="#787878"/>
+  <rect x="510" y="252" width="140" height="36" fill="url(#ch11f06-hatch)" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="308" width="200" height="36" fill="#ADADAD"/>
+
+  <!-- zero baseline -->
+  <line x1="250" y1="76" x2="250" y2="352" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- values (mono) -->
+  <text x="614" y="106" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">89%</text>
+  <text x="562" y="162" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">76%</text>
+  <text x="518" y="218" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">65%</text>
+  <text x="502" y="274" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#FFFFFF" text-anchor="end">65%</text>
+  <text x="458" y="330" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">50%</text>
+
+  <!-- row labels -->
+  <text x="238" y="106" font-size="12" fill="#2a1a0e" text-anchor="end">can tell bot from person</text>
+  <text x="238" y="155" font-size="12" fill="#2a1a0e" text-anchor="end">prefer a person for</text>
+  <text x="238" y="171" font-size="12" fill="#2a1a0e" text-anchor="end">sensitive issues</text>
+  <text x="238" y="211" font-size="12" fill="#2a1a0e" text-anchor="end">trust staff to use</text>
+  <text x="238" y="227" font-size="12" fill="#2a1a0e" text-anchor="end">AI ethically</text>
+  <text x="238" y="267" font-size="12" fill="#2a1a0e" text-anchor="end">know how to escalate</text>
+  <text x="238" y="283" font-size="12" fill="#2a1a0e" text-anchor="end">to a human</text>
+  <text x="238" y="330" font-size="12" fill="#2a1a0e" text-anchor="end">trust fellow students</text>
+
+  <!-- hatch key -->
+  <rect x="64" y="368" width="12" height="12" fill="url(#ch11f06-hatch)" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="84" y="378" font-size="11" fill="#545454">≈35% — the third who cannot find the human (arithmetic complement of the verified 65%)</text>
+
+  <!-- caption -->
+  <text x="64" y="408" font-size="11" fill="#545454">WGU Labs survey, n=545 online students, fielded September 2025 — a single institution whose population skews</text>
+  <text x="64" y="424" font-size="11" fill="#545454">older and non-traditional. The 65/50 pair is the integrity-anxiety gap. The "40%+ of non-users cannot find the</text>
+  <text x="64" y="440" font-size="11" fill="#545454">human" segment figure is unverified and excluded; only verified toplines are charted.</text>
+  <text x="64" y="462" font-size="10" fill="#787878" letter-spacing="0.5">WGU LABS (2025), N=545 ONLINE STUDENTS</text>
+</svg>

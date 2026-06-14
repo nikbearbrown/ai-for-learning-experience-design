@@ -1,0 +1,46 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch12 fig-03 · Five Non-Negotiables Around the Acting Agent · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 480" role="img" aria-labelledby="ch12-fig03-title ch12-fig03-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch12-fig03-title">Five Non-Negotiables Around the Acting Agent</title>
+  <desc id="ch12-fig03-desc">Containment-ring schematic: a central red circle marked autonomous action is enclosed by five obligation stations joined into a closed pentagonal perimeter — learner notification, bounded authority, override with both hands, audit log, reversibility. The center touches none of the stations: bounded, not strangled.</desc>
+  <metadata>
+    <cajal:figure chapter="12" figure="3" slug="five-non-negotiables-ring" type="containment-ring-schematic" rank="high" class="VG" concept="Five obligations as engineered containment around autonomous action; inference from policy, not validated canon" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <rect width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 12.3 · Five non-negotiables around the acting agent</text>
+
+  <!-- closed perimeter ring (structure, not flow) -->
+  <polygon points="362,94 484,182 437,326 287,326 240,182" fill="none" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- obligation stations -->
+  <rect x="292" y="70" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="362" y="90" font-size="12" fill="#2a1a0e" text-anchor="middle">LEARNER NOTIFICATION</text>
+  <text x="362" y="108" font-size="11" fill="#545454" text-anchor="middle">at the moment of action</text>
+
+  <rect x="414" y="158" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="484" y="178" font-size="12" fill="#2a1a0e" text-anchor="middle">BOUNDED AUTHORITY</text>
+  <text x="484" y="196" font-size="11" fill="#545454" text-anchor="middle">allowlist, not blocklist</text>
+
+  <rect x="367" y="302" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="437" y="322" font-size="12" fill="#2a1a0e" text-anchor="middle">AUDIT LOG</text>
+  <text x="437" y="340" font-size="11" fill="#545454" text-anchor="middle">reconstructable record</text>
+
+  <rect x="217" y="302" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="287" y="322" font-size="12" fill="#2a1a0e" text-anchor="middle">REVERSIBILITY</text>
+  <text x="287" y="340" font-size="11" fill="#545454" text-anchor="middle">undo exists, and works</text>
+
+  <rect x="170" y="158" width="140" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="240" y="178" font-size="12" fill="#2a1a0e" text-anchor="middle">OVERRIDE, BOTH HANDS</text>
+  <text x="240" y="196" font-size="11" fill="#545454" text-anchor="middle">staff and learner</text>
+
+  <!-- central action: the single red category (capable, contained, not strangled) -->
+  <circle cx="362" cy="222" r="52" fill="#C8102E"/>
+  <text x="362" y="218" font-size="12" fill="#FFFFFF" text-anchor="middle">AUTONOMOUS</text>
+  <text x="362" y="234" font-size="12" fill="#FFFFFF" text-anchor="middle">ACTION</text>
+
+  <!-- caption (mandatory epistemic status) -->
+  <text x="64" y="392" font-size="11" fill="#545454">Five obligations form a closed containment ring around the acting agent — engineered structure, not</text>
+  <text x="64" y="408" font-size="11" fill="#545454">punishment; the action touches none of them. Epistemic status, per the chapter: inferences from policy</text>
+  <text x="64" y="424" font-size="11" fill="#545454">frameworks and human-factors lineage, not experimentally validated design canon — no RCT shows audit logs</text>
+  <text x="64" y="440" font-size="11" fill="#545454">improve learning; the justification is risk asymmetry.</text>
+  <text x="64" y="462" font-size="10" fill="#787878" letter-spacing="0.5">PATTERN SET, CH. 12 · STATUS: INFERENCE FROM POLICY, NOT VALIDATED CANON</text>
+</svg>

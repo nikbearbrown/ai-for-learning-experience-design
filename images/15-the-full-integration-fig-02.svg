@@ -1,0 +1,68 @@
+<!--
+  AI for Learning Experience Design — Chapter 15, Figure 02
+  The decision trace: the document's atomic unit
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-02">
+  <title id="fig-title-15-02">The decision trace: the document's atomic unit — 15-the-full-integration</title>
+  <desc>Four stations: the capability the learner needed, the evidence with its sources beneath, a three-way decision — designed, declined, deferred — and the endpoint marker. All three outcomes reconverge on a measurement; the declined path reaches it as a dotted reopen condition, and a faint return arc shows the trace is re-enterable at any touchpoint.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="15-the-full-integration" figure-number="02" figure-title="The decision trace: the document's atomic unit" figure-slug="decision-trace" figure-type="linear process chain with three-way branch" priority="Important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/15-the-full-integration-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow-15-02" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+    <marker id="arrowGray-15-02" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#ADADAD"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The decision trace: the document's atomic unit</text>
+
+  <!-- station 1: the need -->
+  <circle cx="110" cy="210" r="20" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="110" y="248" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">the need</text>
+  <text x="110" y="264" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">what the learner had to do</text>
+  <line x1="132" y1="210" x2="206" y2="210" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-15-02)"/>
+
+  <!-- station 2: the evidence, sources beneath -->
+  <rect x="210" y="186" width="48" height="48" rx="0" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="218" y="240" width="32" height="5" fill="#ADADAD"/>
+  <rect x="224" y="249" width="20" height="5" fill="#D4D4D4"/>
+  <text x="234" y="278" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">the evidence</text>
+  <text x="234" y="294" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">with its sources beneath</text>
+  <line x1="260" y1="210" x2="346" y2="210" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow-15-02)"/>
+
+  <!-- station 3: the decision fork -->
+  <polygon points="390,186 414,210 390,234 366,210" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  <text x="390" y="174" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">the decision</text>
+  <line x1="404" y1="196" x2="462" y2="148" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow-15-02)"/>
+  <line x1="414" y1="210" x2="490" y2="210" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow-15-02)"/>
+  <line x1="404" y1="224" x2="488" y2="282" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow-15-02)"/>
+
+  <!-- designed -->
+  <rect x="466" y="128" width="72" height="32" rx="0" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.2"/>
+  <text x="502" y="148" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">designed</text>
+
+  <!-- declined (octagon) -->
+  <polygon points="524.8,216.1 516.1,224.8 503.9,224.8 495.2,216.1 495.2,203.9 503.9,195.2 516.1,195.2 524.8,203.9" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="510" y="242" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">declined</text>
+
+  <!-- deferred (open ring) -->
+  <circle cx="510" cy="290" r="13" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="510" y="318" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">deferred — still open</text>
+
+  <!-- station 4: how you will know (single red category: the measurement) -->
+  <text x="620" y="166" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">how you</text>
+  <text x="620" y="180" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">will know</text>
+  <polygon points="620,196 630,206 620,216 610,206" fill="#C8102E"/>
+  <line x1="620" y1="216" x2="620" y2="244" stroke="#C8102E" stroke-width="2"/>
+  <line x1="610" y1="244" x2="630" y2="244" stroke="#C8102E" stroke-width="2"/>
+
+  <!-- reconvergence: every path ends at a measurement -->
+  <line x1="538" y1="144" x2="606" y2="196" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow-15-02)"/>
+  <line x1="526" y1="210" x2="604" y2="207" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="2 3" marker-end="url(#arrow-15-02)"/>
+  <text x="565" y="198" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">reopen condition</text>
+  <line x1="523" y1="286" x2="606" y2="218" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow-15-02)"/>
+
+  <!-- return arc: the trace is re-enterable -->
+  <path d="M 620 250 C 480 330 240 320 116 236" fill="none" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrowGray-15-02)"/>
+  <text x="370" y="326" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">re-enterable at any touchpoint — two hops to evidence</text>
+
+  <text x="32" y="400" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">All three outcomes — designed, declined, deferred — reconverge on a measurement; even a no carries its reopen condition.</text>
+</svg>

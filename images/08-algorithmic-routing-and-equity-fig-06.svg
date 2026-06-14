@@ -1,0 +1,75 @@
+<!-- AI for Learning Experience Design | Ch.8 Algorithmic Routing and Equity | Figure 6 | Every pattern has a theater twin | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch8-fig6-title ch8-fig6-desc">
+  <title id="ch8-fig6-title">Every pattern has a theater twin</title>
+  <desc id="ch8-fig6-desc">Five vertical glyph pairs: each counter-pattern (solid, top row) above its theater twin (dashed hollow, bottom row) with identical silhouette — floor constraints over a symbolic floor, visible routing over a data-dump dashboard, off-ramps over an exit keyed to the loop, human-in-the-loop over a rubber stamp, co-design over harvested participation.</desc>
+  <metadata>
+    <cajal:figure chapter="08" number="6" file="08-algorithmic-routing-and-equity-fig-06.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="five-pair-solid-hollow-schematic" rank="Medium" concept="Five counter-patterns, each with a named failure mode — the solid form and its hollow twin" source-status="conceptual; glyph vocabulary is invented shorthand for the named patterns"/>
+  </metadata>
+  <defs>
+    <marker id="ch8f6-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+    <marker id="ch8f6-arrow-gray" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#787878"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Every pattern has a theater twin</text>
+
+  <!-- row labels -->
+  <text x="64" y="156" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">implemented</text>
+  <text x="64" y="272" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">theater twin</text>
+
+  <!-- connectors -->
+  <line x1="168" y1="190" x2="168" y2="230" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="272" y1="190" x2="272" y2="230" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="376" y1="190" x2="376" y2="230" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="480" y1="190" x2="480" y2="230" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="584" y1="190" x2="584" y2="230" stroke="#ADADAD" stroke-width="1"/>
+
+  <!-- PAIR 1: floor constraints / symbolic floor -->
+  <rect x="136" y="146" width="64" height="12" fill="#2a1a0e"/>
+  <rect x="136" y="262" width="64" height="12" fill="none" stroke="#787878" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- PAIR 2: visible routing (lens) / data-dump dashboard -->
+  <path d="M242,152 Q272,130 302,152 Q272,174 242,152 Z" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <circle cx="272" cy="152" r="6" fill="#2a1a0e"/>
+  <path d="M242,268 Q272,246 302,268 Q272,290 242,268 Z" fill="none" stroke="#787878" stroke-width="2" stroke-dasharray="4 3"/>
+  <circle cx="272" cy="268" r="6" fill="none" stroke="#787878" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- PAIR 3: off-ramps (arrow leaving a loop) / exit keyed to the loop -->
+  <circle cx="368" cy="158" r="14" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="378" y1="148" x2="400" y2="132" stroke="#2a1a0e" stroke-width="2" marker-end="url(#ch8f6-arrow)"/>
+  <circle cx="368" cy="274" r="14" fill="none" stroke="#787878" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="378" y1="264" x2="400" y2="248" stroke="#787878" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#ch8f6-arrow-gray)"/>
+
+  <!-- PAIR 4: human-in-the-loop (circle overlapping square) / rubber stamp -->
+  <rect x="476" y="140" width="24" height="24" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <circle cx="470" cy="160" r="13" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <rect x="476" y="256" width="24" height="24" fill="none" stroke="#787878" stroke-width="2" stroke-dasharray="4 3"/>
+  <circle cx="470" cy="276" r="13" fill="none" stroke="#787878" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- PAIR 5: co-design (two overlapping rectangles) / harvested participation -->
+  <rect x="556" y="138" width="34" height="24" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <rect x="578" y="148" width="34" height="24" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <rect x="556" y="254" width="34" height="24" fill="none" stroke="#787878" stroke-width="2" stroke-dasharray="4 3"/>
+  <rect x="578" y="264" width="34" height="24" fill="none" stroke="#787878" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- pattern names -->
+  <text x="168" y="316" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">floor constraints</text>
+  <text x="272" y="316" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">visible routing</text>
+  <text x="376" y="316" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">off-ramps</text>
+  <text x="480" y="316" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">human-in-the-loop</text>
+  <text x="584" y="316" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">co-design</text>
+
+  <!-- failure-mode names -->
+  <text x="168" y="334" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" font-style="italic" fill="#787878">symbolic floor</text>
+  <text x="272" y="334" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" font-style="italic" fill="#787878">data-dump dashboard</text>
+  <text x="376" y="334" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" font-style="italic" fill="#787878">exit keyed to the loop</text>
+  <text x="480" y="334" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" font-style="italic" fill="#787878">rubber stamp</text>
+  <text x="584" y="334" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" font-style="italic" fill="#787878">harvested participation</text>
+
+  <!-- caption -->
+  <text x="64" y="384" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Five counter-patterns and their hollow doubles — identical silhouette, no substance. A counter-pattern implemented</text>
+  <text x="64" y="398" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">as theater is worse than none: it spends the reform's credibility without delivering its protection.</text>
+</svg>

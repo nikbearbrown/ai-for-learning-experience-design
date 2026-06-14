@@ -1,0 +1,67 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch12 fig-05 · Escalation Is a Designed Path · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 480" role="img" aria-labelledby="ch12-fig05-title ch12-fig05-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch12-fig05-title">Escalation Is a Designed Path</title>
+  <desc id="ch12-fig05-desc">Left-to-right designed path: the agent acts inside a dashed bounded domain; a vertical gate of four trigger diamonds (stakes, confidence, protected flag, three undos) moves the action out of the agent's hands to a red staffed human station that receives it with context and a deadline. Beneath the span, a holding bar marks the pre-change state persisting as the safe default. Far right, separated: a dashed unmonitored queue with an inhibition bar — the counter-example where the path dies.</desc>
+  <metadata>
+    <cajal:figure chapter="12" figure="5" slug="escalation-designed-path" type="designed-path-flow" rank="medium" class="MC" concept="Escalation as architecture: triggers, handover, staffed receiver with deadline, holding state, dead-queue counter-example" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <marker id="ch12f05-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2a1a0e"/></marker>
+  </defs>
+  <rect width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 12.5 · Escalation is a designed path</text>
+
+  <!-- the agent's hands: dashed bounded domain around stations 1 and 2 -->
+  <rect x="76" y="104" width="224" height="124" fill="none" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="86" y="122" font-size="11" fill="#545454">THE AGENT'S HANDS</text>
+
+  <!-- station 1: agent acts -->
+  <rect x="92" y="142" width="120" height="56" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="152" y="166" font-size="12" fill="#2a1a0e" text-anchor="middle">AGENT ACTS</text>
+  <text x="152" y="184" font-size="11" fill="#545454" text-anchor="middle">inside bounded domain</text>
+
+  <!-- station 2: trigger gate (four diamonds on one threshold) -->
+  <g fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1">
+    <polygon points="248,116 258,126 248,136 238,126"/>
+    <polygon points="248,142 258,152 248,162 238,152"/>
+    <polygon points="248,178 258,188 248,198 238,188"/>
+    <polygon points="248,204 258,214 248,224 238,214"/>
+  </g>
+
+  <!-- path: through the gate, out of the agent's hands, to the human -->
+  <line x1="212" y1="170" x2="236" y2="170" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="260" y1="170" x2="366" y2="170" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch12f05-arrow)"/>
+
+  <!-- station 3: staffed human (the single red category: the path's living destination) -->
+  <rect x="370" y="138" width="160" height="64" fill="#C8102E"/>
+  <text x="450" y="162" font-size="12" fill="#FFFFFF" text-anchor="middle">HUMAN RECEIVES</text>
+  <text x="450" y="180" font-size="11" fill="#FFFFFF" text-anchor="middle">context + a deadline</text>
+  <text x="450" y="222" font-size="11" fill="#545454" text-anchor="middle">→ decision, or policy revision</text>
+
+  <!-- trigger legend -->
+  <text x="76" y="252" font-size="11" fill="#545454">TRIGGER GATE — stakes threshold ·</text>
+  <text x="76" y="268" font-size="11" fill="#545454">confidence floor · protected flag ·</text>
+  <text x="76" y="284" font-size="11" fill="#545454">three undos of one action type</text>
+
+  <!-- holding state (state, not flow: plain connectors) -->
+  <line x1="300" y1="174" x2="300" y2="306" stroke="#ADADAD" stroke-width="0.75"/>
+  <line x1="340" y1="174" x2="340" y2="306" stroke="#ADADAD" stroke-width="0.75"/>
+  <rect x="240" y="306" width="280" height="36" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="380" y="328" font-size="11" fill="#2a1a0e" text-anchor="middle">PRE-CHANGE STATE PERSISTS — THE SAFE DEFAULT</text>
+
+  <!-- counter-example: the unmonitored queue (structural: dashed void + inhibition bar) -->
+  <text x="608" y="128" font-size="11" fill="#545454" text-anchor="middle">FAILURE MODE</text>
+  <line x1="544" y1="170" x2="568" y2="170" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch12f05-arrow)"/>
+  <rect x="572" y="142" width="88" height="56" fill="#FFFFFF" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="612" y="166" font-size="11" fill="#787878" text-anchor="middle">UNMONITORED</text>
+  <text x="612" y="182" font-size="11" fill="#787878" text-anchor="middle">QUEUE</text>
+  <line x1="652" y1="150" x2="652" y2="190" stroke="#2a1a0e" stroke-width="2.5"/>
+  <text x="660" y="216" font-size="11" fill="#545454" text-anchor="end">an unmonitored queue is</text>
+  <text x="660" y="230" font-size="11" fill="#545454" text-anchor="end">L3 with extra steps</text>
+
+  <!-- caption -->
+  <text x="64" y="382" font-size="11" fill="#545454">Escalation as architecture, not exception handling: trigger conditions move the action out of the agent's hands</text>
+  <text x="64" y="398" font-size="11" fill="#545454">to a staffed human who receives it with context and a deadline, while the pre-change state persists as the safe</text>
+  <text x="64" y="414" font-size="11" fill="#545454">default. The dead queue at right is the counter-example — escalation without a staffed receiver.</text>
+  <text x="64" y="438" font-size="10" fill="#787878" letter-spacing="0.5">ESCALATION SPEC, CH. 12 · THE THREE-UNDO TRIGGER IS THE CHAPTER'S EXPLICIT SPEC</text>
+</svg>

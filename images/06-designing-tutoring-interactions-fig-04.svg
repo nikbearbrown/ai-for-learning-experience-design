@@ -1,0 +1,78 @@
+<!-- AI for Learning Experience Design · Chapter 6 · Figure 4 — Breaking the Bottom-Out Loop · 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch6-fig04-title ch6-fig04-desc">
+  <title id="ch6-fig04-title">Breaking the Bottom-Out Loop</title>
+  <desc id="ch6-fig04-desc">A four-node clockwise loop — help request, hint burst, bottom-out harvest, no learning — with three counter-patterns placed on specific arcs: a gate with a flat stop bar interrupts advancement, a delay coil slows the descent to deep hints, and a half-filled substitute shape blunts the harvest target. An observer node touches the loop with lines that have no arrowheads: logs instrument without intervening. The return arc to the next problem is deliberately left uncountered.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="6" figure-number="4" title="Breaking the Bottom-Out Loop" slug="bottom-out-loop-counters" type="cycle-with-blocking-interventions" priority="important" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/06-designing-tutoring-interactions-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrowG" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#787878"/></marker>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+    .src{font:10px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#787878;letter-spacing:.08em}
+  </style>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">Breaking the Bottom-Out Loop</text>
+
+  <!-- the gaming loop, clockwise -->
+  <path d="M275 148 A105 105 0 0 1 352 225" fill="none" stroke="#787878" stroke-width="1.75" marker-end="url(#arrowG)"/>
+  <path d="M352 275 A105 105 0 0 1 275 352" fill="none" stroke="#787878" stroke-width="1.75" marker-end="url(#arrowG)"/>
+  <path d="M225 352 A105 105 0 0 1 148 275" fill="none" stroke="#787878" stroke-width="1.75" marker-end="url(#arrowG)"/>
+  <path d="M148 225 A105 105 0 0 1 225 148" fill="none" stroke="#787878" stroke-width="1.75" marker-end="url(#arrowG)"/>
+
+  <!-- nodes -->
+  <circle cx="250" cy="145" r="26" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="242" y="146" width="16" height="9" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <line x1="245" y1="146" x2="245" y2="137" stroke="#2a1a0e" stroke-width="1.25"/>
+  <line x1="250" y1="146" x2="250" y2="134" stroke="#2a1a0e" stroke-width="1.25"/>
+  <line x1="255" y1="146" x2="255" y2="137" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text class="l" x="250" y="106" text-anchor="middle">help request</text>
+
+  <circle cx="355" cy="250" r="26" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <path d="M342 242 l8 8 l-8 8" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <path d="M351 242 l8 8 l-8 8" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <path d="M360 242 l8 8 l-8 8" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text class="l" x="392" y="246">hint burst</text>
+  <text class="s" x="392" y="261">faster than reading speed</text>
+
+  <circle cx="250" cy="355" r="26" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <path d="M238 340 L262 340 L253 352 L247 352 Z" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <polygon points="250 357, 257 364, 250 371, 243 364" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <path d="M250 357 L257 364 L250 371 Z" fill="#C8102E"/>
+  <text class="l" x="250" y="400" text-anchor="middle">bottom-out harvest</text>
+  <text class="s" x="300" y="386">counter: blunt the bottom &#8212; analogous step, never the answer</text>
+
+  <circle cx="145" cy="250" r="26" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="137" y="242" width="16" height="16" fill="none" stroke="#787878" stroke-width="1.25"/>
+  <text class="l" x="112" y="254" text-anchor="end">no learning</text>
+
+  <!-- counter: gate every level (flat stop bar on the advancement arc) -->
+  <polygon points="324 160, 340 176, 324 192, 308 176" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <line x1="332" y1="197" x2="344" y2="189" stroke="#2a1a0e" stroke-width="2.5"/>
+  <text class="s" x="344" y="146">counter: gate every level</text>
+
+  <!-- counter: slow the bottom (delay coil on the descent arc) -->
+  <circle cx="324" cy="324" r="11" fill="#FFFFFF"/>
+  <path d="M316 316 q10 4 0 8 q-10 4 0 8" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text class="s" x="348" y="332">counter: slow the bottom</text>
+
+  <!-- watch the logs: observation without interference -->
+  <circle cx="540" cy="140" r="20" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <path d="M528 140 Q540 130 552 140 Q540 150 528 140 Z" fill="none" stroke="#2a1a0e" stroke-width="1.25"/>
+  <circle cx="540" cy="140" r="3" fill="#2a1a0e"/>
+  <text class="l" x="540" y="108" text-anchor="middle">watch the logs</text>
+  <line x1="526" y1="154" x2="372" y2="212" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="534" y1="161" x2="280" y2="344" stroke="#ADADAD" stroke-width="1"/>
+  <text class="s" x="540" y="176" text-anchor="middle">no arrowheads: instrumentation,</text>
+  <text class="s" x="540" y="190" text-anchor="middle">not intervention</text>
+
+  <!-- the uncountered return arc -->
+  <text class="s" x="36" y="150">next problem: the return arc</text>
+  <text class="s" x="36" y="164">is deliberately uncountered</text>
+
+  <text class="src" x="32" y="420">BAKER ET AL. 2004 &#183; ALEVEN ET AL. 2003</text>
+  <text class="s" x="32" y="436">Baker documented a recurring loop, not a one-off exploit. Each counter breaks or instruments a specific arc: gates interrupt</text>
+  <text class="s" x="32" y="450">advancement, delay slows the descent, blunting makes the harvest pointless, and logs observe without blocking. The return</text>
+  <text class="s" x="32" y="464">arc stays uncountered &#8212; evasion through a second, ungated AI window is not solvable in this layer.</text>
+</svg>

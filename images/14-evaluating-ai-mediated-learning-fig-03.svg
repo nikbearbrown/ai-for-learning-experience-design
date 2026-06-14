@@ -1,0 +1,45 @@
+<!--
+  AI for Learning Experience Design — Chapter 14, Figure 03
+  Reliance trajectories: the scaffold curve and the crutch signature
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+  Deliberately smooth and stylized: no data points, no jitter — no telemetry exists.
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-03">
+  <title id="fig-title-14-03">Reliance trajectories: the scaffold curve and the crutch signature — 14-evaluating-ai-mediated-learning</title>
+  <desc>Three stylized reliance curves race toward a dashed withdrawal window against a fading-schedule envelope: a declining scaffold curve inside the envelope, a flat curve the envelope descends away from, and a rising crutch curve. Theoretical predictions, not telemetry.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="14-evaluating-ai-mediated-learning" figure-number="03" figure-title="Reliance trajectories: the scaffold curve and the crutch signature" figure-slug="reliance-trajectories" figure-type="conceptual trajectory schematic" priority="Important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/14-evaluating-ai-mediated-learning-cajal.md"/></metadata>
+  <defs><marker id="arrow-14-03" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#787878"/></marker></defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Reliance trajectories: the scaffold curve and the crutch signature</text>
+
+  <!-- implied axes -->
+  <line x1="84" y1="72" x2="84" y2="360" stroke="#787878" stroke-width="1"/>
+  <line x1="84" y1="360" x2="640" y2="360" stroke="#787878" stroke-width="1" marker-end="url(#arrow-14-03)"/>
+  <text x="56" y="216" transform="rotate(-90 56 216)" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">reliance on AI</text>
+  <text x="640" y="378" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">time</text>
+
+  <!-- fading-schedule envelope -->
+  <path d="M 92 112 L 548 288 L 548 340 L 92 214 Z" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="150" y="190" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#787878">expected fading envelope</text>
+  <text x="150" y="204" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#787878">(the Chapter 6 schedule)</text>
+
+  <!-- three stylized curves -->
+  <path d="M 92 200 C 250 230 420 265 548 296" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+  <path d="M 92 172 C 250 170 420 172 548 170" fill="none" stroke="#787878" stroke-width="1.5"/>
+  <path d="M 92 140 C 250 128 420 108 548 86" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- withdrawal window the curves race toward -->
+  <line x1="556" y1="76" x2="556" y2="360" stroke="#787878" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="552" y="378" text-anchor="end" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">withdrawal window</text>
+
+  <!-- curve labels -->
+  <text x="566" y="84" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">rising — the</text>
+  <text x="566" y="98" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">crutch signature</text>
+  <text x="566" y="166" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">flat — reliance</text>
+  <text x="566" y="180" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">never fades</text>
+  <text x="566" y="292" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">declining — the</text>
+  <text x="566" y="306" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">scaffold prediction</text>
+
+  <text x="32" y="440" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Stylized predictions, not telemetry — "reliance trajectory" is this book's coinage; drawn smooth because no data exist.</text>
+  <text x="32" y="458" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">No study yet ties a trajectory to a withdrawal outcome — the prediction is itself an unmeasured hypothesis.</text>
+</svg>

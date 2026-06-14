@@ -1,0 +1,64 @@
+<!-- AI for Learning Experience Design | Ch.8 Algorithmic Routing and Equity | Figure 3 | Tracks you can see, tracks you can't | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch8-fig3-title ch8-fig3-desc">
+  <title id="ch8-fig3-title">Tracks you can see, tracks you can't</title>
+  <desc id="ch8-fig3-desc">Two-panel comparison. Left, classical tracking: from one starting point, three thick discrete tracks branch at a single visible assignment moment (open circle) with contest gates on each track. Right, algorithmic routing: from an identical starting point, eight thin lines fan out continuously with no shared fork; where the assignment circle would be there is only a dashed empty outline — no moment to contest.</desc>
+  <metadata>
+    <cajal:figure chapter="08" number="3" file="08-algorithmic-routing-and-equity-fig-03.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="two-panel-structural-comparison" rank="High" concept="Classical tracking (visible, discrete, contestable) vs. algorithmic routing (continuous, individualized, invisible)" source-status="conceptual; eight fan paths are illustrative, gates summarize contestability rights"/>
+  </metadata>
+  <defs>
+    <marker id="ch8f3-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+    <marker id="ch8f3-arrow-gray" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#787878"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Tracks you can see, tracks you can't</text>
+
+  <line x1="350" y1="60" x2="350" y2="340" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- LEFT: classical tracking -->
+  <text x="200" y="84" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">classical tracking</text>
+  <text x="200" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">visible &#183; discrete &#183; contestable</text>
+
+  <line x1="96" y1="220" x2="150" y2="220" stroke="#2a1a0e" stroke-width="2"/>
+  <path d="M150,220 L190,140 L322,140" fill="none" stroke="#2a1a0e" stroke-width="2" marker-end="url(#ch8f3-arrow)"/>
+  <path d="M150,220 L322,220" fill="none" stroke="#2a1a0e" stroke-width="2" marker-end="url(#ch8f3-arrow)"/>
+  <path d="M150,220 L190,300 L322,300" fill="none" stroke="#2a1a0e" stroke-width="2" marker-end="url(#ch8f3-arrow)"/>
+  <circle cx="96" cy="220" r="5" fill="#2a1a0e"/>
+
+  <!-- assignment moment -->
+  <circle cx="150" cy="220" r="14" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="150" y="252" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">assignment moment</text>
+
+  <!-- contest gates -->
+  <rect x="224" y="134" width="12" height="12" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="224" y="214" width="12" height="12" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="224" y="294" width="12" height="12" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="230" y="328" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">contest points</text>
+
+  <!-- RIGHT: algorithmic routing -->
+  <text x="500" y="84" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">algorithmic routing</text>
+  <text x="500" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">continuous &#183; individualized &#183; invisible</text>
+
+  <polyline points="392,220 470,185 545,156 620,116" fill="none" stroke="#787878" stroke-width="1"/>
+  <polyline points="392,220 470,200 545,168 620,146" fill="none" stroke="#787878" stroke-width="1"/>
+  <polyline points="392,220 470,204 545,193 620,176" fill="none" stroke="#787878" stroke-width="1"/>
+  <polyline points="392,220 470,217 545,208 620,205" fill="none" stroke="#787878" stroke-width="1"/>
+  <polyline points="392,220 470,222 545,232 620,235" fill="none" stroke="#787878" stroke-width="1"/>
+  <polyline points="392,220 470,236 545,246 620,264" fill="none" stroke="#787878" stroke-width="1"/>
+  <polyline points="392,220 470,240 545,271 620,294" fill="none" stroke="#787878" stroke-width="1"/>
+  <polyline points="392,220 470,254 545,285 620,324" fill="none" stroke="#787878" stroke-width="1"/>
+  <circle cx="392" cy="220" r="5" fill="#2a1a0e"/>
+
+  <!-- the missing assignment moment, absence made visible -->
+  <circle cx="452" cy="220" r="14" fill="none" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="380" y="306" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">no assignment</text>
+  <text x="380" y="320" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">moment to contest</text>
+  <line x1="426" y1="292" x2="448" y2="238" stroke="#ADADAD" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <!-- caption -->
+  <text x="64" y="384" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Classical tracks are discrete, assigned at one visible moment, and gated — a placement a family could fight. Algorithmic</text>
+  <text x="64" y="398" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">routing diverges continuously: no assignment moment, no results day, nothing to appeal. The eight paths are illustrative.</text>
+</svg>

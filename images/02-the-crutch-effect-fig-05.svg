@@ -1,0 +1,66 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 02-the-crutch-effect · figure 05 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-the-crutch-effect-05">
+  <title id="fig-title-02-the-crutch-effect-05">Cognitive Debt: A Candidate Mechanism, Held at Its Weight — 02-the-crutch-effect</title>
+  <desc>Deliberately modest schematic inside a dashed provisional frame: three identical node fields — Brain-only (dense connections), Search (intermediate), LLM (sparse) — with external support increasing rightward. Ordinal pattern only; arc counts schematic; single-source preprint, engagement proxy.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="02-the-crutch-effect" figure-number="05" figure-title="Cognitive Debt: A Candidate Mechanism, Held at Its Weight" figure-slug="cognitive-debt-gradient" figure-type="structural-schematic" priority="supplementary" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/02-the-crutch-effect-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Cognitive Debt: A Candidate Mechanism, Held at Its Weight</text>
+
+  <!-- Provisional frame (dashed = epistemic status) -->
+  <rect x="48" y="56" width="604" height="276" fill="none" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="60" y="76" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">single-source preprint — provisional</text>
+
+  <!-- Panel 1: Brain-only (dense) -->
+  <rect x="88" y="92" width="156" height="140" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="116" y1="128" x2="166" y2="114" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="166" y1="114" x2="218" y2="132" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="116" y1="128" x2="128" y2="168" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="166" y1="114" x2="186" y2="158" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="218" y1="132" x2="186" y2="158" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="128" y1="168" x2="186" y2="158" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="128" y1="168" x2="112" y2="196" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="186" y1="158" x2="220" y2="196" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="186" y1="158" x2="152" y2="204" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="152" y1="204" x2="112" y2="196" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="220" y1="196" x2="152" y2="204" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="218" y1="132" x2="220" y2="196" stroke="#2a1a0e" stroke-width="1"/>
+  <circle cx="116" cy="128" r="3" fill="#787878"/><circle cx="166" cy="114" r="3" fill="#787878"/><circle cx="218" cy="132" r="3" fill="#787878"/><circle cx="128" cy="168" r="3" fill="#787878"/><circle cx="186" cy="158" r="3" fill="#787878"/><circle cx="220" cy="196" r="3" fill="#787878"/><circle cx="152" cy="204" r="3" fill="#787878"/><circle cx="112" cy="196" r="3" fill="#787878"/>
+  <text x="166" y="252" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Brain-only</text>
+  <text x="166" y="268" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">strongest, most distributed</text>
+
+  <!-- Panel 2: Search (intermediate) -->
+  <rect x="272" y="92" width="156" height="140" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="300" y1="128" x2="312" y2="168" stroke="#787878" stroke-width="1"/>
+  <line x1="312" y1="168" x2="296" y2="196" stroke="#787878" stroke-width="1"/>
+  <line x1="296" y1="196" x2="336" y2="204" stroke="#787878" stroke-width="1"/>
+  <line x1="336" y1="204" x2="370" y2="158" stroke="#787878" stroke-width="1"/>
+  <line x1="350" y1="114" x2="370" y2="158" stroke="#787878" stroke-width="1"/>
+  <line x1="402" y1="132" x2="404" y2="196" stroke="#787878" stroke-width="1"/>
+  <line x1="370" y1="158" x2="404" y2="196" stroke="#787878" stroke-width="1"/>
+  <circle cx="300" cy="128" r="3" fill="#787878"/><circle cx="350" cy="114" r="3" fill="#787878"/><circle cx="402" cy="132" r="3" fill="#787878"/><circle cx="312" cy="168" r="3" fill="#787878"/><circle cx="370" cy="158" r="3" fill="#787878"/><circle cx="404" cy="196" r="3" fill="#787878"/><circle cx="336" cy="204" r="3" fill="#787878"/><circle cx="296" cy="196" r="3" fill="#787878"/>
+  <text x="350" y="252" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">Search</text>
+  <text x="350" y="268" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">intermediate</text>
+
+  <!-- Panel 3: LLM (sparse) -->
+  <rect x="456" y="92" width="156" height="140" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="484" y1="128" x2="496" y2="168" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="520" y1="204" x2="480" y2="196" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="534" y1="114" x2="554" y2="158" stroke="#ADADAD" stroke-width="1"/>
+  <circle cx="484" cy="128" r="3" fill="#787878"/><circle cx="534" cy="114" r="3" fill="#787878"/><circle cx="586" cy="132" r="3" fill="#787878"/><circle cx="496" cy="168" r="3" fill="#787878"/><circle cx="554" cy="158" r="3" fill="#787878"/><circle cx="588" cy="196" r="3" fill="#787878"/><circle cx="520" cy="204" r="3" fill="#787878"/><circle cx="480" cy="196" r="3" fill="#787878"/>
+  <text x="534" y="252" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="middle">LLM</text>
+  <text x="534" y="268" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" text-anchor="middle">weakest</text>
+
+  <!-- Support axis -->
+  <line x1="120" y1="300" x2="596" y2="300" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="358" y="318" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">external support →</text>
+
+  <!-- Caption -->
+  <text x="32" y="360" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Ordinal pattern only — connection counts schematic; EEG connectivity is an engagement proxy, not a learning outcome.</text>
+  <text x="32" y="376" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Shown for convergence with independent behavioral evidence, not as standalone proof; n=54 (~18/group); critical commentary published.</text>
+  <text x="32" y="400" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: KOSMYNA ET AL. · ARXIV:2506.08872 · PREPRINT · SINGLE SOURCE</text>
+</svg>

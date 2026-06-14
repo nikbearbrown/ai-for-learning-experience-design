@@ -1,0 +1,65 @@
+<!--
+  AI for Learning Experience Design — Chapter 15, Figure 04
+  The lineage and the gap: what no ancestor asks
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+  The empty-slot rendering is an interpretive move and is labeled as such in the caption.
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-04">
+  <title id="fig-title-15-04">The lineage and the gap: what no ancestor asks — 15-the-full-integration</title>
+  <desc>Three ancestor documents — model card, datasheet, system card — share a four-slot anatomy with three slots filled and the fourth drawn only as a dashed outline. Descent lines converge on the integration specification, which inherits the three filled slots and fills the fourth with a measurement marker: the withdrawal claim no ancestor carries.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="15-the-full-integration" figure-number="04" figure-title="The lineage and the gap: what no ancestor asks" figure-slug="documentation-lineage-gap" figure-type="genealogy comparison schematic" priority="Important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/15-the-full-integration-cajal.md"/></metadata>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The lineage and the gap: what no ancestor asks</text>
+
+  <!-- ancestor cards -->
+  <g fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1">
+    <rect x="95" y="70" width="150" height="104" rx="0"/>
+    <rect x="275" y="70" width="150" height="104" rx="0"/>
+    <rect x="455" y="70" width="150" height="104" rx="0"/>
+  </g>
+  <g text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">
+    <text x="170" y="92">model card</text>
+    <text x="350" y="92">datasheet</text>
+    <text x="530" y="92">system card</text>
+  </g>
+  <!-- shared four-slot anatomy: three filled, the fourth present only as a dashed outline -->
+  <g fill="#ADADAD">
+    <rect x="108" y="112" width="24" height="24"/><rect x="141" y="112" width="24" height="24"/><rect x="174" y="112" width="24" height="24"/>
+    <rect x="288" y="112" width="24" height="24"/><rect x="321" y="112" width="24" height="24"/><rect x="354" y="112" width="24" height="24"/>
+    <rect x="468" y="112" width="24" height="24"/><rect x="501" y="112" width="24" height="24"/><rect x="534" y="112" width="24" height="24"/>
+  </g>
+  <g fill="none" stroke="#787878" stroke-width="1" stroke-dasharray="3 2">
+    <rect x="207" y="112" width="24" height="24"/>
+    <rect x="387" y="112" width="24" height="24"/>
+    <rect x="567" y="112" width="24" height="24"/>
+  </g>
+  <line x1="579" y1="140" x2="575" y2="200" stroke="#787878" stroke-width="0.75"/>
+  <text x="575" y="212" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#787878">no withdrawal construct — anywhere</text>
+
+  <!-- descent lines -->
+  <g stroke="#787878" stroke-width="0.75">
+    <line x1="170" y1="174" x2="320" y2="260"/>
+    <line x1="350" y1="174" x2="350" y2="260"/>
+    <line x1="530" y1="174" x2="380" y2="260"/>
+  </g>
+
+  <!-- the descendant -->
+  <rect x="230" y="260" width="240" height="130" rx="0" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="350" y="284" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">the integration specification</text>
+  <g fill="#ADADAD">
+    <rect x="268" y="304" width="32" height="32"/>
+    <rect x="312" y="304" width="32" height="32"/>
+    <rect x="356" y="304" width="32" height="32"/>
+  </g>
+  <!-- the fourth slot, filled (single red category: the withdrawal claim) -->
+  <rect x="400" y="304" width="32" height="32" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <polygon points="416,307 423,314 416,321 409,314" fill="#C8102E"/>
+  <line x1="416" y1="321" x2="416" y2="330" stroke="#C8102E" stroke-width="1.5"/>
+  <line x1="410" y1="330" x2="422" y2="330" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="416" y="352" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">the withdrawal claim</text>
+
+  <text x="350" y="412" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">slots, left to right: intended use &#183; boundaries &#183; disclosed evaluation &#183; the withdrawal claim</text>
+
+  <text x="32" y="444" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The dashed slot is interpretive: the ancestors do not have an empty slot — they lack the withdrawal construct entirely.</text>
+  <text x="32" y="462" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Lineage sources pending verification (Mitchell 2019; Gebru 2021); the safety case contributes the argument form.</text>
+</svg>

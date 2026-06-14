@@ -1,0 +1,91 @@
+<!-- AI for Learning Experience Design | Ch.9 AI-Generated Content and Feedback | Figure 5 | Partnership beats replacement | Nik Bear Brown | 2026-06-07 -->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.dev/ns" role="img" aria-labelledby="ch9-fig5-title ch9-fig5-desc">
+  <title id="ch9-fig5-title">Partnership beats replacement</title>
+  <desc id="ch9-fig5-desc">Two-panel allocation schematic. Top, replacement: six pieces of learner work all pass through one monolithic AI processor. Bottom, partnership: all six pass first through a smaller AI block taking the fast, criteria-explicit pass; four continue straight to delivery while two are diverted upward through a human node — scarce human attention reserved for misconception and motivational work — before rejoining. The 4/2 split is a qualitative allocation, not a measured ratio.</desc>
+  <metadata>
+    <cajal:figure chapter="09" number="5" file="09-ai-generated-content-and-feedback-fig-05.svg" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07" type="two-panel-allocation-schematic" rank="Medium" concept="AI-plus-teacher partnership configuration vs. the replacement architecture" source-status="conceptual; hybrid superiority direction-verified at review level, Hwang &amp; Lee 2025 [verify — pin citation]"/>
+  </metadata>
+  <defs>
+    <marker id="ch9f5-arrow" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2a1a0e"/>
+    </marker>
+    <marker id="ch9f5-arrow-gray" viewBox="0 0 10 8" markerWidth="9" markerHeight="7.2" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#ADADAD"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Partnership beats replacement</text>
+
+  <!-- TOP: replacement -->
+  <text x="64" y="68" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">Replacement — one processor intercepts everything</text>
+  <text x="88" y="106" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">work in</text>
+  <text x="600" y="106" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">work out</text>
+
+  <!-- flow lines (drawn first; processor covers the middle) -->
+  <line x1="95" y1="132" x2="589" y2="132" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+  <line x1="95" y1="150" x2="589" y2="150" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+  <line x1="95" y1="168" x2="589" y2="168" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+  <line x1="95" y1="186" x2="589" y2="186" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+  <line x1="95" y1="204" x2="589" y2="204" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+  <line x1="95" y1="222" x2="589" y2="222" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+
+  <rect x="300" y="118" width="120" height="116" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="360" y="172" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">AI</text>
+  <text x="360" y="188" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">all work, all kinds</text>
+
+  <!-- input/output squares -->
+  <rect x="81" y="125" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="143" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="161" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="179" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="197" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="215" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="125" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="143" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="161" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="179" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="197" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="215" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+
+  <!-- BOTTOM: partnership -->
+  <text x="64" y="268" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#2a1a0e">Partnership — AI first; human where judgment lives</text>
+
+  <!-- pass-through lines -->
+  <line x1="95" y1="340" x2="589" y2="340" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+  <line x1="95" y1="358" x2="589" y2="358" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+  <line x1="95" y1="376" x2="589" y2="376" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+  <line x1="95" y1="394" x2="589" y2="394" stroke="#ADADAD" stroke-width="1" marker-end="url(#ch9f5-arrow-gray)"/>
+
+  <!-- diverted judgment-bearing lines -->
+  <path d="M95,304 L372,304 L372,272 L548,272 L548,304 L585,304" fill="none" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch9f5-arrow)"/>
+  <path d="M95,322 L384,322 L384,284 L536,284 L536,322 L585,322" fill="none" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch9f5-arrow)"/>
+
+  <!-- reduced AI first-pass block -->
+  <rect x="240" y="292" width="90" height="116" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="285" y="346" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">AI first pass</text>
+  <text x="285" y="362" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">criteria-explicit</text>
+
+  <!-- human node, elevated, second position -->
+  <circle cx="460" cy="278" r="20" fill="#C8102E"/>
+  <text x="460" y="282" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#FFFFFF">human</text>
+  <text x="460" y="248" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454">misconception &amp; motivational work</text>
+
+  <!-- input/output squares -->
+  <rect x="81" y="297" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="315" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="333" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="351" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="369" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="81" y="387" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="297" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="315" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="333" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="351" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="369" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <rect x="593" y="387" width="14" height="14" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+
+  <!-- caption -->
+  <text x="64" y="438" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Top: the replacement architecture — one AI system intercepts all learner work. Bottom: the partnership configuration —</text>
+  <text x="64" y="452" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">the AI takes the fast, criteria-explicit pass on everything; scarce human attention goes to the pieces needing</text>
+  <text x="64" y="466" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">misconception and motivational work. The 4/2 split is a qualitative allocation, not a measured ratio.</text>
+</svg>

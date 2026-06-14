@@ -7,10 +7,19 @@ OUTPUT_DIR="output"
 
 mkdir -p "$OUTPUT_DIR"
 
-cat $METADATA chapters/*.md > "$OUTPUT_DIR/combined.md"
+COMBINED="$OUTPUT_DIR/combined.md"
 
-pandoc "$OUTPUT_DIR/combined.md" \
-  --from markdown \
+# concatenate; metadata goes in via --metadata-file so stray '---' blocks
+# in chapter prose are never parsed (and dropped) as YAML
+cat chapters/*.md > "$COMBINED"
+
+# chapter files reference images as ../images/ (relative to the source dir);
+# pandoc runs from the book root, so rewrite to images/
+sed -i 's|](\.\./images/|](images/|g' "$COMBINED"
+
+pandoc "$COMBINED" \
+  --from markdown-yaml_metadata_block \
+  --metadata-file="$METADATA" \
   --to epub3 \
   --epub-cover-image=cover.jpg \
   --css=styles/kindle.css \
@@ -18,8 +27,9 @@ pandoc "$OUTPUT_DIR/combined.md" \
   --toc --toc-depth=2 \
   --output="$OUTPUT_DIR/$BOOK_SLUG.epub"
 
-pandoc "$OUTPUT_DIR/combined.md" \
-  --from markdown \
+pandoc "$COMBINED" \
+  --from markdown-yaml_metadata_block \
+  --metadata-file="$METADATA" \
   --to html5 \
   --standalone \
   --css=styles/kindle.css \

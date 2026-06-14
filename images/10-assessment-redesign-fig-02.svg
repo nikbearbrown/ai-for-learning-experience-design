@@ -1,0 +1,59 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch10 fig-02 · Program-Level Allocation: Load-Bearing Walls and Drywall · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 480" role="img" aria-labelledby="ch10-fig02-title ch10-fig02-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch10-fig02-title">Program-Level Allocation: Load-Bearing Walls and Drywall</title>
+  <desc id="ch10-fig02-desc">Architectural allocation schematic: six assessments stand on a program baseline. Two tall red Lane-1 piers alone send support arrows up to the beam carrying the program-level capability claim; four hollow Lane-2 partitions sit beneath the beam without touching it. The oral defense pier carries a heavier outline.</desc>
+  <metadata>
+    <cajal:figure chapter="10" figure="2" slug="two-lane-load-bearing-allocation" type="structural-schematic" rank="high" class="VG" concept="Two-lane program allocation: a minority of secure assessments carry the verification load" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <marker id="ch10f02-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2a1a0e"/></marker>
+  </defs>
+  <rect width="700" height="480" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 10.2 · Program-level allocation: load-bearing walls and drywall</text>
+
+  <!-- claim beam -->
+  <rect x="64" y="84" width="596" height="36" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="362" y="106" font-size="12" fill="#2a1a0e" text-anchor="middle">PROGRAM-LEVEL CAPABILITY CLAIM</text>
+
+  <!-- support arrows from the two piers only -->
+  <line x1="202" y1="186" x2="202" y2="126" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch10f02-arrow)"/>
+  <line x1="520" y1="186" x2="520" y2="126" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch10f02-arrow)"/>
+
+  <!-- segments on the baseline -->
+  <!-- 1 portfolio (lane 2) -->
+  <rect x="64" y="234" width="64" height="86" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <!-- 2 supervised window (lane 1 pier) -->
+  <rect x="170" y="190" width="64" height="130" fill="#C8102E"/>
+  <!-- 3 critique task (lane 2) -->
+  <rect x="276" y="234" width="64" height="86" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <!-- 4 open task (lane 2) -->
+  <rect x="382" y="234" width="64" height="86" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <!-- 5 oral defense (lane 1 pier, emphasized) -->
+  <rect x="488" y="190" width="64" height="130" fill="#C8102E" stroke="#2a1a0e" stroke-width="2.5"/>
+  <!-- 6 open task (lane 2) -->
+  <rect x="594" y="234" width="64" height="86" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+
+  <!-- baseline -->
+  <line x1="64" y1="320" x2="660" y2="320" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- segment labels -->
+  <text x="96" y="338" font-size="11" fill="#2a1a0e" text-anchor="middle">PORTFOLIO</text>
+  <text x="202" y="338" font-size="11" fill="#2a1a0e" text-anchor="middle">SUPERVISED</text>
+  <text x="202" y="352" font-size="11" fill="#2a1a0e" text-anchor="middle">WINDOW</text>
+  <text x="308" y="338" font-size="11" fill="#2a1a0e" text-anchor="middle">CRITIQUE TASK</text>
+  <text x="414" y="338" font-size="11" fill="#2a1a0e" text-anchor="middle">OPEN TASK</text>
+  <text x="520" y="338" font-size="11" fill="#2a1a0e" text-anchor="middle">ORAL DEFENSE</text>
+  <text x="626" y="338" font-size="11" fill="#2a1a0e" text-anchor="middle">OPEN TASK</text>
+
+  <!-- legend -->
+  <rect x="64" y="368" width="10" height="10" fill="#C8102E"/>
+  <text x="82" y="377" font-size="11" fill="#545454">LANE 1 — SECURE: carries the verification load</text>
+  <rect x="360" y="368" width="10" height="10" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="378" y="377" font-size="11" fill="#545454">LANE 2 — OPEN: AI permitted, no claim load</text>
+
+  <!-- caption -->
+  <text x="64" y="408" font-size="11" fill="#545454">DataWise 101 allocation: two Lane-1 secure assessments (red piers) alone carry the program-level claim; four</text>
+  <text x="64" y="424" font-size="11" fill="#545454">Lane-2 open assessments sit under the beam without bearing it. The heavy-outlined oral defense carries the</text>
+  <text x="64" y="440" font-size="11" fill="#545454">severed extrapolation inference from Fig. 10.1. Lane 2 is not lesser — it is differently loaded.</text>
+  <text x="64" y="462" font-size="10" fill="#787878" letter-spacing="0.5">TWO-LANE MODEL CITED AS INSTITUTIONAL PRACTICE, NOT CAUSAL EVIDENCE · CASE APPLICATION: DATAWISE 101, CH. 10</text>
+</svg>

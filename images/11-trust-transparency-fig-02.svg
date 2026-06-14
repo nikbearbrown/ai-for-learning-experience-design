@@ -1,0 +1,71 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch11 fig-02 · The Transparency Dilemma and Its Exit · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 540" role="img" aria-labelledby="ch11-fig02-title ch11-fig02-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch11-fig02-title">The Transparency Dilemma and Its Exit</title>
+  <desc id="ch11-fig02-desc">Branching flow: the design problem splits into disclose-as-label, which carries a measured trust cost, and conceal, which is blocked by three inhibition bars (learners already know, EU AI Act Article 50, the calibration thesis) and rendered unreachable. The label branch is transformed into disclosure as relational metadata: a red chip carrying four facts with the interaction. Caption flags the exit as a design hypothesis.</desc>
+  <metadata>
+    <cajal:figure chapter="11" figure="2" slug="transparency-dilemma-exit" type="branching-decision-flow" rank="high" class="MC" concept="Disclosure costs trust; concealment is triple-blocked; relational metadata is the hypothesized exit" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <marker id="ch11f02-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2a1a0e"/></marker>
+  </defs>
+  <rect width="700" height="540" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 11.2 · The transparency dilemma and its exit</text>
+
+  <!-- the design problem -->
+  <rect x="200" y="56" width="300" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="350" y="76" font-size="12" fill="#2a1a0e" text-anchor="middle">THE DESIGN PROBLEM</text>
+  <text x="350" y="94" font-size="11" fill="#545454" text-anchor="middle">the system must be known for what it is</text>
+
+  <!-- conceal branch: triple-blocked -->
+  <line x1="500" y1="80" x2="506" y2="80" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="512" y1="62" x2="512" y2="98" stroke="#2a1a0e" stroke-width="2.5"/>
+  <line x1="528" y1="62" x2="528" y2="98" stroke="#2a1a0e" stroke-width="2.5"/>
+  <line x1="544" y1="62" x2="544" y2="98" stroke="#2a1a0e" stroke-width="2.5"/>
+  <line x1="550" y1="80" x2="554" y2="80" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <rect x="556" y="56" width="104" height="48" fill="#FFFFFF" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="608" y="76" font-size="12" fill="#787878" text-anchor="middle">CONCEAL</text>
+  <text x="608" y="94" font-size="11" fill="#ADADAD" text-anchor="middle">unreachable</text>
+  <text x="460" y="124" font-size="11" fill="#545454">1 — 89% already tell bot from person</text>
+  <text x="460" y="140" font-size="11" fill="#545454">2 — EU AI Act, Article 50</text>
+  <text x="460" y="156" font-size="11" fill="#545454">3 — calibration needs a known helper</text>
+
+  <!-- disclose-as-label branch -->
+  <line x1="280" y1="104" x2="280" y2="156" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch11f02-arrow)"/>
+  <rect x="180" y="160" width="200" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="280" y="180" font-size="12" fill="#2a1a0e" text-anchor="middle">DISCLOSE AS A LABEL</text>
+  <text x="280" y="198" font-size="11" fill="#545454" text-anchor="middle">a sticker at the door</text>
+
+  <!-- measured cost -->
+  <line x1="240" y1="208" x2="240" y2="246" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch11f02-arrow)"/>
+  <polygon points="228,252 252,252 240,270" fill="#787878"/>
+  <text x="262" y="265" font-size="11" fill="#545454">measured trust cost (Schilke &amp; Reimann)</text>
+
+  <!-- transformation path to the exit -->
+  <path d="M 380 184 H 430 V 302" fill="none" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch11f02-arrow)"/>
+  <text x="440" y="248" font-size="11" fill="#787878">redrawn — not a label, but metadata</text>
+
+  <!-- relational metadata chip: the single red category (the exit) -->
+  <text x="120" y="302" font-size="12" fill="#2a1a0e">DISCLOSURE AS RELATIONAL METADATA</text>
+  <rect x="120" y="312" width="520" height="56" fill="#C8102E"/>
+  <line x1="250" y1="312" x2="250" y2="368" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="380" y1="312" x2="380" y2="368" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="510" y1="312" x2="510" y2="368" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="185" y="336" font-size="11" fill="#FFFFFF" text-anchor="middle">WHAT IS</text>
+  <text x="185" y="352" font-size="11" fill="#FFFFFF" text-anchor="middle">ACTING</text>
+  <text x="315" y="336" font-size="11" fill="#FFFFFF" text-anchor="middle">WHAT IT MAY /</text>
+  <text x="315" y="352" font-size="11" fill="#FFFFFF" text-anchor="middle">MAY NOT DO</text>
+  <text x="445" y="336" font-size="11" fill="#FFFFFF" text-anchor="middle">WHO</text>
+  <text x="445" y="352" font-size="11" fill="#FFFFFF" text-anchor="middle">OVERSEES</text>
+  <text x="575" y="336" font-size="11" fill="#FFFFFF" text-anchor="middle">HOW TO</text>
+  <text x="575" y="352" font-size="11" fill="#FFFFFF" text-anchor="middle">REACH THEM</text>
+
+  <!-- recovery marker -->
+  <polygon points="120,396 144,396 132,380" fill="#2a1a0e"/>
+  <text x="156" y="392" font-size="11" fill="#545454">trust cost partially repaid — the four facts travel with the interaction</text>
+
+  <!-- caption (mandatory epistemic flag) -->
+  <text x="64" y="432" font-size="11" fill="#545454">A design hypothesis, not a validated pattern [contested — active research]. Disclosure-as-label carries a</text>
+  <text x="64" y="448" font-size="11" fill="#545454">measured trust cost; concealment is blocked three ways — empirically, legally, thetically. The chapter's exit is</text>
+  <text x="64" y="464" font-size="11" fill="#545454">disclosure as relational metadata: four facts carried in the interaction, not a sticker at the door.</text>
+  <text x="64" y="490" font-size="10" fill="#787878" letter-spacing="0.5">SCHILKE &amp; REIMANN (N&gt;3,000, 13 EXPERIMENTS) · WGU LABS 2025 · EU AI ACT, ART. 50</text>
+</svg>

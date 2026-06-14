@@ -1,0 +1,52 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch10 fig-03 · Three Questions, One Order · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 420" role="img" aria-labelledby="ch10-fig03-title ch10-fig03-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch10-fig03-title">Three Questions, One Order</title>
+  <desc id="ch10-fig03-desc">Top-down decision flow: Question 3 (visibility) sits at the top in red and determines Question 1 (production) and Question 2 (completion). Only Question 2 fans into three completion flavors: AI-free window, disclosed use, AI-required. Question 1 terminates without children.</desc>
+  <metadata>
+    <cajal:figure chapter="10" figure="3" slug="three-questions-one-order" type="decision-flow" rank="high" class="MC" concept="Q3 visibility is logically prior; completion fans into three designed window types per objective" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <marker id="ch10f03-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2a1a0e"/></marker>
+  </defs>
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 10.3 · Three questions, one order</text>
+
+  <!-- Q3: governing question (single red category: logically prior) -->
+  <rect x="230" y="56" width="240" height="56" fill="#C8102E"/>
+  <text x="350" y="80" font-size="12" fill="#FFFFFF" text-anchor="middle">Q3 · VISIBILITY — ASKED FIRST</text>
+  <text x="350" y="98" font-size="11" fill="#FFFFFF" text-anchor="middle">what must this assessment make visible?</text>
+
+  <!-- arrows down -->
+  <line x1="306" y1="116" x2="208" y2="162" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch10f03-arrow)"/>
+  <line x1="394" y1="116" x2="492" y2="162" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch10f03-arrow)"/>
+
+  <!-- Q1 -->
+  <rect x="90" y="168" width="220" height="56" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="200" y="192" font-size="12" fill="#2a1a0e" text-anchor="middle">Q1 · PRODUCTION</text>
+  <text x="200" y="210" font-size="11" fill="#545454" text-anchor="middle">who produces the work?</text>
+  <text x="200" y="246" font-size="11" fill="#787878" text-anchor="middle">answered by Q3 — no further branching</text>
+
+  <!-- Q2 -->
+  <rect x="390" y="168" width="220" height="56" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="500" y="192" font-size="12" fill="#2a1a0e" text-anchor="middle">Q2 · COMPLETION</text>
+  <text x="500" y="210" font-size="11" fill="#545454" text-anchor="middle">under what conditions?</text>
+
+  <!-- fan to three flavors -->
+  <line x1="440" y1="224" x2="358" y2="286" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch10f03-arrow)"/>
+  <line x1="500" y1="224" x2="476" y2="286" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch10f03-arrow)"/>
+  <line x1="560" y1="224" x2="592" y2="286" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch10f03-arrow)"/>
+
+  <!-- flavor pills (rx 0 per style) -->
+  <rect x="300" y="292" width="108" height="36" fill="#F5F5F5" stroke="#787878" stroke-width="1"/>
+  <text x="354" y="314" font-size="11" fill="#2a1a0e" text-anchor="middle">AI-FREE WINDOW</text>
+  <rect x="420" y="292" width="108" height="36" fill="#F5F5F5" stroke="#787878" stroke-width="1"/>
+  <text x="474" y="314" font-size="11" fill="#2a1a0e" text-anchor="middle">DISCLOSED USE</text>
+  <rect x="540" y="292" width="108" height="36" fill="#F5F5F5" stroke="#787878" stroke-width="1"/>
+  <text x="594" y="314" font-size="11" fill="#2a1a0e" text-anchor="middle">AI-REQUIRED</text>
+
+  <!-- caption -->
+  <text x="64" y="364" font-size="11" fill="#545454">Question 3 is logically prior: what must be made visible determines who may produce the work (Q1) and under</text>
+  <text x="64" y="380" font-size="11" fill="#545454">what conditions completion happens (Q2). Completion is designed per learning objective — not per course — as a</text>
+  <text x="64" y="396" font-size="11" fill="#545454">mix of the three window types. The asymmetry is deliberate: only Q2 fans out.</text>
+  <text x="64" y="414" font-size="10" fill="#787878" letter-spacing="0.5">THREE-QUESTION PROTOCOL, CH. 10</text>
+</svg>

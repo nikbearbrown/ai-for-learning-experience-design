@@ -1,0 +1,45 @@
+<!-- CAJAL figure · ai-for-learning-experience-design · ch10 fig-05 · Discursive Wrapper, Structural Repair · Nik Bear Brown · 2026-06-07 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cajal="https://cajal.press/ns/figure" viewBox="0 0 700 420" role="img" aria-labelledby="ch10-fig05-title ch10-fig05-desc" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif">
+  <title id="ch10-fig05-title">Discursive Wrapper, Structural Repair</title>
+  <desc id="ch10-fig05-desc">Two-panel comparison. Left: an unchanged task sits inside a dashed, permeable rule wrapper; an arrow passes straight through the wrapper into the task. Right: the task itself is rebuilt with a keyed notch into which a red key piece seats — integrity lives in the task geometry, with no wrapper.</desc>
+  <metadata>
+    <cajal:figure chapter="10" figure="5" slug="discursive-vs-structural" type="two-panel-comparison" rank="medium" class="VG" concept="Corbin-Dawson-Liu distinction: rules around the task vs. the task itself rebuilt" book="ai-for-learning-experience-design" author="Nik Bear Brown" date="2026-06-07"/>
+  </metadata>
+  <defs>
+    <marker id="ch10f05-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2a1a0e"/></marker>
+  </defs>
+  <rect width="700" height="420" fill="#FFFFFF"/>
+  <text x="64" y="30" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Figure 10.5 · Discursive wrapper, structural repair</text>
+
+  <!-- left panel -->
+  <rect x="64" y="72" width="266" height="228" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="197" y="96" font-size="12" fill="#2a1a0e" text-anchor="middle">DISCURSIVE</text>
+  <text x="197" y="112" font-size="11" fill="#545454" text-anchor="middle">rules around the task</text>
+  <!-- permeable rule wrapper -->
+  <circle cx="197" cy="206" r="64" fill="none" stroke="#787878" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- unchanged task -->
+  <rect x="167" y="176" width="60" height="60" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="197" y="203" font-size="11" fill="#545454" text-anchor="middle">TASK</text>
+  <text x="197" y="218" font-size="11" fill="#787878" text-anchor="middle">unchanged</text>
+  <!-- arrow passing through the wrapper -->
+  <line x1="86" y1="156" x2="162" y2="190" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#ch10f05-arrow)"/>
+  <text x="197" y="288" font-size="11" fill="#787878" text-anchor="middle">the wrapper stops nothing</text>
+
+  <!-- right panel -->
+  <rect x="394" y="72" width="266" height="228" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="527" y="96" font-size="12" fill="#2a1a0e" text-anchor="middle">STRUCTURAL</text>
+  <text x="527" y="112" font-size="11" fill="#545454" text-anchor="middle">the task itself</text>
+  <!-- rebuilt task with keyed notch on right edge -->
+  <path d="M 471 158 H 567 V 186 H 543 V 218 H 567 V 246 H 471 Z" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="513" y="197" font-size="11" fill="#2a1a0e" text-anchor="middle">TASK</text>
+  <text x="513" y="212" font-size="11" fill="#545454" text-anchor="middle">rebuilt</text>
+  <!-- red key seated into the notch (single red category: the structural repair) -->
+  <path d="M 543 186 H 567 V 218 H 543 Z M 567 194 H 591 V 210 H 567 Z" fill="#C8102E"/>
+  <text x="527" y="288" font-size="11" fill="#787878" text-anchor="middle">only genuine engagement fits</text>
+
+  <!-- caption -->
+  <text x="64" y="336" font-size="11" fill="#545454">A discursive change wraps the unchanged task in a rule layer enforcement cannot verify — the arrow passes</text>
+  <text x="64" y="352" font-size="11" fill="#545454">straight through the dashed wrapper. A structural change rebuilds the task mechanics (red key) so validity no</text>
+  <text x="64" y="368" font-size="11" fill="#545454">longer depends on compliance. The penetrating arrow renders the chapter's argument, not a measurement.</text>
+  <text x="64" y="394" font-size="10" fill="#787878" letter-spacing="0.5">DISTINCTION: CORBIN, DAWSON &amp; LIU · CH. 10</text>
+</svg>

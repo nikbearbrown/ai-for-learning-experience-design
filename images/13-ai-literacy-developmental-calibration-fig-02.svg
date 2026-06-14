@@ -1,0 +1,50 @@
+<!--
+  AI for Learning Experience Design — Chapter 13, Figure 02
+  Two teaching channels: the orientation module vs. the interface
+  Generated 2026-06-07 · CAJAL SVG Generator · Brutalist D3 SVG style
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-13-02">
+  <title id="fig-title-13-02">Two teaching channels: the orientation module vs. the interface — 13-ai-literacy-developmental-calibration</title>
+  <desc>Two channels feed the learner's model of AI: a thin orientation-module line that ends early and continues only as a dotted trace, and a broad interface band carrying recurring interaction beads that wraps the learner node. Channel proportions are schematic, not measured.</desc>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="13-ai-literacy-developmental-calibration" figure-number="02" figure-title="Two teaching channels: the orientation module vs. the interface" figure-slug="two-teaching-channels" figure-type="comparative flow schematic" priority="Important" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/13-ai-literacy-developmental-calibration-cajal.md"/></metadata>
+  <defs><marker id="arrow-13-02" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+
+  <text x="32" y="40" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Two teaching channels: the orientation module vs. the interface</text>
+
+  <!-- orientation module: small source, thin channel that ends -->
+  <rect x="64" y="84" width="140" height="36" rx="0" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="134" y="106" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">orientation module</text>
+  <text x="134" y="136" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">teaches about AI — once, then ends</text>
+
+  <line x1="204" y1="102" x2="370" y2="150" stroke="#787878" stroke-width="1"/>
+  <circle cx="370" cy="150" r="3.5" fill="#787878"/>
+  <line x1="374" y1="151" x2="541" y2="196" stroke="#787878" stroke-width="1" stroke-dasharray="2 3"/>
+  <text x="300" y="112" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">ends at week one</text>
+
+  <!-- interface: large source, broad band (single red category) -->
+  <rect x="64" y="188" width="140" height="144" rx="0" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="134" y="210" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e">the interface</text>
+  <text x="134" y="228" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">teaches how to rely</text>
+  <text x="134" y="243" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">on AI — session after</text>
+  <text x="134" y="258" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">session, all term</text>
+
+  <polygon points="204,212 544,202 544,238 204,308" fill="#C8102E"/>
+  <!-- interaction beads riding the band -->
+  <g fill="#FFFFFF">
+    <circle cx="250" cy="254.6" r="5"/>
+    <circle cx="300" cy="248.7" r="5"/>
+    <circle cx="350" cy="242.8" r="5"/>
+    <circle cx="400" cy="237" r="5"/>
+    <circle cx="450" cy="231.1" r="5"/>
+    <circle cx="500" cy="225.2" r="5"/>
+  </g>
+  <text x="374" y="296" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#C8102E">the interface wins — it always wins</text>
+
+  <!-- learner-model node; the band wraps its perimeter, the module line merely touches -->
+  <circle cx="580" cy="220" r="40" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <path d="M 565 178.7 A 44 44 0 0 0 565 261.3" fill="none" stroke="#C8102E" stroke-width="5"/>
+  <text x="580" y="216" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">the learner's</text>
+  <text x="580" y="231" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#2a1a0e">model of AI</text>
+
+  <text x="32" y="400" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Channel proportions are schematic, not measured — twenty minutes of module against a semester of interface is rhetoric, not data.</text>
+</svg>

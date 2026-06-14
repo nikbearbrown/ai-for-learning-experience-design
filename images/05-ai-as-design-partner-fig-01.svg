@@ -1,0 +1,59 @@
+<!-- AI for Learning Experience Design · Chapter 5 · Figure 1 — Fixation Displacement · 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ch5-fig01-title ch5-fig01-desc">
+  <title id="ch5-fig01-title">Fixation Displacement: Your Distribution Replaced by Its Distribution</title>
+  <desc id="ch5-fig01-desc">Two ideation paths from one shared design brief. The unassisted path opens directly into a wide, irregular fan of ideas. The assisted path passes first through a prompt and then through generated output before ending in a denser but far narrower cluster of ideas; a thick curved arrow shows the wide field being pulled into the output's narrow orbit.</desc>
+  <metadata xmlns:cajal="https://cajal.org/ns/figure"><cajal:figure book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="5" figure-number="1" title="Fixation Displacement: Your Distribution Replaced by Its Distribution" slug="fixation-displacement" type="two-path-comparison" priority="critical" author="Nik Bear Brown" date="2026-06-07" source-file="pantry/05-ai-as-design-partner-cajal.md"/></metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+  <style>
+    .t{font:14px 'EB Garamond','Garamond',Georgia,serif;fill:#2a1a0e}
+    .l{font:12px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#2a1a0e}
+    .s{font:11px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#545454}
+    .src{font:10px 'Inter',-apple-system,'Helvetica Neue',sans-serif;fill:#787878;letter-spacing:.08em}
+  </style>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text class="t" x="32" y="32">Fixation Displacement: Your Distribution Replaced by Its Distribution</text>
+
+  <!-- shared brief -->
+  <circle cx="90" cy="200" r="14" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text class="s" x="90" y="236" text-anchor="middle">shared design brief</text>
+
+  <!-- unassisted path: wide fan -->
+  <path d="M100 192 C150 162, 190 142, 228 130" fill="none" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text class="l" x="440" y="58" text-anchor="middle">unassisted: fewer ideas, wider spread</text>
+  <g fill="#C8102E">
+    <circle cx="300" cy="92" r="4.5"/><circle cx="334" cy="146" r="4.5"/><circle cx="372" cy="76" r="4.5"/>
+    <circle cx="398" cy="128" r="4.5"/><circle cx="446" cy="92" r="4.5"/><circle cx="470" cy="160" r="4.5"/>
+    <circle cx="508" cy="116" r="4.5"/><circle cx="548" cy="76" r="4.5"/><circle cx="566" cy="150" r="4.5"/>
+    <circle cx="600" cy="104" r="4.5"/><circle cx="628" cy="170" r="4.5"/><circle cx="282" cy="176" r="4.5"/>
+    <circle cx="520" cy="186" r="4.5"/>
+  </g>
+
+  <!-- assisted path: prompt, output, dense narrow cluster -->
+  <path d="M102 206 C130 244, 142 276, 164 294" fill="none" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="170" y="286" width="80" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="210" y="306" text-anchor="middle">prompt</text>
+  <line x1="250" y1="302" x2="290" y2="302" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <polygon points="296 302, 313 278, 347 278, 364 302, 347 326, 313 326" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text class="l" x="330" y="345" text-anchor="middle">generated output</text>
+  <line x1="364" y1="302" x2="446" y2="302" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <g fill="#787878">
+    <circle cx="466" cy="296" r="4.5"/><circle cx="480" cy="308" r="4.5"/><circle cx="494" cy="294" r="4.5"/>
+    <circle cx="508" cy="306" r="4.5"/><circle cx="522" cy="296" r="4.5"/><circle cx="536" cy="310" r="4.5"/>
+    <circle cx="550" cy="298" r="4.5"/><circle cx="564" cy="308" r="4.5"/><circle cx="578" cy="294" r="4.5"/>
+    <circle cx="592" cy="306" r="4.5"/><circle cx="606" cy="298" r="4.5"/><circle cx="620" cy="310" r="4.5"/>
+    <circle cx="473" cy="318" r="4.5"/><circle cx="501" cy="318" r="4.5"/><circle cx="529" cy="284" r="4.5"/>
+    <circle cx="557" cy="320" r="4.5"/><circle cx="585" cy="318" r="4.5"/><circle cx="613" cy="284" r="4.5"/>
+    <circle cx="641" cy="300" r="4.5"/>
+  </g>
+  <text class="l" x="520" y="364" text-anchor="middle">assisted: more ideas, narrower spread</text>
+
+  <!-- displacement: the wide field pulled into the output's orbit -->
+  <path d="M352 272 C400 180, 500 160, 572 268" fill="none" stroke="#2a1a0e" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="s" x="462" y="238" text-anchor="middle">fixation enters at the prompt, again at the output</text>
+
+  <text class="src" x="32" y="384">WADINAMBIARACHCHI ET AL. 2024 &#183; CHI</text>
+  <text class="s" x="32" y="400">Conceptual schematic &#8212; dot counts illustrative; direction of effect verified (more output, less variety, higher fixation).</text>
+  <text class="s" x="32" y="414">Participants nonetheless reported feeling helped &#8212; the displacement is invisible from inside the experience.</text>
+</svg>

@@ -1,0 +1,58 @@
+<!-- CAJAL figure · AI for Learning Experience Design · chapter 03-the-scaffold · figure 05 · generated 2026-06-07 -->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-the-scaffold-05">
+  <title id="fig-title-03-the-scaffold-05">The Equity Signature: Lifting the Floor — 03-the-scaffold</title>
+  <desc>Zero-anchored dot plot: Tutor CoPilot raised topic mastery +4 percentage points overall and +9 points for students of the lowest-rated tutors (ring-marked subgroup). Inset contrasts the usual gap-widening pattern with this floor-lifting result — schematic context, not study data.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="AI for Learning Experience Design" book-slug="ai-for-learning-experience-design" chapter="03-the-scaffold" figure-number="05" figure-title="The Equity Signature: Lifting the Floor" figure-slug="equity-signature" figure-type="statistical-quantitative" priority="supplementary" author="Nik Bear Brown" date-generated="2026-06-07" source-file="pantry/03-the-scaffold-cajal.md"/>
+  </metadata>
+
+  <text x="32" y="32" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Equity Signature: Lifting the Floor</text>
+
+  <!-- Inset: schematic contrast (subordinate) -->
+  <line x1="468" y1="84" x2="516" y2="68" stroke="#787878" stroke-width="1.5"/>
+  <line x1="468" y1="96" x2="516" y2="94" stroke="#787878" stroke-width="1.5"/>
+  <text x="492" y="112" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#787878" text-anchor="middle">usual: gap widens</text>
+  <line x1="560" y1="76" x2="608" y2="72" stroke="#787878" stroke-width="1.5"/>
+  <line x1="560" y1="98" x2="608" y2="80" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="584" y="112" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#787878" text-anchor="middle">here: the floor rises</text>
+
+  <!-- Plot region -->
+  <rect x="240" y="120" width="400" height="144" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Zero-anchored axis -->
+  <line x1="240" y1="264" x2="640" y2="264" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="240" y1="120" x2="240" y2="264" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="240" y1="264" x2="240" y2="269" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="320" y1="264" x2="320" y2="269" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="400" y1="264" x2="400" y2="269" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="480" y1="264" x2="480" y2="269" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="560" y1="264" x2="560" y2="269" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="640" y1="264" x2="640" y2="269" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="240" y="282" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">0</text>
+  <text x="320" y="282" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">2</text>
+  <text x="400" y="282" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">4</text>
+  <text x="480" y="282" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">6</text>
+  <text x="560" y="282" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">8</text>
+  <text x="640" y="282" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">10</text>
+  <text x="440" y="300" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454" text-anchor="middle">percentage points, topic mastery</text>
+
+  <!-- Rows -->
+  <line x1="240" y1="168" x2="392" y2="168" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="240" y1="232" x2="588" y2="232" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="228" y="172" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="end">All students</text>
+  <text x="228" y="228" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="end">Students of</text>
+  <text x="228" y="242" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="12" fill="#2a1a0e" text-anchor="end">lowest-rated tutors</text>
+
+  <!-- Dots (no connector: subgroup is contained in the overall sample) -->
+  <circle cx="400" cy="168" r="7" fill="#2a1a0e"/>
+  <text x="414" y="158" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">+4 pp</text>
+  <circle cx="600" cy="232" r="7" fill="#C8102E"/>
+  <circle cx="600" cy="232" r="11" fill="none" stroke="#C8102E" stroke-width="1"/>
+  <text x="600" y="212" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454" text-anchor="middle">+9 pp</text>
+
+  <!-- Caption -->
+  <text x="32" y="332" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">+9 pp is a subgroup result — the gains landed where need was greatest, inverting the usual pattern (inset: schematic contrast, not study data).</text>
+  <text x="32" y="348" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">~900 tutors / ~1,800 students [verify exact ns]; confirm final publication venue before citing in print.</text>
+  <text x="32" y="364" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Standing open question: does the suggestion stream deskill tutors over time?</text>
+  <text x="32" y="392" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: WANG ET AL. 2024 · ARXIV:2410.03017 · PREPRINT</text>
+</svg>
